@@ -1,9 +1,12 @@
 import os
+import warnings
+
+warnings.simplefilter(action="ignore", category=FutureWarning)
+
 import pandas as pd
 import numpy as np
 import matplotlib.pylab as plt
 import seaborn as sns
-import warnings
 
 X_test_estimated_c = pd.read_parquet('C/X_test_estimated.parquet')
 
@@ -81,32 +84,18 @@ class Data_Manager() :
         Warning! Data should have no NaN values or be of same frequency before combining! 
         """
 
-        if ( combine_observed_estimated ) : 
-            train_data_A = pd.concat([self.X_train_observed_a, self.X_train_estimated_a], axis=0, ignore_index=True) 
-            train_data_B = pd.concat([self.X_train_observed_b, self.X_train_estimated_b], axis=0, ignore_index=True) 
-            train_data_C = pd.concat([self.X_train_observed_c, self.X_train_estimated_c], axis=0, ignore_index=True) 
+        weather_data_A = pd.concat([self.X_train_observed_a, self.X_train_estimated_a], axis=0, ignore_index=True)
+        weather_data_B = pd.concat([self.X_train_observed_b, self.X_train_estimated_b], axis=0, ignore_index=True)
+        weather_data_C = pd.concat([self.X_train_observed_c, self.X_train_estimated_c], axis=0, ignore_index=True)
 
-            self.data_A = pd.concat([self.train_a, train_data_A], axis=1, join='inner') 
-            self.data_B = pd.concat([self.train_b, train_data_B], axis=1, join='inner') 
-            self.data_C = pd.concat([self.train_c, train_data_C], axis=1, join='inner') 
+        self.data_A = pd.merge(self.train_a, weather_data_A, on="date_forecast")
+        self.data_B = pd.merge(self.train_b, weather_data_B, on="date_forecast")
+        self.data_C = pd.merge(self.train_c, weather_data_C, on="date_forecast")
 
-            if self.data_A.isna().sum().sum() > 0 :
-                warnings.warn("Warning! Data should have no NaN values or be of same frequency before combining! Use impute or interpolation on data before combining! This could also come from dates in the combined datasets not overlapping fully.")
+        if self.data_A.isna().sum().sum() > 0 :
+            warnings.warn("Warning! Data should have no NaN values or be of same frequency before combining! Use impute or interpolation on data before combining! This could also come from dates in the combined datasets not overlapping fully.")
 
-            return self.data_A, self.data_B, self.data_C
-
-        else : 
-
-            self.data_A_observed = pd.concat([self.train_a, self.X_train_observed_a], axis=1, join="inner") 
-            self.data_B_observed = pd.merge(self.train_b, self.X_train_observed_b, how="left", on="date_forecast") 
-            self.data_C_observed = pd.merge(self.train_a, self.X_train_observed_c, how="left", on="date_forecast") 
-
-            self.data_A_estimated = pd.concat([self.train_a, self.X_train_estimated_a], axis=1, join="inner") 
-            self.data_B_estimated = pd.concat([self.train_b, self.X_train_estimated_b], axis=1, join="inner") 
-            self.data_C_estimated = pd.concat([self.train_c, self.X_train_estimated_c], axis=1, join="inner") 
-            
-            if self.data_A_estimated.isna().sum().sum() > 0 :
-                warnings.warn("Warning! Data should have no NaN values or be of same frequency before combining! Use impute or interpolation on data before combining! This could also come from dates in the combined datasets not overlapping fully.")
+        return self.data_A, self.data_B, self.data_C
 
     def impute_data(self, datasets, advanced_imputer=False):
         """
@@ -121,9 +110,10 @@ class Data_Manager() :
 
         from sklearn.experimental import enable_iterative_imputer
         from sklearn.impute import IterativeImputer, SimpleImputer
+        from tqdm import tqdm
         imputed_sets = []
 
-        for set in datasets: 
+        for set in tqdm(datasets): 
 
             # storing columns to lable after impute, also removing date column as this does not work with impute 
             cols = set.columns 
@@ -191,4 +181,58 @@ class Data_Manager() :
 
         return added_set
     
+    def set_info(self, dataset:pd.DataFrame):
 
+        (dataset.info())
+
+    def plot_feature(self, dataset:pd.DataFrame, featureName:str):
+
+
+        
+        fig, axs = plt.subplots(1, 1, figsize=(20, 10))
+
+        dataset[['date_forecast', featureName]].set_index("date_forecast").plot(ax=axs, title=featureName, color='red')
+       
+    def KNNImputing(self, datasets) :
+        from sklearn.impute import KNNImputer
+        from tqdm import tqdm
+
+        imputed_sets = []
+
+        for set in tqdm(datasets): 
+
+            # storing columns to lable after impute, also removing date column as this does not work with impute 
+            cols = set.columns 
+
+            if set.columns.__contains__("date_forecast"): 
+                dates = set["date_forecast"]
+            
+            if set.columns.__contains__("date_calc"): 
+                set = set.drop("date_calc", axis=1)
+
+            cols = set.columns.delete(0)
+
+            set_wo_date = set.drop("date_forecast", axis=1)
+
+            #imputing (estimating) missing values 
+            imp = KNNImputer(n_neighbors=5)
+            imp.fit(set_wo_date)
+            set_wo_date = pd.DataFrame(imp.transform(set_wo_date), columns=imp.get_feature_names_out())
+            
+
+            # setting column lables basck
+            set = set_wo_date
+            
+            set["date_forecast"] = dates
+
+            #sorting columns 
+            cols = cols.tolist()
+            cols.insert(0, "date_forecast")
+
+            set = set.fillna(0.0)
+
+            imputed_sets.append(set)
+
+        return imputed_sets
+
+        
