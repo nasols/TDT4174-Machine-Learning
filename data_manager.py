@@ -8,8 +8,6 @@ import numpy as np
 import matplotlib.pylab as plt
 import seaborn as sns
 
-X_test_estimated_c = pd.read_parquet('C/X_test_estimated.parquet')
-
 class Data_Manager() : 
 
     def __init__(self) : 
