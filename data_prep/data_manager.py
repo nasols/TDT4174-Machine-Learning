@@ -30,6 +30,8 @@ class Data_Manager() :
         self.X_test_estimated_b = pd.DataFrame()
         self.X_test_estimated_c = pd.DataFrame()
 
+        self.amplitude = np.zeros(3) # amp_a, amp_b, amp_c
+
     def data_loader(self): 
         """
         Function that loads the datasets into data manager, loads all data 
