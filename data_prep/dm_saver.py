@@ -20,6 +20,12 @@ class DM_Saver() :
             'X_test_estimated_a': dm.X_test_estimated_a,
             'X_test_estimated_b': dm.X_test_estimated_b,
             'X_test_estimated_c': dm.X_test_estimated_c,
+            'data_A_obs': dm.data_A_obs,
+            'data_B_obs': dm.data_B_obs,
+            'data_C_obs': dm.data_C_obs,
+            'data_A_es': dm.data_A_es,
+            'data_B_es': dm.data_B_es,
+            'data_C_es': dm.data_C_es,
             'amplitude': dm.amplitude
         }
 
@@ -32,5 +38,6 @@ class DM_Saver() :
     def load(cls, filename):
         # Load a serialized Data_Manager instance from a file
         with open(filename, 'rb') as file:
-            data_manager = pickle.load(file)
-        return data_manager
+            dms = pickle.load(file)
+
+        return dms

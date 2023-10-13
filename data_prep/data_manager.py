@@ -64,6 +64,34 @@ class Data_Manager() :
         self.X_test_estimated_b = pd.read_parquet('B/X_test_estimated.parquet')
         self.X_test_estimated_c = pd.read_parquet('C/X_test_estimated.parquet')
     
+
+    def dms2dm(self, dms):
+        self.train_a = dms.data['train_a']
+        self.train_b = dms.data['train_b']
+        self.train_c = dms.data['train_c']
+
+        self.X_train_estimated_a = dms.data['X_train_estimated_a']
+        self.X_train_estimated_b = dms.data['X_train_estimated_b']
+        self.X_train_estimated_c = dms.data['X_train_estimated_c']
+
+        self.X_train_observed_a = dms.data['X_train_observed_a']
+        self.X_train_observed_b = dms.data['X_train_observed_b']
+        self.X_train_observed_c = dms.data['X_train_observed_c']
+
+        self.X_test_estimated_a = dms.data['X_test_estimated_a']
+        self.X_test_estimated_b = dms.data['X_test_estimated_b']
+        self.X_test_estimated_c = dms.data['X_test_estimated_c']
+
+        self.data_A_obs = dms.data['data_A_obs']
+        self.data_B_obs = dms.data['data_B_obs']
+        self.data_C_obs = dms.data['data_C_obs']
+
+        self.data_A_es = dms.data['data_A_es']
+        self.data_B_es = dms.data['data_B_es']
+        self.data_C_es = dms.data['data_C_es']
+
+        self.amplitude = dms.data['amplitude']
+
     def drop_feature(datasets:list[pd.DataFrame], features:list[str]):
         """
         Takes in list of datasets and removes features from the sets
