@@ -64,7 +64,23 @@ def drop_feature(datasets:list[pd.DataFrame], features:list[str]):
 
     return altered_sets
 
+def find_duration_indexes(df, target_attribute, interval_length):
+    """
+    Find all the intervals of the given length in the dataset where the target_attribute is constant.
 
+    Parameters:
+    df (pandas.DataFrame): The input dataframe.
+    target_attribute (str): The target attribute to check for constant values.
+    interval_length (int): The length of the interval to search for.
+
+    Returns:
+    list: A list of tuples containing the start and end indexes of the intervals where the target_attribute is constant for the given interval length.
+    """
+    intervals = []
+    for i in range(0, len(df) - interval_length + 1, interval_length):
+        if df[target_attribute][i:i+interval_length].nunique() == 1:
+            intervals.append((i, i+interval_length-1))
+    return intervals
 
 
 
