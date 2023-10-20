@@ -76,7 +76,8 @@ def find_const_interval(df, target_attribute, interval_length):
     Returns:
     list: A list of indexes of all the values in the intervals where the target_attribute is constant for the given interval length or bigger.
     """
-    intervals = []
+    idxs = []
+    intervals_found = 0
     i = 0
     while i < len(df) - 1:
         if df[target_attribute][i:i+interval_length].nunique() == 1:
@@ -84,10 +85,11 @@ def find_const_interval(df, target_attribute, interval_length):
             value = df[target_attribute][i]
             while value == df[target_attribute][j] and j < len(df) - 1:
                 j += 1
-            intervals.extend(list(range(i, j)))
+            idxs.extend(list(range(i, j)))
             i = j+2
+            intervals_found += 1
         else:
             i += 1
-    return intervals
+    return idxs, intervals_found
 
 

@@ -16,13 +16,13 @@ class Data_Manager() :
         self.train_b = pd.DataFrame()
         self.train_c = pd.DataFrame()
 
-        self.X_train_estimated_a = pd.DataFrame()
-        self.X_train_estimated_b = pd.DataFrame()
-        self.X_train_estimated_c = pd.DataFrame()
-
         self.X_train_observed_a = pd.DataFrame()
         self.X_train_observed_b = pd.DataFrame()
         self.X_train_observed_c = pd.DataFrame()
+
+        self.X_train_estimated_a = pd.DataFrame()
+        self.X_train_estimated_b = pd.DataFrame()
+        self.X_train_estimated_c = pd.DataFrame()
 
         self.X_test_estimated_a = pd.DataFrame()
         self.X_test_estimated_b = pd.DataFrame()
