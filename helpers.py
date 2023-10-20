@@ -77,33 +77,6 @@ def find_const_interval(df, target_attribute, interval_length):
     list: A list of indexes of all the values in the intervals where the target_attribute is constant for the given interval length or bigger.
     """
     intervals = []
-    start = None
-    for i in range(len(df)):
-        if df[target_attribute][i:i+interval_length].nunique() == 1:
-            if start is None:
-                start = i
-            if i+interval_length == len(df) or df[target_attribute][i+interval_length:].nunique() != 1:
-                end = i+interval_length-1
-                if end - start + 1 >= interval_length:
-                    intervals.extend(list(range(start, end+1)))
-                start = None
-        else:
-            start = None
-    return intervals
-
-def find_const_interval(df, target_attribute, interval_length):
-    """
-    Find all the intervals of the given length in the dataset where the target_attribute is constant.
-
-    Parameters:
-    df (pandas.DataFrame): The input dataframe.
-    target_attribute (str): The target attribute to check for constant values.
-    interval_length (int): The length of the interval to search for.
-
-    Returns:
-    list: A list of indexes of all the values in the intervals where the target_attribute is constant for the given interval length or bigger.
-    """
-    intervals = []
     i = 0
     while i < len(df) - 1:
         if df[target_attribute][i:i+interval_length].nunique() == 1:
