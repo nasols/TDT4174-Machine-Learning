@@ -64,7 +64,32 @@ def drop_feature(datasets:list[pd.DataFrame], features:list[str]):
 
     return altered_sets
 
+def find_const_interval(df, target_attribute, interval_length):
+    """
+    Find all the intervals of the given length in the dataset where the target_attribute is constant.
 
+    Parameters:
+    df (pandas.DataFrame): The input dataframe.
+    target_attribute (str): The target attribute to check for constant values.
+    interval_length (int): The length of the interval to search for.
 
+    Returns:
+    list: A list of indexes of all the values in the intervals where the target_attribute is constant for the given interval length or bigger.
+    """
+    idxs = []
+    intervals_found = 0
+    i = 0
+    while i < len(df) - 1:
+        if df[target_attribute][i:i+interval_length].nunique() == 1:
+            j = i - 1
+            value = df[target_attribute][i]
+            while value == df[target_attribute][j] and j < len(df) - 1:
+                j += 1
+            idxs.extend(list(range(i, j)))
+            i = j+2
+            intervals_found += 1
+        else:
+            i += 1
+    return idxs, intervals_found
 
 

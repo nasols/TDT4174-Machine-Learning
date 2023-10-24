@@ -11,27 +11,29 @@ import seaborn as sns
 class Data_Manager() : 
 
     def __init__(self) : 
-
-        self.train_a = pd.DataFrame()
+        # Y_train
+        self.train_a = pd.DataFrame() 
         self.train_b = pd.DataFrame()
         self.train_c = pd.DataFrame()
-
-        self.X_train_estimated_a = pd.DataFrame()
-        self.X_train_estimated_b = pd.DataFrame()
-        self.X_train_estimated_c = pd.DataFrame()
 
         self.X_train_observed_a = pd.DataFrame()
         self.X_train_observed_b = pd.DataFrame()
         self.X_train_observed_c = pd.DataFrame()
 
+        self.X_train_estimated_a = pd.DataFrame()
+        self.X_train_estimated_b = pd.DataFrame()
+        self.X_train_estimated_c = pd.DataFrame()
+
         self.X_test_estimated_a = pd.DataFrame()
         self.X_test_estimated_b = pd.DataFrame()
         self.X_test_estimated_c = pd.DataFrame()
 
-        self.data_A_obs = pd.DataFrame()
+        # X_train_obs, Y_train_obs
+        self.data_A_obs = pd.DataFrame()    
         self.data_B_obs = pd.DataFrame()
         self.data_C_obs = pd.DataFrame()
         
+        # X_train_obs, Y_train_obs
         self.data_A_es = pd.DataFrame()
         self.data_B_es = pd.DataFrame()
         self.data_C_es = pd.DataFrame()
