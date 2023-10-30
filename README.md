@@ -12,11 +12,5 @@
 ## TODO:
 
 ### Henrik:
-- Normalisere produksjon mellom A, B og C
-    - Cat Boost
-    - Feature engineering, evt kopi
 - Sjekke opp H2O
 - Finne ut hvordan trene på GPU
-
-## Runtimes:
-- catboost_model fitting w/o GPU (Henrik): 
