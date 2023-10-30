@@ -139,9 +139,9 @@ class Data_Manager() :
             weather_data_B = pd.concat([self.X_train_observed_b, self.X_train_estimated_b], axis=0, ignore_index=True)
             weather_data_C = pd.concat([self.X_train_observed_c, self.X_train_estimated_c], axis=0, ignore_index=True)
 
-            self.data_A = pd.merge(self.train_a, weather_data_A, on="date_forecast")
-            self.data_B = pd.merge(self.train_b, weather_data_B, on="date_forecast")
-            self.data_C = pd.merge(self.train_c, weather_data_C, on="date_forecast")
+            self.data_A = pd.merge(self.train_a, weather_data_A, on="date_forecast").dropna()
+            self.data_B = pd.merge(self.train_b, weather_data_B, on="date_forecast").dropna()
+            self.data_C = pd.merge(self.train_c, weather_data_C, on="date_forecast").dropna()
 
             if self.data_A.isna().sum().sum() > 0 :
                 warnings.warn("Warning! Data should have no NaN values or be of same frequency before combining! Use impute or interpolation on data before combining! This could also come from dates in the combined datasets not overlapping fully.")
