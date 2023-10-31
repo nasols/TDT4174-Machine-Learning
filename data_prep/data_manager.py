@@ -141,9 +141,20 @@ class Data_Manager() :
             self.data_B = self.data_B.drop("date_calc", axis=1)
             self.data_C = self.data_C.drop("date_calc", axis=1)
 
-        self.data_A = self.data_A.dropna()
-        self.data_B = self.data_B.dropna()
-        self.data_C = self.data_C.dropna()
+        if (self.train_a.shape[0] > 35000 ) : 
+
+            imputed = self.iterative_imputer([self.data_A, self.data_B, self.data_C])
+            
+            self.data_A = imputed[0]
+            self.data_B = imputed[1]
+            self.data_C = imputed[2]
+
+
+
+        elif (self.train_a.shape[0] < 35000) : 
+            self.data_A = self.data_A.dropna()
+            self.data_B = self.data_B.dropna()
+            self.data_C = self.data_C.dropna()
 
         if self.data_A.isna().sum().sum() > 0 :
             warnings.warn("Warning! Data should have no NaN values or be of same frequency before combining! Use impute or interpolation on data before combining! This could also come from dates in the combined datasets not overlapping fully.")
@@ -311,7 +322,7 @@ class Data_Manager() :
             set_wo_date = set.drop("date_forecast", axis=1)
 
             #imputing (estimating) missing values 
-            imp = KNNImputer(n_neighbors=5)
+            imp = KNNImputer(n_neighbors=40, weights="distance", )
             imp.fit(set_wo_date)
             set_wo_date = pd.DataFrame(imp.transform(set_wo_date), columns=imp.get_feature_names_out())
             
