@@ -95,6 +95,10 @@ class Data_Manager() :
         self.data_B_es = dms.data['data_B_es']
         self.data_C_es = dms.data['data_C_es']
 
+        self.data_A = dms.data['data_A']   
+        self.data_B = dms.data['data_B']
+        self.data_C = dms.data['data_C']
+
         self.amplitude = dms.data['amplitude']
 
     def drop_feature(datasets:list[pd.DataFrame], features:list[str]):

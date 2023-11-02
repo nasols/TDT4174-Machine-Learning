@@ -26,6 +26,9 @@ class DM_Saver() :
             'data_A_es': dm.data_A_es,
             'data_B_es': dm.data_B_es,
             'data_C_es': dm.data_C_es,
+            'data_A': dm.data_A,
+            'data_B': dm.data_B,
+            'data_C': dm.data_C,
             'amplitude': dm.amplitude
         }
 
