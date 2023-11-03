@@ -591,28 +591,29 @@ class Data_Manager() :
     def remove_constant_periods(self, period_length) :
         from helpers import find_const_interval
 
-        y_train_a_const_idx, ca = find_const_interval(self.train_a, 'pv_measurement', period_length)
+        train_a = self.data_A.reset_index(drop=True)
+        train_b = self.data_B.reset_index(drop=True)
+        train_c = self.data_C.reset_index(drop=True)
+
+        y_train_a_const_idx, ca = find_const_interval(train_a, 'pv_measurement', period_length)
         print('y_train_a anomalies:',ca)
 
-        y_train_b_const_idx, cb = find_const_interval(self.train_b, 'pv_measurement', period_length)
+        y_train_b_const_idx, cb = find_const_interval(train_b, 'pv_measurement', period_length)
         print('y_train_b anomalies:',cb)
 
-        y_train_c_const_idx, cc = find_const_interval(self.train_c, 'pv_measurement', period_length)
+        y_train_c_const_idx, cc = find_const_interval(train_c, 'pv_measurement', period_length)
         print('y_train_c anomalies:',cc)
 
-        train_a = self.data_A
-        train_b = self.data_B
-        train_c = self.data_C
 
-        date_forecast_a_const = self.train_a.iloc[y_train_a_const_idx]['date_forecast']
+        date_forecast_a_const = train_a.iloc[y_train_a_const_idx]['date_forecast']
         date_forecast_a_const_values = date_forecast_a_const.values
         train_a = train_a[~train_a['date_forecast'].isin(date_forecast_a_const_values)]
 
-        date_forecast_b_const = self.train_b.iloc[y_train_b_const_idx]['date_forecast']
+        date_forecast_b_const = train_b.iloc[y_train_b_const_idx]['date_forecast']
         date_forecast_b_const_values = date_forecast_b_const.values
         train_b = train_b[~train_b['date_forecast'].isin(date_forecast_b_const_values)]
 
-        date_forecast_c_const = self.train_c.iloc[y_train_c_const_idx]['date_forecast']
+        date_forecast_c_const = train_c.iloc[y_train_c_const_idx]['date_forecast']
         date_forecast_c_const_values = date_forecast_c_const.values
         train_c = train_c[~train_c['date_forecast'].isin(date_forecast_c_const_values)]
 
