@@ -602,20 +602,20 @@ class Data_Manager() :
             data = data[cols]
             self.data = data
 
-    def remove_constant_periods(self, period_length) :
+    def remove_constant_periods(self, period_length, ignore_values=[]) :
         from helpers import find_const_interval
 
         train_a = self.data_A.reset_index(drop=True)
         train_b = self.data_B.reset_index(drop=True)
         train_c = self.data_C.reset_index(drop=True)
 
-        y_train_a_const_idx, ca = find_const_interval(train_a, 'pv_measurement', period_length)
+        y_train_a_const_idx, ca = find_const_interval(train_a, 'pv_measurement', period_length, ignore_values)
         print('y_train_a anomalies:',ca)
 
-        y_train_b_const_idx, cb = find_const_interval(train_b, 'pv_measurement', period_length)
+        y_train_b_const_idx, cb = find_const_interval(train_b, 'pv_measurement', period_length, ignore_values)
         print('y_train_b anomalies:',cb)
 
-        y_train_c_const_idx, cc = find_const_interval(train_c, 'pv_measurement', period_length)
+        y_train_c_const_idx, cc = find_const_interval(train_c, 'pv_measurement', period_length, ignore_values)
         print('y_train_c anomalies:',cc)
 
 
