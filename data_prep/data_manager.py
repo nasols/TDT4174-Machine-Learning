@@ -588,6 +588,20 @@ class Data_Manager() :
         C = C[cols]
         self.X_test_estimated_c = C
 
+        #------------------------------------------------------------#
+
+        if ( not self.data.empty) : 
+            data = self.data
+
+            cols = data.columns.tolist()
+
+            #sorting columns 
+            cols.remove("date_forecast")
+            cols.insert(0, "date_forecast")
+
+            data = data[cols]
+            self.data = data
+
     def remove_constant_periods(self, period_length) :
         from helpers import find_const_interval
 
@@ -685,7 +699,76 @@ class Data_Manager() :
         self.data = pd.concat([self.data_A, self.data_B, self.data_C], ignore_index=True)
         self.X_test_estimated = pd.concat([self.X_test_estimated_a, self.X_test_estimated_b, self.X_test_estimated_c], ignore_index=True)
 
+    def remove_outliers_z_score(self, data:pd.DataFrame, threshold=3) : 
+        
+        from scipy import stats
 
+        before = self.data["diffuse_rad:W"][0:3*720]
+
+        dates = None 
+
+        if "date_forecast" in data.columns: 
+
+            dates = data["date_forecast"]
+            data = data.drop("date_forecast", axis=1)
+
+        z_scores = stats.zscore(data.astype(float))
+
+        outliers = data[z_scores > threshold]
+        outliers = outliers.drop("index", axis=1)
+        outliers = outliers.notna()
+
+        indexx = None
+
+        if (len(outliers) > 1): 
+
+            for outlier in outliers: 
+                # print(outliers[outlier])
+
+                # print(data[outlier])
+
+                if (outlier != "pv_measurement"):
+
+                    index = data[outlier].loc[outliers[outlier] == True]
+
+                    data[outlier] = data[outlier].replace(index.index, np.nan)
+
+
+                    indexx = index
+            
+
+            data["date_forecast"] = dates
+
+            data = self.KNNImputing([data])[0]
+            data = data.reset_index(drop=True)
+            self.sorting_columns_inMainSets()
+            print(self.set_info(self.data))
+            
+            x = np.arange(0, 3*720, 1)
+            fig, axs = plt.subplots(1, 1, figsize=(20, 10))
+            plt.plot(x, before, c="blue", label="before")            
+            plt.plot(x, data["diffuse_rad:W"][0:3*720], c="orange", label="after") 
+            plt.legend()           
+            plt.show()
+            return data
+
+        else: 
+            print("no outliers")
+            return data
+        
+        
+        
+        
+
+
+        
+    
+
+
+
+
+        
+        
 
 
 

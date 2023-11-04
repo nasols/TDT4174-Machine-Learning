@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np 
 from keras.layers import LSTM, Dense, GRU, Dropout, Normalization
 
-class RNN_Network(): 
+class DLN_Network(): 
 
     def __init__(self) -> None:
         self.model_A:Sequential = None 
@@ -33,10 +33,7 @@ class RNN_Network():
         models = [model for model in vars(self) if model.__contains__("model")]
 
         sq = Sequential()
-        sq.add(LSTM(128, return_sequences=True, input_shape=(timesteps, num_input_features)))
-        sq.add(LSTM(128, return_sequences=True))
-        sq.add(LSTM(64, return_sequences=True))
-        sq.add(LSTM(64, return_sequences=True))
+        sq.add(Dense(44))
         sq.add(Dense(128, activity_regularizer="l2")) # added l1 
         sq.add(Dropout(0.5))
         sq.add(Dense(64, activity_regularizer="l2")) # added l1
@@ -50,7 +47,7 @@ class RNN_Network():
         for model in models: 
             self.__setattr__(model, sq)
 
-    def fit_model(self, model, X_train, y_train, training_parameters={}, kfolds=False):
+    def fit(self, model, X_train, y_train, training_parameters={}, kfolds=False):
         from sklearn.model_selection import KFold
 
         if "epochs" in training_parameters : epochs = training_parameters["epochs"] 
@@ -201,11 +198,8 @@ class RNN_Network():
      
         return lst[min(range(len(lst)), key = lambda i: abs(lst[i]-K))]
      
+    def predict(self, data): 
+        self.model_A.predict(data) 
 
-        
-
-
-        
-    
-
-    
+    def get_params(deep=True): 
+        return {}
