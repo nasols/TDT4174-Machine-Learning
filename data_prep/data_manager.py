@@ -715,7 +715,7 @@ class Data_Manager() :
         z_scores = stats.zscore(data.astype(float))
 
         outliers = data[z_scores > threshold]
-        outliers = outliers.drop("index", axis=1)
+        #outliers = outliers.drop("index", axis=1)
         outliers = outliers.notna()
 
         indexx = None
@@ -727,7 +727,7 @@ class Data_Manager() :
 
                 # print(data[outlier])
 
-                if (outlier != "pv_measurement"):
+                if (outlier != "index"):
 
                     index = data[outlier].loc[outliers[outlier] == True]
 
