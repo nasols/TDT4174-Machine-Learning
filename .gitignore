@@ -5,6 +5,7 @@
 **.pkl
 dms
 catboost_info
+__pycache__
 
 # Teodor
 myenv
