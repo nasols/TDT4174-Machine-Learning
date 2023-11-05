@@ -64,7 +64,7 @@ def drop_feature(datasets:list[pd.DataFrame], features:list[str]):
 
     return altered_sets
 
-def find_const_interval(df, target_attribute, interval_length):
+def find_const_interval(df, target_attribute, interval_length, ignore_values=[]):
     """
     Find all the intervals of the given length in the dataset where the target_attribute is constant.
 
@@ -79,9 +79,9 @@ def find_const_interval(df, target_attribute, interval_length):
     idxs = []
     intervals_found = 0
     i = 0
-    while i < len(df) - 1:
-        if df[target_attribute][i:i+interval_length].nunique() == 1:
-            j = i - 1
+    while i + interval_length < len(df) - 1:
+        if df[target_attribute][i:i+interval_length].nunique() == 1 and df[target_attribute][i] not in ignore_values:
+            j = i + interval_length - 1
             value = df[target_attribute][i]
             while value == df[target_attribute][j] and j < len(df) - 1:
                 j += 1
@@ -91,5 +91,25 @@ def find_const_interval(df, target_attribute, interval_length):
         else:
             i += 1
     return idxs, intervals_found
+
+def donate_missing_rows(reciever, donor, target_attribute = 'date_forecast'):
+    """
+    Add rows from donor to reciever where the target_attribute is missing in reciever.
+
+    Parameters:
+    reciever (pandas.DataFrame): The dataframe to add rows to.
+    donor (pandas.DataFrame): The dataframe to add rows from.
+    target_attribute (str): The target attribute to check for missing values.
+
+    Returns:
+    tuple: A tuple containing the updated reciever dataframe and the number of rows that were donated.
+    """
+    donated_rows = 0
+    for date in donor[target_attribute]:
+        if date not in reciever[target_attribute].values:
+            new_row = donor[donor[target_attribute] == date]
+            reciever = pd.concat([reciever, new_row], ignore_index=True)
+            donated_rows += 1
+    return reciever, donated_rows
 
 

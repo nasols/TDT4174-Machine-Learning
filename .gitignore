@@ -4,3 +4,8 @@
 *.pkl
 **.pkl
 dms
+catboost_info
+
+# Teodor
+myenv
+teodor/structured_data_regressor
