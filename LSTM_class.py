@@ -1,7 +1,7 @@
 from keras import Sequential
 import pandas as pd 
 import numpy as np 
-from keras.layers import LSTM, Dense, GRU, Dropout, Normalization
+from keras.layers import LSTM, Dense, GRU, Dropout, Normalization, Bidirectional, TimeDistributed
 
 class RNN_Network(): 
 
@@ -33,19 +33,37 @@ class RNN_Network():
         models = [model for model in vars(self) if model.__contains__("model")]
 
         sq = Sequential()
-        sq.add(LSTM(128, return_sequences=True, input_shape=(timesteps, num_input_features)))
-        sq.add(LSTM(128, return_sequences=True))
-        sq.add(LSTM(64, return_sequences=True))
-        sq.add(LSTM(64, return_sequences=True))
-        sq.add(Dense(128, activity_regularizer="l2")) # added l1 
-        sq.add(Dropout(0.5))
-        sq.add(Dense(64, activity_regularizer="l2")) # added l1
-        sq.add(Dropout(0.5))
-        sq.add(Dense(num_input_features, activity_regularizer="l2")) # added l1 
+        # sq.add(LSTM(128, return_sequences=True, input_shape=(timesteps, num_input_features)))
+        # sq.add(LSTM(128, return_sequences=True))
+        # sq.add(LSTM(64, return_sequences=True))
+        # sq.add(LSTM(64, return_sequences=True))
+        # sq.add(Dense(128, activity_regularizer="l2")) # added l1 
+        # sq.add(Dropout(0.5))
+        # sq.add(Dense(64, activity_regularizer="l2")) # added l1
+        # sq.add(Dropout(0.5))
+        # sq.add(Dense(num_input_features, activity_regularizer="l2")) # added l1 
+        # sq.add(Dense(1))
+
+        # sq.add(Bidirectional(LSTM(60, return_sequences=True, input_shape=(timesteps, num_input_features))))
+        # sq.add(Bidirectional(LSTM(60, return_sequences=True)))
+        # sq.add(TimeDistributed(Dense(64, activity_regularizer="l1")))
+        # sq.add(TimeDistributed(Dense(num_input_features, activity_regularizer="l1")))
+        # sq.add(TimeDistributed(Dense(1, activity_regularizer="l1")))
+
+        sq.add(Dense(2*256, activity_regularizer="l2"))
+        sq.add(Dense(256, activity_regularizer="l2"))
+        sq.add(Dense(256, activity_regularizer="l2"))
+        sq.add(Dense(128, activity_regularizer="l2"))
+        sq.add(Dense(128, activity_regularizer="l2"))
+        sq.add(Dense(64, activity_regularizer="l2"))
+        sq.add(Dense(64, activity_regularizer="l2"))
+        sq.add(Dense(num_input_features))
         sq.add(Dense(1))
-        sq.build(input_shape=(timesteps,num_input_features))
+
+        sq.build(input_shape=(None, timesteps,num_input_features))
         sq.summary()
-        sq.compile(loss='mean_absolute_error', optimizer='adam')
+
+        sq.compile(loss='mean_absolute_error', optimizer='rmsprop') 
 
         for model in models: 
             self.__setattr__(model, sq)
@@ -146,6 +164,7 @@ class RNN_Network():
                         shuffle=False,
                         epochs=1,
                         batch_size=batch_size,
+                        
                 )
 
     def shape_datasets(self, num_features, timesteps, X_data, y_data):
