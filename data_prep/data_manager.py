@@ -681,13 +681,15 @@ class Data_Manager() :
 
         lag_attribute = target_attribute + "_lag_" + str(lag)
 
-        self.data_A[lag_attribute] = self.data_A[target_attribute].shift(lag)
-        self.data_B[lag_attribute] = self.data_B[target_attribute].shift(lag)
-        self.data_C[lag_attribute] = self.data_C[target_attribute].shift(lag)
+        self.data_A[lag_attribute] = self.data_A[target_attribute].shift(lag).fillna(0)
+        self.data_B[lag_attribute] = self.data_B[target_attribute].shift(lag).fillna(0)
+        self.data_C[lag_attribute] = self.data_C[target_attribute].shift(lag).fillna(0)
 
-        self.X_test_estimated_a[lag_attribute] = self.X_test_estimated_a[target_attribute].shift(lag)
-        self.X_test_estimated_b[lag_attribute] = self.X_test_estimated_b[target_attribute].shift(lag)
-        self.X_test_estimated_c[lag_attribute] = self.X_test_estimated_c[target_attribute].shift(lag)
+        self.X_test_estimated_a[lag_attribute] = self.X_test_estimated_a[target_attribute].shift(lag).fillna(0)
+        self.X_test_estimated_b[lag_attribute] = self.X_test_estimated_b[target_attribute].shift(lag).fillna(0)
+        self.X_test_estimated_c[lag_attribute] = self.X_test_estimated_c[target_attribute].shift(lag).fillna(0)
+
+        
 
     def combine_all_data(self): 
 
