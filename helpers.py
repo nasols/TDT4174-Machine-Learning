@@ -110,6 +110,8 @@ def donate_missing_rows(reciever, donor, target_attribute = 'date_forecast'):
             new_row = donor[donor[target_attribute] == date]
             reciever = pd.concat([reciever, new_row], ignore_index=True)
             donated_rows += 1
+    reciever = reciever.sort_values(target_attribute).reset_index(drop=True)
+
     return reciever, donated_rows
 
 
