@@ -1,5 +1,5 @@
 {
-"meta":{"test_sets":[],"test_metrics":[],"learn_metrics":[{"best_value":"Min","name":"RMSE"}],"launch_mode":"Train","parameters":"","iteration_count":1000,"learn_sets":["learn"],"name":"experiment"},
+"meta":{"test_sets":["test"],"test_metrics":[{"best_value":"Min","name":"MAE"}],"learn_metrics":[{"best_value":"Min","name":"MAE"}],"launch_mode":"Train","parameters":"","iteration_count":1000,"learn_sets":["learn"],"name":"experiment"},
 "iterations":[
 {"learn":[160.9720725],"iteration":0,"passed_time":0.006326250801,"remaining_time":6.31992455},
 {"learn":[152.3814202],"iteration":1,"passed_time":0.01138710977,"remaining_time":5.682167777},
