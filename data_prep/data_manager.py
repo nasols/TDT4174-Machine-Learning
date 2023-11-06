@@ -104,7 +104,7 @@ class Data_Manager() :
 
         self.amplitude = dms.data['amplitude']
 
-    def drop_feature(datasets:list[pd.DataFrame], features:list[str]):
+    def drop_feature(self, datasets:list[pd.DataFrame], features:list[str]):
         """
         Takes in list of datasets and removes features from the sets
 

@@ -115,3 +115,4 @@ def donate_missing_rows(reciever, donor, target_attribute = 'date_forecast'):
     return reciever, donated_rows
 
 
+
