@@ -104,7 +104,7 @@ class Data_Manager() :
 
         self.amplitude = dms.data['amplitude']
 
-    def drop_feature(datasets:list[pd.DataFrame], features:list[str]):
+    def drop_feature(self, datasets:list[pd.DataFrame], features:list[str]):
         """
         Takes in list of datasets and removes features from the sets
 
@@ -676,6 +676,18 @@ class Data_Manager() :
         dataset["location"] = loc
 
         return dataset
+    
+    def add_lag_feature(self, target_attribute, lag):
+
+        lag_attribute = target_attribute + "_lag_" + str(lag)
+
+        self.data_A[lag_attribute] = self.data_A[target_attribute].shift(lag)
+        self.data_B[lag_attribute] = self.data_B[target_attribute].shift(lag)
+        self.data_C[lag_attribute] = self.data_C[target_attribute].shift(lag)
+
+        self.X_test_estimated_a[lag_attribute] = self.X_test_estimated_a[target_attribute].shift(lag)
+        self.X_test_estimated_b[lag_attribute] = self.X_test_estimated_b[target_attribute].shift(lag)
+        self.X_test_estimated_c[lag_attribute] = self.X_test_estimated_c[target_attribute].shift(lag)
 
     def combine_all_data(self): 
 
@@ -755,6 +767,7 @@ class Data_Manager() :
         else: 
             print("no outliers")
             return data
+    
         
         
         
