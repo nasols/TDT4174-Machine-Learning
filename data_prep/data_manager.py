@@ -147,19 +147,17 @@ class Data_Manager() :
 
         if (self.train_a.shape[0] > 35000 ) : 
             
-            self.data_A = self.makima_interpolate(self.data_A).dropna()
-            self.data_B = self.makima_interpolate(self.data_B).dropna()
-            self.data_C = self.makima_interpolate(self.data_C).dropna()
+            self.data_A = self.makima_interpolate(self.data_A).dropna().reset_index()
+            self.data_B = self.makima_interpolate(self.data_B).dropna().reset_index()
+            self.data_C = self.makima_interpolate(self.data_C).dropna().reset_index()
         
         elif (self.train_a.shape[0] < 35000) : 
-            self.data_A = self.data_A.dropna()
-            self.data_B = self.data_B.dropna()
-            self.data_C = self.data_C.dropna()
+            self.data_A = self.data_A.dropna().reset_index()
+            self.data_B = self.data_B.dropna().reset_index()
+            self.data_C = self.data_C.dropna().reset_index()
 
         if self.data_A.isna().sum().sum() > 0 :
             warnings.warn("Warning! Data should have no NaN values or be of same frequency before combining! Use impute or interpolation on data before combining! This could also come from dates in the combined datasets not overlapping fully.")
-
-        return self.data_A, self.data_B, self.data_C
 
     def impute_data(self, datasets, advanced_imputer=False):
 
@@ -298,8 +296,8 @@ class Data_Manager() :
         
         fig, axs = plt.subplots(1, 1, figsize=(20, 10))
 
-        dataset[['date_forecast', featureName]].set_index("date_forecast").plot(ax=axs, title=featureName, color='red')
-       
+        plt.scatter(dataset["date_forecast"], dataset["pv_measurement"], s=3)
+    
     def KNNImputing(self, datasets) :
         from sklearn.impute import KNNImputer
         from tqdm import tqdm
@@ -689,8 +687,6 @@ class Data_Manager() :
         self.X_test_estimated_b[lag_attribute] = self.X_test_estimated_b[target_attribute].shift(lag).fillna(0)
         self.X_test_estimated_c[lag_attribute] = self.X_test_estimated_c[target_attribute].shift(lag).fillna(0)
 
-        
-
     def combine_all_data(self): 
 
         relevant_sets_A = [attr for attr in dir(self) if attr.__eq__("data_A") or attr.__eq__("X_test_estimated_a")]
@@ -717,7 +713,6 @@ class Data_Manager() :
         
         from scipy import stats
 
-        before = self.data["diffuse_rad:W"][0:3*720]
 
         dates = None 
 
@@ -739,31 +734,23 @@ class Data_Manager() :
             for outlier in outliers: 
                 # print(outliers[outlier])
 
-                # print(data[outlier])
 
                 if (outlier != "index"):
 
                     index = data[outlier].loc[outliers[outlier] == True]
 
-                    data[outlier] = data[outlier].replace(index.index, np.nan)
+                    data[outlier] = pd.DataFrame(data[outlier].replace(index.index, np.nan))
 
-
-                    indexx = index
             
 
             data["date_forecast"] = dates
 
-            data = self.KNNImputing([data])[0]
+            #data = self.KNNImputing([data])[0]
             data = data.reset_index(drop=True)
             self.sorting_columns_inMainSets()
             print(self.set_info(self.data))
             
-            x = np.arange(0, 3*720, 1)
-            fig, axs = plt.subplots(1, 1, figsize=(20, 10))
-            plt.plot(x, before, c="blue", label="before")            
-            plt.plot(x, data["diffuse_rad:W"][0:3*720], c="orange", label="after") 
-            plt.legend()           
-            plt.show()
+            
             return data
 
         else: 
