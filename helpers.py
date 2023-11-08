@@ -120,4 +120,18 @@ def donate_missing_rows(reciever, donor, target_attribute = 'date_forecast', sca
     return reciever, donated_rows
 
 
+def filter_by_month(df: pd.DataFrame, months: list[str]) -> pd.DataFrame:
+    """
+    Filter a dataframe by keeping only rows where the 'date_forecast' column is within the specified months.
+
+    Parameters:
+    df (pandas.DataFrame): The dataframe to filter.
+    months (list[str]): A list of months to keep, in the format 'MM'.
+
+    Returns:
+    pandas.DataFrame: The filtered dataframe.
+    """
+    return df[df['date_forecast'].dt.strftime('%m').isin(months)]
+
+
 
