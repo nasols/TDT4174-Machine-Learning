@@ -298,7 +298,9 @@ class Data_Manager() :
         
         fig, axs = plt.subplots(1, 1, figsize=(20, 10))
 
-        dataset[['date_forecast', featureName]].set_index("date_forecast").plot(ax=axs, title=featureName, color='red')
+        plt.scatter(dataset["date_forecast"], dataset[featureName], s=5)
+
+        #dataset[['date_forecast', featureName]].set_index("date_forecast").plot(ax=axs, title=featureName, color='red')
        
     def KNNImputing(self, datasets) :
         from sklearn.impute import KNNImputer
