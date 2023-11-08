@@ -689,6 +689,8 @@ class Data_Manager() :
         self.X_test_estimated_b[lag_attribute] = self.X_test_estimated_b[target_attribute].shift(lag)
         self.X_test_estimated_c[lag_attribute] = self.X_test_estimated_c[target_attribute].shift(lag)
 
+        
+
     def combine_all_data(self): 
 
         relevant_sets_A = [attr for attr in dir(self) if attr.__eq__("data_A") or attr.__eq__("X_test_estimated_a")]

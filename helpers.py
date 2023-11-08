@@ -92,7 +92,7 @@ def find_const_interval(df, target_attribute, interval_length, ignore_values=[])
             i += 1
     return idxs, intervals_found
 
-def donate_missing_rows(reciever, donor, target_attribute = 'date_forecast'):
+def donate_missing_rows(reciever, donor, target_attribute = 'date_forecast', scalepv = False):
     """
     Add rows from donor to reciever where the target_attribute is missing in reciever.
 
@@ -104,10 +104,15 @@ def donate_missing_rows(reciever, donor, target_attribute = 'date_forecast'):
     Returns:
     tuple: A tuple containing the updated reciever dataframe and the number of rows that were donated.
     """
+    donor_copy = donor.copy()
+    if scalepv:
+        scale = reciever['pv_measurement'].mean() / donor['pv_measurement'].mean()
+        donor_copy['pv_measurement'] = donor_copy['pv_measurement'] * scale
+
     donated_rows = 0
-    for date in donor[target_attribute]:
+    for date in donor_copy[target_attribute]:
         if date not in reciever[target_attribute].values:
-            new_row = donor[donor[target_attribute] == date]
+            new_row = donor_copy[donor_copy[target_attribute] == date]
             reciever = pd.concat([reciever, new_row], ignore_index=True)
             donated_rows += 1
     reciever = reciever.sort_values(target_attribute).reset_index(drop=True)
