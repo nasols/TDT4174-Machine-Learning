@@ -606,6 +606,8 @@ class Data_Manager() :
 
             #sorting columns 
             cols.remove("date_forecast")
+            cols.remove("pv_measurement")
+            cols.insert(0, "pv_measurement")
             cols.insert(0, "date_forecast")
 
             data = data[cols]
