@@ -2,6 +2,7 @@ import os
 import warnings
 
 warnings.simplefilter(action="ignore", category=FutureWarning)
+warnings.simplefilter(action='ignore', category=Warning)
 
 import pandas as pd
 import numpy as np
@@ -258,7 +259,7 @@ class Data_Manager() :
 
         return imputed_sets
 
-    def resample_data(self, datasets, freq) : 
+    def resample_data(self, datasets:[pd.DataFrame], freq:str, non_mean_features:[str], summ_features:[str]) : 
 
 
         """
@@ -266,22 +267,46 @@ class Data_Manager() :
         H : hourly 
         15T : 15min 
         """
+        
+        mean_features = datasets[0].columns.symmetric_difference(non_mean_features)
+        mean_features = mean_features.symmetric_difference(summ_features)
+
+        if "date_forecast" not in non_mean_features: non_mean_features.append("date_forecast")
+        if "date_forecast" not in summ_features: summ_features.append("date_forecast")
+        if "date_forecast" not in mean_features: mean_features.append("date_forecast")
 
         corr = []
 
-        for set in datasets: 
-            set_hourly = set.resample(freq, on="date_forecast").mean()
+        print(summ_features)
 
-            set_dates = set["date_forecast"].dt.date.unique().tolist()
+        for set in datasets: 
+
+            non_mean_set = set.loc[:, non_mean_features]
+            mean_set = set.loc[:, mean_features]
+            sum_set = set.loc[:, summ_features]
+
+            set_hourly = mean_set.resample("H", on="date_forecast").mean()
+
+            set_dates = mean_set["date_forecast"].dt.date.unique().tolist()
 
             set_hourly["date_forecast"] = set_hourly.index
 
-            set_corr = set_hourly[set_hourly["date_forecast"].dt.date.isin(set_dates)]
+            mean_set_corr = set_hourly[set_hourly["date_forecast"].dt.date.isin(set_dates)]
 
-            set_corr.index = pd.RangeIndex(0, len(set_corr))
-            corr.append(set_corr)
-
+            mean_set_corr.index = pd.RangeIndex(0, len(mean_set_corr))
         
+            set_hourly_sum = sum_set.resample("H", on="date_forecast").sum()
+
+            non_mean_corrected = non_mean_set[::4]
+
+            corr_set = pd.merge(mean_set_corr, non_mean_corrected, how="left", on="date_forecast")
+
+            corr_set = pd.merge(corr_set, set_hourly_sum, how="left", on="date_forecast")
+
+            corr.append(corr_set)
+
+
+    
         return corr
 
     def add_feature(dataset, feature_name, data) :
@@ -295,10 +320,10 @@ class Data_Manager() :
         (dataset.info())
 
     def plot_feature(self, dataset:pd.DataFrame, featureName:str):
-        
         fig, axs = plt.subplots(1, 1, figsize=(20, 10))
+        fig.set_label(featureName)
 
-        plt.scatter(dataset["date_forecast"], dataset[featureName], s=5)
+        plt.scatter(dataset["date_forecast"], dataset[featureName], s=3)
 
         #dataset[['date_forecast', featureName]].set_index("date_forecast").plot(ax=axs, title=featureName, color='red')
        
@@ -690,9 +715,7 @@ class Data_Manager() :
         self.X_test_estimated_a[lag_attribute] = self.X_test_estimated_a[target_attribute].shift(lag).fillna(0)
         self.X_test_estimated_b[lag_attribute] = self.X_test_estimated_b[target_attribute].shift(lag).fillna(0)
         self.X_test_estimated_c[lag_attribute] = self.X_test_estimated_c[target_attribute].shift(lag).fillna(0)
-
         
-
     def combine_all_data(self): 
 
         relevant_sets_A = [attr for attr in dir(self) if attr.__eq__("data_A") or attr.__eq__("X_test_estimated_a")]
@@ -772,13 +795,13 @@ class Data_Manager() :
             print("no outliers")
             return data
     
-        
-        
-        
-        
+    def resample_categorical(self, dataset:pd.DataFrame, feature:str): 
 
+        "resamples the categorical feature to an hourly basis, returns the categorical column"
 
-        
+        hour_df = dataset[dataset["date_forecast"].dt.hour % 1 == 0][feature]
+
+        return hour_df
     
 
 
