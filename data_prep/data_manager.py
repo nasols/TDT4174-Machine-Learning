@@ -259,7 +259,7 @@ class Data_Manager() :
 
         return imputed_sets
 
-    def resample_data(self, datasets:[pd.DataFrame], freq:str, non_mean_features:[str], summ_features:[str]) : 
+    def resample_data(self, datasets:[pd.DataFrame], freq:str) : 
 
 
         """
@@ -268,24 +268,14 @@ class Data_Manager() :
         15T : 15min 
         """
         
-        mean_features = datasets[0].columns.symmetric_difference(non_mean_features)
-        mean_features = mean_features.symmetric_difference(summ_features)
-
-        if "date_forecast" not in non_mean_features: non_mean_features.append("date_forecast")
-        if "date_forecast" not in summ_features: summ_features.append("date_forecast")
-        if "date_forecast" not in mean_features: mean_features.append("date_forecast")
-
         corr = []
 
-        print(summ_features)
 
         for set in datasets: 
 
-            non_mean_set = set.loc[:, non_mean_features]
-            mean_set = set.loc[:, mean_features]
-            sum_set = set.loc[:, summ_features]
+            mean_set = set.loc[:, set.columns]
 
-            set_hourly = mean_set.resample("H", on="date_forecast").mean()
+            set_hourly = mean_set.resample(freq, on="date_forecast").mean()
 
             set_dates = mean_set["date_forecast"].dt.date.unique().tolist()
 
@@ -295,15 +285,7 @@ class Data_Manager() :
 
             mean_set_corr.index = pd.RangeIndex(0, len(mean_set_corr))
         
-            set_hourly_sum = sum_set.resample("H", on="date_forecast").sum()
-
-            non_mean_corrected = non_mean_set[::4]
-
-            corr_set = pd.merge(mean_set_corr, non_mean_corrected, how="left", on="date_forecast")
-
-            corr_set = pd.merge(corr_set, set_hourly_sum, how="left", on="date_forecast")
-
-            corr.append(corr_set)
+            corr.append(mean_set_corr)
 
 
     
