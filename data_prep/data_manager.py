@@ -2,7 +2,6 @@ import os
 import warnings
 
 warnings.simplefilter(action="ignore", category=FutureWarning)
-warnings.simplefilter(action='ignore', category=Warning)
 
 import pandas as pd
 import numpy as np
