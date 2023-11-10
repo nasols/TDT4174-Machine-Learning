@@ -258,7 +258,7 @@ class Data_Manager() :
 
         return imputed_sets
 
-    def resample_data(self, datasets, freq) : 
+    def resample_data(self, datasets:[pd.DataFrame], freq:str) : 
 
 
         """
@@ -266,22 +266,28 @@ class Data_Manager() :
         H : hourly 
         15T : 15min 
         """
-
+        
         corr = []
 
-        for set in datasets: 
-            set_hourly = set.resample(freq, on="date_forecast").mean()
 
-            set_dates = set["date_forecast"].dt.date.unique().tolist()
+        for set in datasets: 
+
+            mean_set = set.loc[:, set.columns]
+
+            set_hourly = mean_set.resample(freq, on="date_forecast").mean()
+
+            set_dates = mean_set["date_forecast"].dt.date.unique().tolist()
 
             set_hourly["date_forecast"] = set_hourly.index
 
-            set_corr = set_hourly[set_hourly["date_forecast"].dt.date.isin(set_dates)]
+            mean_set_corr = set_hourly[set_hourly["date_forecast"].dt.date.isin(set_dates)]
 
-            set_corr.index = pd.RangeIndex(0, len(set_corr))
-            corr.append(set_corr)
-
+            mean_set_corr.index = pd.RangeIndex(0, len(mean_set_corr))
         
+            corr.append(mean_set_corr)
+
+
+    
         return corr
 
     def add_feature(dataset, feature_name, data) :
@@ -295,10 +301,12 @@ class Data_Manager() :
         (dataset.info())
 
     def plot_feature(self, dataset:pd.DataFrame, featureName:str):
-        
         fig, axs = plt.subplots(1, 1, figsize=(20, 10))
+        fig.set_label(featureName)
 
-        dataset[['date_forecast', featureName]].set_index("date_forecast").plot(ax=axs, title=featureName, color='red')
+        plt.scatter(dataset["date_forecast"], dataset[featureName], s=3)
+
+        #dataset[['date_forecast', featureName]].set_index("date_forecast").plot(ax=axs, title=featureName, color='red')
        
     def KNNImputing(self, datasets) :
         from sklearn.impute import KNNImputer
@@ -597,6 +605,8 @@ class Data_Manager() :
 
             #sorting columns 
             cols.remove("date_forecast")
+            cols.remove("pv_measurement")
+            cols.insert(0, "pv_measurement")
             cols.insert(0, "date_forecast")
 
             data = data[cols]
@@ -688,9 +698,7 @@ class Data_Manager() :
         self.X_test_estimated_a[lag_attribute] = self.X_test_estimated_a[target_attribute].shift(lag).fillna(0)
         self.X_test_estimated_b[lag_attribute] = self.X_test_estimated_b[target_attribute].shift(lag).fillna(0)
         self.X_test_estimated_c[lag_attribute] = self.X_test_estimated_c[target_attribute].shift(lag).fillna(0)
-
         
-
     def combine_all_data(self): 
 
         relevant_sets_A = [attr for attr in dir(self) if attr.__eq__("data_A") or attr.__eq__("X_test_estimated_a")]
@@ -770,13 +778,13 @@ class Data_Manager() :
             print("no outliers")
             return data
     
-        
-        
-        
-        
+    def resample_categorical(self, dataset:pd.DataFrame, feature:str): 
 
+        "resamples the categorical feature to an hourly basis, returns the categorical column"
 
-        
+        hour_df = dataset[dataset["date_forecast"].dt.hour % 1 == 0][feature]
+
+        return hour_df
     
 
 
