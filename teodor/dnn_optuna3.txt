@@ -1,0 +1,151 @@
+trial_params = {
+        'seed': trial.suggest_int('seed', 1, 100),
+        'N': 1,
+        'n_neurons_1': trial.suggest_int('n_neurons_1', 150, 200),
+        'n_neurons_2': trial.suggest_int('n_neurons_2', 120, 180),
+        'n_neurons_3': trial.suggest_int('n_neurons_3', 100, 120),
+        'n_neurons_4': trial.suggest_int("n_neurons_4", 60, 100),
+        'kernel_regularizer': trial.suggest_float('kernel_regularizer', 0.02, 0.1),
+        'learning_rate': trial.suggest_float('learning_rate', 0.0005, 0.01),
+        'beta_1': 0.80, #trial.suggest_float('beta_1', 0.80, 0.99),
+        'min_delta': trial.suggest_float('min_delta', 0.0, 5),
+        'patience': trial.suggest_int('patience', 3, 8),
+        'batch_size': 128 #trial.suggest_categorical("batch_size", [16, 32, 64, 128])
+    }
+
+[I 2023-11-10 18:07:31,875] A new study created in memory with name: no-name-c8262b04-da7b-4523-b119-4bcbd575b802
+[I 2023-11-10 18:07:43,502] Trial 0 finished with value: 22518.761333102797 and parameters: {'seed': 6, 'n_neurons_1': 178, 'n_neurons_2': 176, 'n_neurons_3': 117, 'n_neurons_4': 75, 'kernel_regularizer': 0.042295087714434784, 'learning_rate': 0.006555482660915985, 'min_delta': 2.8447503001797396, 'patience': 8}. Best is trial 0 with value: 22518.761333102797.
+0  MAE:  78.06587332054472
+[I 2023-11-10 18:07:57,334] Trial 1 finished with value: 38366.57417956617 and parameters: {'seed': 43, 'n_neurons_1': 185, 'n_neurons_2': 121, 'n_neurons_3': 104, 'n_neurons_4': 72, 'kernel_regularizer': 0.08565475870588238, 'learning_rate': 0.006124825756293478, 'min_delta': 0.3231518840933867, 'patience': 5}. Best is trial 0 with value: 22518.761333102797.
+1  MAE:  98.87673943660468
+[I 2023-11-10 18:12:01,324] Trial 2 finished with value: 33041.78905503574 and parameters: {'seed': 93, 'n_neurons_1': 188, 'n_neurons_2': 165, 'n_neurons_3': 105, 'n_neurons_4': 89, 'kernel_regularizer': 0.038816518364774205, 'learning_rate': 0.00699079196945347, 'min_delta': 1.1864347883866215, 'patience': 7}. Best is trial 0 with value: 22518.761333102797.
+2  MAE:  94.02285292968278
+[I 2023-11-10 18:12:19,808] Trial 3 finished with value: 40943.20789255713 and parameters: {'seed': 12, 'n_neurons_1': 184, 'n_neurons_2': 174, 'n_neurons_3': 107, 'n_neurons_4': 65, 'kernel_regularizer': 0.06885878460254427, 'learning_rate': 0.0031612560466570895, 'min_delta': 0.3132192123428251, 'patience': 8}. Best is trial 0 with value: 22518.761333102797.
+3  MAE:  103.08794180158559
+[I 2023-11-10 18:12:30,448] Trial 4 finished with value: 39571.46267500326 and parameters: {'seed': 18, 'n_neurons_1': 153, 'n_neurons_2': 164, 'n_neurons_3': 109, 'n_neurons_4': 73, 'kernel_regularizer': 0.04477980622871307, 'learning_rate': 0.003047843746534683, 'min_delta': 0.9353748072758228, 'patience': 4}. Best is trial 0 with value: 22518.761333102797.
+4  MAE:  112.09963013041445
+[I 2023-11-10 18:12:41,746] Trial 5 finished with value: 43015.082000369825 and parameters: {'seed': 8, 'n_neurons_1': 153, 'n_neurons_2': 159, 'n_neurons_3': 115, 'n_neurons_4': 94, 'kernel_regularizer': 0.0989850088389651, 'learning_rate': 0.007714476653946195, 'min_delta': 2.145462160562132, 'patience': 7}. Best is trial 0 with value: 22518.761333102797.
+5  MAE:  116.32443404678423
+[I 2023-11-10 18:13:43,959] Trial 6 finished with value: 20400.72876504571 and parameters: {'seed': 77, 'n_neurons_1': 188, 'n_neurons_2': 130, 'n_neurons_3': 109, 'n_neurons_4': 98, 'kernel_regularizer': 0.021263344880947724, 'learning_rate': 0.008404288379436508, 'min_delta': 2.8628961172501914, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+6  MAE:  75.57818921797445
+[I 2023-11-10 18:13:55,307] Trial 7 finished with value: 51710.115665278994 and parameters: {'seed': 1, 'n_neurons_1': 195, 'n_neurons_2': 155, 'n_neurons_3': 110, 'n_neurons_4': 75, 'kernel_regularizer': 0.08544872498369332, 'learning_rate': 0.006846899418069067, 'min_delta': 2.8203349622963096, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+7  MAE:  117.10312221185471
+[I 2023-11-10 18:14:03,109] Trial 8 finished with value: 38425.165267744575 and parameters: {'seed': 94, 'n_neurons_1': 157, 'n_neurons_2': 122, 'n_neurons_3': 107, 'n_neurons_4': 84, 'kernel_regularizer': 0.02266131495717034, 'learning_rate': 0.008978780801108581, 'min_delta': 3.5002302355094965, 'patience': 4}. Best is trial 6 with value: 20400.72876504571.
+8  MAE:  98.64480912693023
+[I 2023-11-10 18:14:13,218] Trial 9 finished with value: 30682.26261881997 and parameters: {'seed': 41, 'n_neurons_1': 181, 'n_neurons_2': 152, 'n_neurons_3': 120, 'n_neurons_4': 81, 'kernel_regularizer': 0.07382678940506207, 'learning_rate': 0.009660933466057299, 'min_delta': 0.35975316610270813, 'patience': 4}. Best is trial 6 with value: 20400.72876504571.
+9  MAE:  84.51120263525655
+[I 2023-11-10 18:31:30,275] Trial 10 finished with value: 27367.337357763652 and parameters: {'seed': 72, 'n_neurons_1': 168, 'n_neurons_2': 137, 'n_neurons_3': 101, 'n_neurons_4': 97, 'kernel_regularizer': 0.02230189344499117, 'learning_rate': 0.004631516241500322, 'min_delta': 4.9934429982310435, 'patience': 6}. Best is trial 6 with value: 20400.72876504571.
+10  MAE:  84.10003025757229
+[I 2023-11-10 18:31:38,590] Trial 11 finished with value: 1276047.7731683087 and parameters: {'seed': 68, 'n_neurons_1': 170, 'n_neurons_2': 138, 'n_neurons_3': 115, 'n_neurons_4': 61, 'kernel_regularizer': 0.04415722539731555, 'learning_rate': 0.0012244902981609646, 'min_delta': 3.2540508200289975, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+11  MAE:  566.0143954657896
+[I 2023-11-10 18:31:55,493] Trial 12 finished with value: 23612.41899220652 and parameters: {'seed': 65, 'n_neurons_1': 198, 'n_neurons_2': 180, 'n_neurons_3': 114, 'n_neurons_4': 87, 'kernel_regularizer': 0.03378991959110647, 'learning_rate': 0.008445607223489514, 'min_delta': 2.0970520696848807, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+12  MAE:  82.37223416656971
+[I 2023-11-10 18:32:12,394] Trial 13 finished with value: 41781.39604289575 and parameters: {'seed': 34, 'n_neurons_1': 178, 'n_neurons_2': 141, 'n_neurons_3': 120, 'n_neurons_4': 77, 'kernel_regularizer': 0.05496992675211188, 'learning_rate': 0.009904438542343767, 'min_delta': 3.858932276397206, 'patience': 6}. Best is trial 6 with value: 20400.72876504571.
+13  MAE:  91.38175529158501
+[I 2023-11-10 18:32:20,861] Trial 14 finished with value: 34502.55868323687 and parameters: {'seed': 82, 'n_neurons_1': 191, 'n_neurons_2': 129, 'n_neurons_3': 113, 'n_neurons_4': 100, 'kernel_regularizer': 0.0323001662881575, 'learning_rate': 0.008054460789630786, 'min_delta': 2.495996143461898, 'patience': 3}. Best is trial 6 with value: 20400.72876504571.
+14  MAE:  94.01723555410307
+[I 2023-11-10 18:32:35,844] Trial 15 finished with value: 30567.660331362793 and parameters: {'seed': 59, 'n_neurons_1': 172, 'n_neurons_2': 147, 'n_neurons_3': 117, 'n_neurons_4': 67, 'kernel_regularizer': 0.05190920459306745, 'learning_rate': 0.0054771932115737585, 'min_delta': 1.6654263930982256, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+15  MAE:  88.21645535845616
+[I 2023-11-10 18:32:49,873] Trial 16 finished with value: 40269.62344550377 and parameters: {'seed': 22, 'n_neurons_1': 176, 'n_neurons_2': 130, 'n_neurons_3': 111, 'n_neurons_4': 91, 'kernel_regularizer': 0.020970802023509483, 'learning_rate': 0.007293298864162976, 'min_delta': 2.7870500668438, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+16  MAE:  109.62997629114436
+[I 2023-11-10 18:32:59,483] Trial 17 finished with value: 35280.3266013827 and parameters: {'seed': 54, 'n_neurons_1': 164, 'n_neurons_2': 170, 'n_neurons_3': 117, 'n_neurons_4': 81, 'kernel_regularizer': 0.03102959979987668, 'learning_rate': 0.008585418234062125, 'min_delta': 3.9728678939848083, 'patience': 6}. Best is trial 6 with value: 20400.72876504571.
+17  MAE:  89.46183911272966
+[I 2023-11-10 18:33:13,239] Trial 18 finished with value: 29076.732763036413 and parameters: {'seed': 85, 'n_neurons_1': 193, 'n_neurons_2': 147, 'n_neurons_3': 112, 'n_neurons_4': 68, 'kernel_regularizer': 0.04743391184884853, 'learning_rate': 0.006208436842112147, 'min_delta': 1.7467885745645686, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+18  MAE:  84.49856571974165
+[I 2023-11-10 18:33:25,213] Trial 19 finished with value: 36885.43624020327 and parameters: {'seed': 31, 'n_neurons_1': 200, 'n_neurons_2': 180, 'n_neurons_3': 100, 'n_neurons_4': 84, 'kernel_regularizer': 0.05845275477963652, 'learning_rate': 0.00908843849454126, 'min_delta': 3.029822184413001, 'patience': 5}. Best is trial 6 with value: 20400.72876504571.
+19  MAE:  93.91450689877311
+[I 2023-11-10 18:33:41,449] Trial 20 finished with value: 43594.19943840834 and parameters: {'seed': 77, 'n_neurons_1': 164, 'n_neurons_2': 129, 'n_neurons_3': 108, 'n_neurons_4': 78, 'kernel_regularizer': 0.03817974409667966, 'learning_rate': 0.007746245397570378, 'min_delta': 2.565883557016547, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+20  MAE:  108.92025889190778
+[I 2023-11-10 18:33:57,362] Trial 21 finished with value: 36839.77343092378 and parameters: {'seed': 64, 'n_neurons_1': 197, 'n_neurons_2': 180, 'n_neurons_3': 114, 'n_neurons_4': 87, 'kernel_regularizer': 0.030230961273912012, 'learning_rate': 0.008091217471744499, 'min_delta': 2.1850804511992727, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+21  MAE:  87.45221010840785
+[I 2023-11-10 18:34:19,723] Trial 22 finished with value: 54517.43122408204 and parameters: {'seed': 50, 'n_neurons_1': 188, 'n_neurons_2': 174, 'n_neurons_3': 117, 'n_neurons_4': 95, 'kernel_regularizer': 0.0359927315605446, 'learning_rate': 0.008692359594989934, 'min_delta': 2.179115678637811, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+22  MAE:  118.20504177207721
+[I 2023-11-10 18:34:28,607] Trial 23 finished with value: 65188.99841704738 and parameters: {'seed': 62, 'n_neurons_1': 199, 'n_neurons_2': 173, 'n_neurons_3': 116, 'n_neurons_4': 92, 'kernel_regularizer': 0.026563393279518458, 'learning_rate': 0.006907897549168945, 'min_delta': 3.2790685345392383, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+23  MAE:  135.20724631904082
+[I 2023-11-10 18:34:45,625] Trial 24 finished with value: 37927.05994633457 and parameters: {'seed': 74, 'n_neurons_1': 180, 'n_neurons_2': 163, 'n_neurons_3': 119, 'n_neurons_4': 99, 'kernel_regularizer': 0.027392395492662404, 'learning_rate': 0.0084304194398336, 'min_delta': 2.5278230580007577, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+24  MAE:  108.21204292681014
+[I 2023-11-10 18:34:58,782] Trial 25 finished with value: 27428.10132699187 and parameters: {'seed': 84, 'n_neurons_1': 190, 'n_neurons_2': 168, 'n_neurons_3': 112, 'n_neurons_4': 85, 'kernel_regularizer': 0.03663665387646136, 'learning_rate': 0.009973981811171793, 'min_delta': 1.6750466326956381, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+25  MAE:  86.98263862828713
+[I 2023-11-10 18:35:13,870] Trial 26 finished with value: 66759.94080037819 and parameters: {'seed': 54, 'n_neurons_1': 184, 'n_neurons_2': 177, 'n_neurons_3': 118, 'n_neurons_4': 89, 'kernel_regularizer': 0.041958565631480996, 'learning_rate': 0.009310509074506479, 'min_delta': 2.9686642881551277, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+26  MAE:  129.053418910014
+[I 2023-11-10 18:35:30,972] Trial 27 finished with value: 38490.842911732434 and parameters: {'seed': 99, 'n_neurons_1': 194, 'n_neurons_2': 158, 'n_neurons_3': 114, 'n_neurons_4': 79, 'kernel_regularizer': 0.049131199759875205, 'learning_rate': 0.00771149200134813, 'min_delta': 1.9364405261924744, 'patience': 6}. Best is trial 6 with value: 20400.72876504571.
+27  MAE:  93.30220727196203
+[I 2023-11-10 18:35:39,718] Trial 28 finished with value: 52546.907280468295 and parameters: {'seed': 48, 'n_neurons_1': 182, 'n_neurons_2': 171, 'n_neurons_3': 110, 'n_neurons_4': 72, 'kernel_regularizer': 0.03365172141441206, 'learning_rate': 0.008813839926127828, 'min_delta': 1.3245343011711457, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+28  MAE:  121.5887375739233
+[I 2023-11-10 18:35:50,221] Trial 29 finished with value: 39180.53746541048 and parameters: {'seed': 41, 'n_neurons_1': 186, 'n_neurons_2': 120, 'n_neurons_3': 103, 'n_neurons_4': 70, 'kernel_regularizer': 0.026635918758558894, 'learning_rate': 0.00628622219865509, 'min_delta': 2.3961271844571286, 'patience': 5}. Best is trial 6 with value: 20400.72876504571.
+29  MAE:  106.80521201152388
+[I 2023-11-10 18:36:05,459] Trial 30 finished with value: 31314.204401427032 and parameters: {'seed': 30, 'n_neurons_1': 173, 'n_neurons_2': 143, 'n_neurons_3': 105, 'n_neurons_4': 97, 'kernel_regularizer': 0.02013965593419973, 'learning_rate': 0.00838353349432462, 'min_delta': 1.9730265462573646, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+30  MAE:  91.55975418385957
+[I 2023-11-10 18:36:18,977] Trial 31 finished with value: 26291.156924210096 and parameters: {'seed': 70, 'n_neurons_1': 167, 'n_neurons_2': 138, 'n_neurons_3': 100, 'n_neurons_4': 97, 'kernel_regularizer': 0.02601768632102728, 'learning_rate': 0.004430300468889557, 'min_delta': 4.726511923192074, 'patience': 6}. Best is trial 6 with value: 20400.72876504571.
+31  MAE:  79.67317251031746
+[I 2023-11-10 18:36:26,982] Trial 32 finished with value: 30848.861213047057 and parameters: {'seed': 66, 'n_neurons_1': 164, 'n_neurons_2': 125, 'n_neurons_3': 102, 'n_neurons_4': 93, 'kernel_regularizer': 0.04019507314271274, 'learning_rate': 0.005490954748910347, 'min_delta': 4.594032653099761, 'patience': 3}. Best is trial 6 with value: 20400.72876504571.
+32  MAE:  100.15032212043117
+[I 2023-11-10 18:36:43,300] Trial 33 finished with value: 33398.26487876814 and parameters: {'seed': 79, 'n_neurons_1': 168, 'n_neurons_2': 133, 'n_neurons_3': 106, 'n_neurons_4': 97, 'kernel_regularizer': 0.028767699873243038, 'learning_rate': 0.007237281025075044, 'min_delta': 4.102366035377122, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+33  MAE:  87.31775719546393
+[I 2023-11-10 18:36:56,942] Trial 34 finished with value: 31756.888447390815 and parameters: {'seed': 70, 'n_neurons_1': 160, 'n_neurons_2': 125, 'n_neurons_3': 103, 'n_neurons_4': 88, 'kernel_regularizer': 0.03607838071874408, 'learning_rate': 0.004873046159637814, 'min_delta': 3.4440922219648638, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+34  MAE:  89.03765230050067
+[I 2023-11-10 18:37:06,427] Trial 35 finished with value: 26827.366530429295 and parameters: {'seed': 92, 'n_neurons_1': 176, 'n_neurons_2': 134, 'n_neurons_3': 115, 'n_neurons_4': 91, 'kernel_regularizer': 0.04150760900885069, 'learning_rate': 0.004264688420663098, 'min_delta': 4.376756825016117, 'patience': 6}. Best is trial 6 with value: 20400.72876504571.
+35  MAE:  95.0209087946386
+[I 2023-11-10 18:37:19,377] Trial 36 finished with value: 30950.750950203506 and parameters: {'seed': 57, 'n_neurons_1': 187, 'n_neurons_2': 177, 'n_neurons_3': 109, 'n_neurons_4': 75, 'kernel_regularizer': 0.025242639431573347, 'learning_rate': 0.006294891270110372, 'min_delta': 3.6355129598495073, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+36  MAE:  94.66779436035867
+[I 2023-11-10 18:37:32,403] Trial 37 finished with value: 26335.80556611148 and parameters: {'seed': 88, 'n_neurons_1': 150, 'n_neurons_2': 167, 'n_neurons_3': 105, 'n_neurons_4': 95, 'kernel_regularizer': 0.032230696895441696, 'learning_rate': 0.006653571716957969, 'min_delta': 3.081634836004632, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+37  MAE:  91.88426017339842
+[I 2023-11-10 18:37:45,034] Trial 38 finished with value: 54325.72837676967 and parameters: {'seed': 5, 'n_neurons_1': 197, 'n_neurons_2': 162, 'n_neurons_3': 113, 'n_neurons_4': 100, 'kernel_regularizer': 0.024179169619177755, 'learning_rate': 0.00936861123185452, 'min_delta': 2.820539428729445, 'patience': 5}. Best is trial 6 with value: 20400.72876504571.
+38  MAE:  132.31871929899265
+[I 2023-11-10 18:37:57,941] Trial 39 finished with value: 23139.974350920747 and parameters: {'seed': 14, 'n_neurons_1': 192, 'n_neurons_2': 143, 'n_neurons_3': 118, 'n_neurons_4': 83, 'kernel_regularizer': 0.045021106546118496, 'learning_rate': 0.00759413836399608, 'min_delta': 3.5390335336107652, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+39  MAE:  82.01568104682964
+[I 2023-11-10 18:38:12,867] Trial 40 finished with value: 24437.45420871452 and parameters: {'seed': 15, 'n_neurons_1': 192, 'n_neurons_2': 152, 'n_neurons_3': 118, 'n_neurons_4': 81, 'kernel_regularizer': 0.04515751332218555, 'learning_rate': 0.0074384420382222136, 'min_delta': 3.639201551417268, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+40  MAE:  78.15526581685435
+[I 2023-11-10 18:38:24,041] Trial 41 finished with value: 25340.65278859127 and parameters: {'seed': 20, 'n_neurons_1': 190, 'n_neurons_2': 152, 'n_neurons_3': 119, 'n_neurons_4': 82, 'kernel_regularizer': 0.046325085585288264, 'learning_rate': 0.00741952409133573, 'min_delta': 3.361483092195724, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+41  MAE:  88.9573489728761
+[I 2023-11-10 18:38:43,891] Trial 42 finished with value: 24402.344147352847 and parameters: {'seed': 12, 'n_neurons_1': 192, 'n_neurons_2': 157, 'n_neurons_3': 118, 'n_neurons_4': 76, 'kernel_regularizer': 0.043376335972242434, 'learning_rate': 0.007908408550001852, 'min_delta': 3.1720580229231805, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+42  MAE:  80.50846483061757
+[I 2023-11-10 18:38:57,492] Trial 43 finished with value: 41575.17638665907 and parameters: {'seed': 10, 'n_neurons_1': 195, 'n_neurons_2': 158, 'n_neurons_3': 116, 'n_neurons_4': 75, 'kernel_regularizer': 0.04014322928180057, 'learning_rate': 0.007918325727573308, 'min_delta': 3.191605144404506, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+43  MAE:  112.44016556864439
+[I 2023-11-10 18:39:16,082] Trial 44 finished with value: 29291.26743387726 and parameters: {'seed': 1, 'n_neurons_1': 197, 'n_neurons_2': 144, 'n_neurons_3': 120, 'n_neurons_4': 76, 'kernel_regularizer': 0.051089953722001924, 'learning_rate': 0.00827879435091237, 'min_delta': 2.772580509707447, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+44  MAE:  91.63173794906513
+[I 2023-11-10 18:39:31,630] Trial 45 finished with value: 25982.932574591727 and parameters: {'seed': 15, 'n_neurons_1': 189, 'n_neurons_2': 176, 'n_neurons_3': 118, 'n_neurons_4': 74, 'kernel_regularizer': 0.04224127298109345, 'learning_rate': 0.007190715175758074, 'min_delta': 3.540834787997338, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+45  MAE:  79.442887663246
+[I 2023-11-10 18:39:43,005] Trial 46 finished with value: 26762.012612809194 and parameters: {'seed': 26, 'n_neurons_1': 184, 'n_neurons_2': 155, 'n_neurons_3': 116, 'n_neurons_4': 86, 'kernel_regularizer': 0.033868945034970024, 'learning_rate': 0.00662927425096964, 'min_delta': 3.1213343205540545, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+46  MAE:  80.37436482608271
+[I 2023-11-10 18:39:54,937] Trial 47 finished with value: 25965.96604297529 and parameters: {'seed': 6, 'n_neurons_1': 194, 'n_neurons_2': 146, 'n_neurons_3': 119, 'n_neurons_4': 83, 'kernel_regularizer': 0.04497949959904586, 'learning_rate': 0.009030726569967062, 'min_delta': 2.7337126695806644, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+47  MAE:  80.66554913789967
+[I 2023-11-10 18:40:03,586] Trial 48 finished with value: 1276047.7731683087 and parameters: {'seed': 14, 'n_neurons_1': 179, 'n_neurons_2': 141, 'n_neurons_3': 114, 'n_neurons_4': 79, 'kernel_regularizer': 0.05451196056845163, 'learning_rate': 0.00801061042302054, 'min_delta': 3.797306903631106, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+48  MAE:  566.0143954657896
+[I 2023-11-10 18:40:16,489] Trial 49 finished with value: 29758.181659701426 and parameters: {'seed': 2, 'n_neurons_1': 182, 'n_neurons_2': 149, 'n_neurons_3': 108, 'n_neurons_4': 77, 'kernel_regularizer': 0.06398130199940905, 'learning_rate': 0.007628819789705187, 'min_delta': 2.3281027640529417, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+49  MAE:  88.20124103482024
+[I 2023-11-10 18:40:28,914] Trial 50 finished with value: 41686.33703253612 and parameters: {'seed': 23, 'n_neurons_1': 192, 'n_neurons_2': 167, 'n_neurons_3': 111, 'n_neurons_4': 64, 'kernel_regularizer': 0.03895682820698904, 'learning_rate': 0.009572414201534606, 'min_delta': 2.6306455786526177, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+50  MAE:  108.68806631054244
+[I 2023-11-10 18:40:47,291] Trial 51 finished with value: 27100.725501857567 and parameters: {'seed': 12, 'n_neurons_1': 192, 'n_neurons_2': 154, 'n_neurons_3': 118, 'n_neurons_4': 72, 'kernel_regularizer': 0.044768505470430146, 'learning_rate': 0.007047887203546557, 'min_delta': 3.709774534917432, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+51  MAE:  82.65466685989755
+[I 2023-11-10 18:41:01,047] Trial 52 finished with value: 25087.954656344256 and parameters: {'seed': 17, 'n_neurons_1': 198, 'n_neurons_2': 150, 'n_neurons_3': 117, 'n_neurons_4': 81, 'kernel_regularizer': 0.050064451479297056, 'learning_rate': 0.007438800295319736, 'min_delta': 3.3907264515437365, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+52  MAE:  80.94912066252779
+[I 2023-11-10 18:41:12,844] Trial 53 finished with value: 40733.87236592032 and parameters: {'seed': 8, 'n_neurons_1': 196, 'n_neurons_2': 160, 'n_neurons_3': 120, 'n_neurons_4': 84, 'kernel_regularizer': 0.04703439588337005, 'learning_rate': 0.008498194388510178, 'min_delta': 2.9494701157650183, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+53  MAE:  115.99822413482136
+[I 2023-11-10 18:41:28,166] Trial 54 finished with value: 33306.21780735377 and parameters: {'seed': 36, 'n_neurons_1': 188, 'n_neurons_2': 135, 'n_neurons_3': 118, 'n_neurons_4': 80, 'kernel_regularizer': 0.035259660558126446, 'learning_rate': 0.007940871900880782, 'min_delta': 3.5828435112542745, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+54  MAE:  88.93599947211969
+[I 2023-11-10 18:41:44,505] Trial 55 finished with value: 30444.105603395194 and parameters: {'seed': 17, 'n_neurons_1': 200, 'n_neurons_2': 153, 'n_neurons_3': 116, 'n_neurons_4': 78, 'kernel_regularizer': 0.04410981551616623, 'learning_rate': 0.008901217758429496, 'min_delta': 3.12207463770259, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+55  MAE:  86.31976658375562
+[I 2023-11-10 18:42:00,823] Trial 56 finished with value: 22991.883790751184 and parameters: {'seed': 26, 'n_neurons_1': 191, 'n_neurons_2': 156, 'n_neurons_3': 119, 'n_neurons_4': 89, 'kernel_regularizer': 0.02958662088988067, 'learning_rate': 0.008213236263067646, 'min_delta': 3.3590534149092277, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+56  MAE:  79.76618027417746
+[I 2023-11-10 18:42:13,995] Trial 57 finished with value: 32026.38747618433 and parameters: {'seed': 10, 'n_neurons_1': 186, 'n_neurons_2': 156, 'n_neurons_3': 119, 'n_neurons_4': 89, 'kernel_regularizer': 0.030276080878751527, 'learning_rate': 0.008173391399683337, 'min_delta': 3.292427946904227, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+57  MAE:  96.42022032181683
+[I 2023-11-10 18:42:22,218] Trial 58 finished with value: 26385.775485465114 and parameters: {'seed': 5, 'n_neurons_1': 194, 'n_neurons_2': 165, 'n_neurons_3': 115, 'n_neurons_4': 86, 'kernel_regularizer': 0.02265186374881816, 'learning_rate': 0.008660229883366167, 'min_delta': 2.9013640284228033, 'patience': 4}. Best is trial 6 with value: 20400.72876504571.
+58  MAE:  80.81291931044476
+[I 2023-11-10 18:42:35,110] Trial 59 finished with value: 27456.039240533333 and parameters: {'seed': 23, 'n_neurons_1': 190, 'n_neurons_2': 172, 'n_neurons_3': 117, 'n_neurons_4': 90, 'kernel_regularizer': 0.032077817665246186, 'learning_rate': 0.0077454005561106345, 'min_delta': 2.504980600708668, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+59  MAE:  90.72704034296888
+[I 2023-11-10 18:42:52,257] Trial 60 finished with value: 39414.42749424283 and parameters: {'seed': 29, 'n_neurons_1': 184, 'n_neurons_2': 180, 'n_neurons_3': 109, 'n_neurons_4': 87, 'kernel_regularizer': 0.029203126532307118, 'learning_rate': 0.008267530802475664, 'min_delta': 2.6335917809366953, 'patience': 6}. Best is trial 6 with value: 20400.72876504571.
+60  MAE:  106.17969894788982
+[I 2023-11-10 18:43:10,922] Trial 61 finished with value: 35335.04710479484 and parameters: {'seed': 13, 'n_neurons_1': 192, 'n_neurons_2': 161, 'n_neurons_3': 119, 'n_neurons_4': 83, 'kernel_regularizer': 0.037453259652330304, 'learning_rate': 0.007616836219579823, 'min_delta': 3.4402696814027216, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+61  MAE:  90.1736832937373
+[I 2023-11-10 18:43:24,236] Trial 62 finished with value: 29691.75616615865 and parameters: {'seed': 76, 'n_neurons_1': 191, 'n_neurons_2': 151, 'n_neurons_3': 120, 'n_neurons_4': 69, 'kernel_regularizer': 0.03921104965288643, 'learning_rate': 0.006884099358795625, 'min_delta': 3.930528670897668, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+62  MAE:  89.86005178489064
+[I 2023-11-10 18:43:34,565] Trial 63 finished with value: 33647.62103491253 and parameters: {'seed': 20, 'n_neurons_1': 195, 'n_neurons_2': 148, 'n_neurons_3': 118, 'n_neurons_4': 80, 'kernel_regularizer': 0.034129194259088266, 'learning_rate': 0.00742818154035749, 'min_delta': 3.230926442918549, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+63  MAE:  109.67010449154742
+[I 2023-11-10 18:43:48,231] Trial 64 finished with value: 39216.60205838589 and parameters: {'seed': 36, 'n_neurons_1': 188, 'n_neurons_2': 157, 'n_neurons_3': 117, 'n_neurons_4': 82, 'kernel_regularizer': 0.02193265191336357, 'learning_rate': 0.008583390212119343, 'min_delta': 3.0055294313533203, 'patience': 7}. Best is trial 6 with value: 20400.72876504571.
+64  MAE:  92.64974468377001
+[I 2023-11-10 18:44:08,899] Trial 65 finished with value: 41026.38444424818 and parameters: {'seed': 9, 'n_neurons_1': 193, 'n_neurons_2': 175, 'n_neurons_3': 118, 'n_neurons_4': 73, 'kernel_regularizer': 0.048941993501729564, 'learning_rate': 0.009054834764223597, 'min_delta': 3.676125449689158, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+65  MAE:  96.18949776818754
+[I 2023-11-10 18:44:29,243] Trial 66 finished with value: 39591.41880448338 and parameters: {'seed': 46, 'n_neurons_1': 200, 'n_neurons_2': 131, 'n_neurons_3': 116, 'n_neurons_4': 77, 'kernel_regularizer': 0.04269118702931836, 'learning_rate': 0.007923479511692135, 'min_delta': 2.929253908846199, 'patience': 8}. Best is trial 6 with value: 20400.72876504571.
+66  MAE:  101.72025558545509
+[W 2023-11-10 18:44:46,998] Trial 67 failed with parameters: {'seed': 81, 'n_neurons_1': 198, 'n_neurons_2': 145, 'n_neurons_3': 113, 'n_neurons_4': 71, 'kernel_regularizer': 0.02848683242746533, 'learning_rate': 0.007180100037613859, 'min_delta': 3.5319083286565567, 'patience': 8} because of the following error: KeyboardInterrupt().
