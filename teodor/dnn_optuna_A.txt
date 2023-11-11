@@ -1,0 +1,2015 @@
+[I 2023-11-11 03:52:06,064] A new study created in memory with name: no-name-7b34338a-7ac9-4c6b-aa40-736f8d4bd4b2
+A : Best epoch:  42
+A : Best epoch:  23
+A : Best epoch:  16
+A : Best epoch:  24
+A : Best epoch:  16
+[I 2023-11-11 03:54:28,725] Trial 0 finished with value: 108.52780600462813 and parameters: {'seed': 123, 'N': 5, 'n_neurons_1': 155, 'n_neurons_2': 131, 'n_neurons_3': 118, 'n_neurons_4': 64, 'Dropout': 0.16671873062458703, 'kernel_regularizer': 0.21776166507523642, 'learning_rate': 0.0009562504720450707, 'beta_1': 0.8559382582400816, 'min_delta': 13.43260946190724, 'batch_size': 16}. Best is trial 0 with value: 108.52780600462813.
+A : MAE:  108.52780600462813
+A : Best epoch:  26
+A : Best epoch:  22
+A : Best epoch:  31
+A : Best epoch:  26
+A : Best epoch:  27
+[I 2023-11-11 03:56:43,091] Trial 1 finished with value: 111.0949097564465 and parameters: {'seed': 141, 'N': 5, 'n_neurons_1': 160, 'n_neurons_2': 151, 'n_neurons_3': 91, 'n_neurons_4': 66, 'Dropout': 0.0943866068615935, 'kernel_regularizer': 0.16727608580028758, 'learning_rate': 0.000886189908553535, 'beta_1': 0.8194386686477827, 'min_delta': 14.016947727662043, 'batch_size': 16}. Best is trial 0 with value: 108.52780600462813.
+A : MAE:  111.0949097564465
+A : Best epoch:  25
+A : Best epoch:  33
+A : Best epoch:  23
+[I 2023-11-11 03:58:02,585] Trial 2 finished with value: 110.09634037741897 and parameters: {'seed': 168, 'N': 3, 'n_neurons_1': 141, 'n_neurons_2': 154, 'n_neurons_3': 94, 'n_neurons_4': 75, 'Dropout': 0.07487810991273532, 'kernel_regularizer': 0.1767840903601175, 'learning_rate': 0.0011313608097161766, 'beta_1': 0.848810822624038, 'min_delta': 17.611329808958395, 'batch_size': 16}. Best is trial 0 with value: 108.52780600462813.
+A : MAE:  110.09634037741897
+[I 2023-11-11 03:58:53,042] Trial 3 finished with value: 110.19343003341322 and parameters: {'seed': 188, 'N': 2, 'n_neurons_1': 153, 'n_neurons_2': 131, 'n_neurons_3': 105, 'n_neurons_4': 66, 'Dropout': 0.08496308007861793, 'kernel_regularizer': 0.13927068510195642, 'learning_rate': 0.000972909995360649, 'beta_1': 0.7602235852923556, 'min_delta': 11.106608168962538, 'batch_size': 16}. Best is trial 0 with value: 108.52780600462813.
+A : Best epoch:  29
+A : Best epoch:  11
+A : MAE:  110.19343003341322
+A : Best epoch:  18
+A : Best epoch:  31
+A : Best epoch:  18
+A : Best epoch:  44
+A : Best epoch:  29
+[I 2023-11-11 04:00:09,192] Trial 4 finished with value: 104.84855213402912 and parameters: {'seed': 158, 'N': 5, 'n_neurons_1': 168, 'n_neurons_2': 128, 'n_neurons_3': 109, 'n_neurons_4': 72, 'Dropout': 0.07236687237430205, 'kernel_regularizer': 0.054294373245248995, 'learning_rate': 0.0007533048492872627, 'beta_1': 0.7791995401958939, 'min_delta': 19.88321666682976, 'batch_size': 32}. Best is trial 4 with value: 104.84855213402912.
+A : MAE:  104.84855213402912
+[I 2023-11-11 04:00:26,439] Trial 5 finished with value: 113.97630100755838 and parameters: {'seed': 178, 'N': 1, 'n_neurons_1': 165, 'n_neurons_2': 134, 'n_neurons_3': 117, 'n_neurons_4': 62, 'Dropout': 0.11772428078680643, 'kernel_regularizer': 0.20532188373082677, 'learning_rate': 0.000929190354225354, 'beta_1': 0.7583644182747211, 'min_delta': 18.892980792845343, 'batch_size': 32}. Best is trial 4 with value: 104.84855213402912.
+A : Best epoch:  34
+A : MAE:  113.97630100755838
+[I 2023-11-11 04:00:40,622] Trial 6 finished with value: 111.0329220894778 and parameters: {'seed': 161, 'N': 1, 'n_neurons_1': 170, 'n_neurons_2': 143, 'n_neurons_3': 127, 'n_neurons_4': 84, 'Dropout': 0.0671710698717686, 'kernel_regularizer': 0.09926573202265461, 'learning_rate': 0.0011785898628996418, 'beta_1': 0.7785241387969835, 'min_delta': 8.979625226232972, 'batch_size': 64}. Best is trial 4 with value: 104.84855213402912.
+A : Best epoch:  35
+A : MAE:  111.0329220894778
+A : Best epoch:  18
+A : Best epoch:  19
+A : Best epoch:  31
+A : Best epoch:  30
+[I 2023-11-11 04:01:56,208] Trial 7 finished with value: 105.36555474050991 and parameters: {'seed': 176, 'N': 4, 'n_neurons_1': 173, 'n_neurons_2': 151, 'n_neurons_3': 103, 'n_neurons_4': 69, 'Dropout': 0.16560474231219674, 'kernel_regularizer': 0.1697901481697197, 'learning_rate': 0.001117473124454182, 'beta_1': 0.751636589272948, 'min_delta': 12.174825517823399, 'batch_size': 32}. Best is trial 4 with value: 104.84855213402912.
+A : MAE:  105.36555474050991
+[I 2023-11-11 04:02:15,596] Trial 8 finished with value: 97.03100597906038 and parameters: {'seed': 116, 'N': 1, 'n_neurons_1': 151, 'n_neurons_2': 140, 'n_neurons_3': 120, 'n_neurons_4': 81, 'Dropout': 0.09383093573944673, 'kernel_regularizer': 0.11773957743563133, 'learning_rate': 0.001016593414835498, 'beta_1': 0.8291904274779878, 'min_delta': 13.889451426029188, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  50
+A : MAE:  97.03100597906038
+A : Best epoch:  25
+A : Best epoch:  42
+A : Best epoch:  12
+A : Best epoch:  44
+A : Best epoch:  26
+[I 2023-11-11 04:03:47,738] Trial 9 finished with value: 106.02675084989738 and parameters: {'seed': 187, 'N': 5, 'n_neurons_1': 153, 'n_neurons_2': 160, 'n_neurons_3': 105, 'n_neurons_4': 86, 'Dropout': 0.15223814136829567, 'kernel_regularizer': 0.2112796490538013, 'learning_rate': 0.0010930891604856894, 'beta_1': 0.7560834578799281, 'min_delta': 16.846090333196138, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.02675084989738
+A : Best epoch:  78
+A : Best epoch:  32
+A : Best epoch:  42
+[I 2023-11-11 04:04:45,578] Trial 10 finished with value: 107.63989056258757 and parameters: {'seed': 105, 'N': 3, 'n_neurons_1': 141, 'n_neurons_2': 120, 'n_neurons_3': 129, 'n_neurons_4': 81, 'Dropout': 0.18953964538959778, 'kernel_regularizer': 0.24472288814403753, 'learning_rate': 0.0010667180496615758, 'beta_1': 0.8918209086284016, 'min_delta': 6.010576278283087, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  107.63989056258757
+A : Best epoch:  27
+A : Best epoch:  16
+A : Best epoch:  28
+A : Best epoch:  17
+A : Best epoch:  42
+A : Best epoch:  28
+[I 2023-11-11 04:06:01,050] Trial 11 finished with value: 109.09393741433038 and parameters: {'seed': 141, 'N': 6, 'n_neurons_1': 179, 'n_neurons_2': 123, 'n_neurons_3': 115, 'n_neurons_4': 74, 'Dropout': 0.052269109793826186, 'kernel_regularizer': 0.05870651497506471, 'learning_rate': 0.0007754969221067626, 'beta_1': 0.8039228872515626, 'min_delta': 19.95922796563615, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  109.09393741433038
+A : Best epoch:  34
+A : Best epoch:  29
+A : Best epoch:  31
+A : Best epoch:  23
+[I 2023-11-11 04:06:45,061] Trial 12 finished with value: 111.37602529830757 and parameters: {'seed': 101, 'N': 4, 'n_neurons_1': 149, 'n_neurons_2': 140, 'n_neurons_3': 122, 'n_neurons_4': 80, 'Dropout': 0.10453405677523595, 'kernel_regularizer': 0.05492000556324224, 'learning_rate': 0.0007725361186029383, 'beta_1': 0.7929796949787248, 'min_delta': 16.413342586357242, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  111.37602529830757
+A : Best epoch:  12
+A : Best epoch:  29
+A : Best epoch:  21
+A : Best epoch:  38
+A : Best epoch:  26
+A : Best epoch:  16
+[I 2023-11-11 04:08:18,576] Trial 13 finished with value: 111.18028885315734 and parameters: {'seed': 123, 'N': 6, 'n_neurons_1': 163, 'n_neurons_2': 140, 'n_neurons_3': 111, 'n_neurons_4': 89, 'Dropout': 0.10793415635292289, 'kernel_regularizer': 0.10316904363097659, 'learning_rate': 0.0010321541980078015, 'beta_1': 0.8190721151506931, 'min_delta': 15.637202968107134, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  111.18028885315734
+[I 2023-11-11 04:08:43,993] Trial 14 finished with value: 114.20855595001711 and parameters: {'seed': 153, 'N': 2, 'n_neurons_1': 147, 'n_neurons_2': 126, 'n_neurons_3': 100, 'n_neurons_4': 72, 'Dropout': 0.13250004690076894, 'kernel_regularizer': 0.08846070330925171, 'learning_rate': 0.0008557431990054712, 'beta_1': 0.7838983519043874, 'min_delta': 19.88492088248099, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  33
+A : Best epoch:  33
+A : MAE:  114.20855595001711
+[I 2023-11-11 04:09:12,628] Trial 15 finished with value: 110.80489970778859 and parameters: {'seed': 123, 'N': 2, 'n_neurons_1': 171, 'n_neurons_2': 144, 'n_neurons_3': 112, 'n_neurons_4': 78, 'Dropout': 0.05010038306366209, 'kernel_regularizer': 0.13005606105311693, 'learning_rate': 0.0010202056661026823, 'beta_1': 0.803524009140163, 'min_delta': 17.972110218825062, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  16
+A : Best epoch:  24
+A : MAE:  110.80489970778859
+A : Best epoch:  47
+A : Best epoch:  31
+A : Best epoch:  47
+A : Best epoch:  29
+[I 2023-11-11 04:10:08,069] Trial 16 finished with value: 109.24274683808159 and parameters: {'seed': 140, 'N': 4, 'n_neurons_1': 159, 'n_neurons_2': 135, 'n_neurons_3': 121, 'n_neurons_4': 71, 'Dropout': 0.08857130658871405, 'kernel_regularizer': 0.07321336499843634, 'learning_rate': 0.0008336401467048729, 'beta_1': 0.8324619214533603, 'min_delta': 15.276038269416174, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  109.24274683808159
+A : Best epoch:  22
+A : Best epoch:  41
+A : Best epoch:  19
+[I 2023-11-11 04:11:05,290] Trial 17 finished with value: 107.17027189026666 and parameters: {'seed': 154, 'N': 3, 'n_neurons_1': 180, 'n_neurons_2': 127, 'n_neurons_3': 124, 'n_neurons_4': 77, 'Dropout': 0.06950797205895604, 'kernel_regularizer': 0.11673906570484768, 'learning_rate': 0.0009261222791411251, 'beta_1': 0.7834946225125906, 'min_delta': 14.471081488087506, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  107.17027189026666
+A : Best epoch:  39
+A : Best epoch:  31
+A : Best epoch:  26
+A : Best epoch:  39
+A : Best epoch:  31
+[I 2023-11-11 04:12:08,636] Trial 18 finished with value: 109.39856877763579 and parameters: {'seed': 114, 'N': 5, 'n_neurons_1': 166, 'n_neurons_2': 138, 'n_neurons_3': 109, 'n_neurons_4': 84, 'Dropout': 0.09660322775447897, 'kernel_regularizer': 0.08072831571706683, 'learning_rate': 0.0007514409435118337, 'beta_1': 0.8347028549559278, 'min_delta': 17.62774583434722, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  109.39856877763579
+[I 2023-11-11 04:12:25,386] Trial 19 finished with value: 106.1583893809943 and parameters: {'seed': 200, 'N': 1, 'n_neurons_1': 147, 'n_neurons_2': 146, 'n_neurons_3': 97, 'n_neurons_4': 81, 'Dropout': 0.1248977486132415, 'kernel_regularizer': 0.1141527444263604, 'learning_rate': 0.0010153372974066367, 'beta_1': 0.7730648073562854, 'min_delta': 15.803128074895536, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  30
+A : MAE:  106.1583893809943
+A : Best epoch:  17
+A : Best epoch:  37
+A : Best epoch:  21
+A : Best epoch:  17
+A : Best epoch:  40
+A : Best epoch:  14
+[I 2023-11-11 04:13:34,125] Trial 20 finished with value: 109.53327971359985 and parameters: {'seed': 133, 'N': 6, 'n_neurons_1': 158, 'n_neurons_2': 129, 'n_neurons_3': 108, 'n_neurons_4': 60, 'Dropout': 0.07679064928833246, 'kernel_regularizer': 0.07628751703658385, 'learning_rate': 0.0008129825143486358, 'beta_1': 0.804734804864781, 'min_delta': 12.099248203370479, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  109.53327971359985
+A : Best epoch:  38
+A : Best epoch:  40
+A : Best epoch:  28
+A : Best epoch:  28
+[I 2023-11-11 04:14:58,452] Trial 21 finished with value: 98.95061042081178 and parameters: {'seed': 169, 'N': 4, 'n_neurons_1': 174, 'n_neurons_2': 149, 'n_neurons_3': 102, 'n_neurons_4': 69, 'Dropout': 0.13386949481349902, 'kernel_regularizer': 0.15235780122434558, 'learning_rate': 0.00111155212339737, 'beta_1': 0.7684910494577689, 'min_delta': 11.955279745107743, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  98.95061042081178
+A : Best epoch:  30
+A : Best epoch:  21
+A : Best epoch:  41
+A : Best epoch:  41
+[I 2023-11-11 04:16:14,588] Trial 22 finished with value: 104.66894738031773 and parameters: {'seed': 162, 'N': 4, 'n_neurons_1': 175, 'n_neurons_2': 148, 'n_neurons_3': 102, 'n_neurons_4': 69, 'Dropout': 0.11121267870651667, 'kernel_regularizer': 0.13929262488137142, 'learning_rate': 0.0008950668660857867, 'beta_1': 0.7702211654146961, 'min_delta': 14.058896461235888, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.66894738031773
+A : Best epoch:  23
+A : Best epoch:  17
+A : Best epoch:  17
+A : Best epoch:  38
+[I 2023-11-11 04:17:30,384] Trial 23 finished with value: 107.91213795408844 and parameters: {'seed': 165, 'N': 4, 'n_neurons_1': 174, 'n_neurons_2': 148, 'n_neurons_3': 101, 'n_neurons_4': 68, 'Dropout': 0.1356064584735943, 'kernel_regularizer': 0.14918109189370155, 'learning_rate': 0.0010019948896143182, 'beta_1': 0.7627420937578566, 'min_delta': 13.23650134676471, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  107.91213795408844
+[I 2023-11-11 04:18:38,623] Trial 24 finished with value: 103.46606800436756 and parameters: {'seed': 174, 'N': 3, 'n_neurons_1': 176, 'n_neurons_2': 159, 'n_neurons_3': 97, 'n_neurons_4': 69, 'Dropout': 0.11387902743564314, 'kernel_regularizer': 0.12819394772465725, 'learning_rate': 0.0010577247269567373, 'beta_1': 0.7680155020521328, 'min_delta': 14.567120298361406, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  43
+A : Best epoch:  43
+A : Best epoch:  30
+A : MAE:  103.46606800436756
+[I 2023-11-11 04:19:21,727] Trial 25 finished with value: 107.02345025261496 and parameters: {'seed': 174, 'N': 2, 'n_neurons_1': 179, 'n_neurons_2': 160, 'n_neurons_3': 97, 'n_neurons_4': 75, 'Dropout': 0.11952526784360033, 'kernel_regularizer': 0.12682604537165937, 'learning_rate': 0.001059202173289443, 'beta_1': 0.7929555482579268, 'min_delta': 11.344434696721247, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  30
+A : Best epoch:  31
+A : MAE:  107.02345025261496
+A : Best epoch:  31
+A : Best epoch:  26
+A : Best epoch:  8
+[I 2023-11-11 04:20:08,777] Trial 26 finished with value: 108.68742094525672 and parameters: {'seed': 185, 'N': 3, 'n_neurons_1': 177, 'n_neurons_2': 156, 'n_neurons_3': 91, 'n_neurons_4': 66, 'Dropout': 0.10267172442844762, 'kernel_regularizer': 0.15513692867156248, 'learning_rate': 0.0010582634501167293, 'beta_1': 0.751529405660311, 'min_delta': 14.972074428253103, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  108.68742094525672
+[I 2023-11-11 04:20:43,708] Trial 27 finished with value: 111.86894577529213 and parameters: {'seed': 200, 'N': 2, 'n_neurons_1': 163, 'n_neurons_2': 156, 'n_neurons_3': 97, 'n_neurons_4': 78, 'Dropout': 0.1349642360048138, 'kernel_regularizer': 0.11521966059280828, 'learning_rate': 0.0011478817858973222, 'beta_1': 0.7675147081546978, 'min_delta': 13.163633186839796, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  30
+A : Best epoch:  30
+A : MAE:  111.86894577529213
+[I 2023-11-11 04:21:15,859] Trial 28 finished with value: 107.74362715473706 and parameters: {'seed': 170, 'N': 1, 'n_neurons_1': 170, 'n_neurons_2': 152, 'n_neurons_3': 94, 'n_neurons_4': 71, 'Dropout': 0.11485787384557064, 'kernel_regularizer': 0.09960881307592094, 'learning_rate': 0.0011934020563805936, 'beta_1': 0.7695490372837319, 'min_delta': 10.391866159559516, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  30
+A : MAE:  107.74362715473706
+[I 2023-11-11 04:21:48,589] Trial 29 finished with value: 111.08031122417455 and parameters: {'seed': 131, 'N': 3, 'n_neurons_1': 156, 'n_neurons_2': 157, 'n_neurons_3': 116, 'n_neurons_4': 63, 'Dropout': 0.14704097498259916, 'kernel_regularizer': 0.1534744523921645, 'learning_rate': 0.001094412091733291, 'beta_1': 0.7921817780614598, 'min_delta': 13.06548570767575, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  19
+A : Best epoch:  20
+A : Best epoch:  34
+A : MAE:  111.08031122417455
+A : Best epoch:  20
+A : Best epoch:  20
+A : Best epoch:  19
+A : Best epoch:  26
+[I 2023-11-11 04:24:09,715] Trial 30 finished with value: 110.24162932338096 and parameters: {'seed': 147, 'N': 4, 'n_neurons_1': 150, 'n_neurons_2': 143, 'n_neurons_3': 106, 'n_neurons_4': 65, 'Dropout': 0.1226072984205935, 'kernel_regularizer': 0.18525243516340822, 'learning_rate': 0.0009887243989542488, 'beta_1': 0.8134628843251853, 'min_delta': 14.369330608279506, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  110.24162932338096
+A : Best epoch:  25
+A : Best epoch:  25
+A : Best epoch:  39
+A : Best epoch:  41
+[I 2023-11-11 04:25:31,186] Trial 31 finished with value: 102.13500484225564 and parameters: {'seed': 162, 'N': 4, 'n_neurons_1': 175, 'n_neurons_2': 148, 'n_neurons_3': 100, 'n_neurons_4': 68, 'Dropout': 0.11385756415863865, 'kernel_regularizer': 0.136725280422699, 'learning_rate': 0.000960365105626978, 'beta_1': 0.7668950509016338, 'min_delta': 14.047683743634584, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.13500484225564
+A : Best epoch:  45
+A : Best epoch:  19
+A : Best epoch:  25
+A : Best epoch:  45
+A : Best epoch:  34
+[I 2023-11-11 04:27:17,404] Trial 32 finished with value: 104.03564093684642 and parameters: {'seed': 180, 'N': 5, 'n_neurons_1': 176, 'n_neurons_2': 149, 'n_neurons_3': 94, 'n_neurons_4': 67, 'Dropout': 0.09923600469125582, 'kernel_regularizer': 0.13248973543766485, 'learning_rate': 0.0009656880994305968, 'beta_1': 0.7627931859050571, 'min_delta': 14.06630106690034, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.03564093684642
+[I 2023-11-11 04:28:13,390] Trial 33 finished with value: 105.71049372637734 and parameters: {'seed': 147, 'N': 3, 'n_neurons_1': 177, 'n_neurons_2': 145, 'n_neurons_3': 99, 'n_neurons_4': 70, 'Dropout': 0.11091730239364038, 'kernel_regularizer': 0.16259013089843918, 'learning_rate': 0.0010346878786841687, 'beta_1': 0.777613387048422, 'min_delta': 13.49594276998943, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  38
+A : Best epoch:  16
+A : Best epoch:  37
+A : MAE:  105.71049372637734
+A : Best epoch:  12
+A : Best epoch:  27
+A : Best epoch:  23
+A : Best epoch:  23
+[I 2023-11-11 04:30:15,682] Trial 34 finished with value: 107.30910135965009 and parameters: {'seed': 171, 'N': 4, 'n_neurons_1': 172, 'n_neurons_2': 153, 'n_neurons_3': 91, 'n_neurons_4': 73, 'Dropout': 0.0934554381023967, 'kernel_regularizer': 0.14235493312363354, 'learning_rate': 0.0009994192614047204, 'beta_1': 0.7503943972882349, 'min_delta': 15.057161638443167, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  107.30910135965009
+[I 2023-11-11 04:31:05,573] Trial 35 finished with value: 109.7641809831552 and parameters: {'seed': 193, 'N': 3, 'n_neurons_1': 167, 'n_neurons_2': 137, 'n_neurons_3': 104, 'n_neurons_4': 63, 'Dropout': 0.08639297575750442, 'kernel_regularizer': 0.12407426610469384, 'learning_rate': 0.0009568008402250679, 'beta_1': 0.7693575672189513, 'min_delta': 12.586798074566268, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  23
+A : Best epoch:  29
+A : Best epoch:  26
+A : MAE:  109.7641809831552
+A : Best epoch:  17
+A : Best epoch:  29
+A : Best epoch:  29
+A : Best epoch:  19
+A : Best epoch:  24
+[I 2023-11-11 04:32:30,693] Trial 36 finished with value: 106.86637943479299 and parameters: {'seed': 158, 'N': 5, 'n_neurons_1': 142, 'n_neurons_2': 150, 'n_neurons_3': 98, 'n_neurons_4': 60, 'Dropout': 0.12637875033781365, 'kernel_regularizer': 0.14945575097227182, 'learning_rate': 0.0009775156087433008, 'beta_1': 0.7619055634442676, 'min_delta': 16.31393557584713, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.86637943479299
+A : Best epoch:  22
+A : Best epoch:  20
+A : Best epoch:  22
+A : Best epoch:  22
+[I 2023-11-11 04:34:17,770] Trial 37 finished with value: 105.42078263083671 and parameters: {'seed': 166, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 142, 'n_neurons_3': 113, 'n_neurons_4': 76, 'Dropout': 0.1048773331947905, 'kernel_regularizer': 0.14002733059227102, 'learning_rate': 0.0009402470011505413, 'beta_1': 0.7860404881998496, 'min_delta': 14.55722336170279, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.42078263083671
+[I 2023-11-11 04:34:47,276] Trial 38 finished with value: 111.67590417449594 and parameters: {'seed': 181, 'N': 2, 'n_neurons_1': 168, 'n_neurons_2': 132, 'n_neurons_3': 95, 'n_neurons_4': 67, 'Dropout': 0.11559641379798762, 'kernel_regularizer': 0.18384737804965226, 'learning_rate': 0.001043429408034492, 'beta_1': 0.7777965418962802, 'min_delta': 12.429857953758155, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  22
+A : Best epoch:  27
+A : MAE:  111.67590417449594
+A : Best epoch:  30
+A : Best epoch:  23
+A : Best epoch:  19
+A : Best epoch:  23
+A : Best epoch:  41
+[I 2023-11-11 04:36:01,762] Trial 39 finished with value: 110.30407495664214 and parameters: {'seed': 117, 'N': 5, 'n_neurons_1': 144, 'n_neurons_2': 154, 'n_neurons_3': 120, 'n_neurons_4': 65, 'Dropout': 0.09589545932165383, 'kernel_regularizer': 0.15978626667498075, 'learning_rate': 0.0010837454311050502, 'beta_1': 0.759894993570389, 'min_delta': 13.552631134079538, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  110.30407495664214
+[I 2023-11-11 04:36:13,100] Trial 40 finished with value: 114.61322536977615 and parameters: {'seed': 158, 'N': 1, 'n_neurons_1': 173, 'n_neurons_2': 157, 'n_neurons_3': 125, 'n_neurons_4': 73, 'Dropout': 0.08084900158455449, 'kernel_regularizer': 0.16562867868137082, 'learning_rate': 0.0011136723203871467, 'beta_1': 0.8485067655131034, 'min_delta': 11.40095452299654, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  18
+A : MAE:  114.61322536977615
+A : Best epoch:  30
+A : Best epoch:  14
+A : Best epoch:  43
+A : Best epoch:  23
+A : Best epoch:  22
+[I 2023-11-11 04:37:44,215] Trial 41 finished with value: 105.37456821266738 and parameters: {'seed': 181, 'N': 5, 'n_neurons_1': 176, 'n_neurons_2': 149, 'n_neurons_3': 93, 'n_neurons_4': 68, 'Dropout': 0.10012807356087215, 'kernel_regularizer': 0.13482950047706013, 'learning_rate': 0.0009699199942642485, 'beta_1': 0.7612448155522511, 'min_delta': 13.791320562742499, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.37456821266738
+A : Best epoch:  26
+A : Best epoch:  27
+A : Best epoch:  31
+A : Best epoch:  31
+A : Best epoch:  24
+[I 2023-11-11 04:39:11,169] Trial 42 finished with value: 105.69832031255224 and parameters: {'seed': 176, 'N': 5, 'n_neurons_1': 176, 'n_neurons_2': 148, 'n_neurons_3': 93, 'n_neurons_4': 67, 'Dropout': 0.11100539874404187, 'kernel_regularizer': 0.12380495385534862, 'learning_rate': 0.0009998870245067836, 'beta_1': 0.7558156904192563, 'min_delta': 14.044351639857139, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.69832031255224
+A : Best epoch:  36
+A : Best epoch:  17
+A : Best epoch:  26
+A : Best epoch:  29
+A : Best epoch:  34
+[I 2023-11-11 04:40:57,866] Trial 43 finished with value: 113.2422882120184 and parameters: {'seed': 191, 'N': 5, 'n_neurons_1': 178, 'n_neurons_2': 146, 'n_neurons_3': 90, 'n_neurons_4': 70, 'Dropout': 0.09195403304335426, 'kernel_regularizer': 0.14450784409785317, 'learning_rate': 0.0009627165293512269, 'beta_1': 0.7737686315023429, 'min_delta': 14.787769042282815, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  113.2422882120184
+A : Best epoch:  31
+A : Best epoch:  49
+A : Best epoch:  32
+A : Best epoch:  32
+[I 2023-11-11 04:42:17,366] Trial 44 finished with value: 110.20655367611354 and parameters: {'seed': 171, 'N': 4, 'n_neurons_1': 170, 'n_neurons_2': 142, 'n_neurons_3': 107, 'n_neurons_4': 90, 'Dropout': 0.09743790856038685, 'kernel_regularizer': 0.13700933697855638, 'learning_rate': 0.001018792686905099, 'beta_1': 0.7663703565564237, 'min_delta': 12.721522042431594, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  110.20655367611354
+A : Best epoch:  10
+A : Best epoch:  14
+A : Best epoch:  29
+A : Best epoch:  37
+A : Best epoch:  29
+A : Best epoch:  26
+[I 2023-11-11 04:43:54,119] Trial 45 finished with value: 108.93152599421583 and parameters: {'seed': 181, 'N': 6, 'n_neurons_1': 174, 'n_neurons_2': 152, 'n_neurons_3': 103, 'n_neurons_4': 64, 'Dropout': 0.10462587781496464, 'kernel_regularizer': 0.10739927352652595, 'learning_rate': 0.0010737435396783457, 'beta_1': 0.750315638434204, 'min_delta': 15.694958596851912, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  108.93152599421583
+[I 2023-11-11 04:44:51,638] Trial 46 finished with value: 106.11962408032244 and parameters: {'seed': 162, 'N': 3, 'n_neurons_1': 180, 'n_neurons_2': 137, 'n_neurons_3': 95, 'n_neurons_4': 87, 'Dropout': 0.11785805127184833, 'kernel_regularizer': 0.13058477454730533, 'learning_rate': 0.0010495083809452625, 'beta_1': 0.7752742643137341, 'min_delta': 13.826000186199572, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  28
+A : Best epoch:  39
+A : Best epoch:  30
+A : MAE:  106.11962408032244
+A : Best epoch:  24
+A : Best epoch:  25
+A : Best epoch:  22
+A : Best epoch:  32
+[I 2023-11-11 04:45:39,293] Trial 47 finished with value: 114.61773450476268 and parameters: {'seed': 177, 'N': 4, 'n_neurons_1': 155, 'n_neurons_2': 159, 'n_neurons_3': 100, 'n_neurons_4': 68, 'Dropout': 0.08578832429109536, 'kernel_regularizer': 0.17307285745870213, 'learning_rate': 0.0009827395082089303, 'beta_1': 0.7588748322517216, 'min_delta': 16.808890013514343, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  114.61773450476268
+A : Best epoch:  31
+A : Best epoch:  31
+A : Best epoch:  13
+A : Best epoch:  17
+A : Best epoch:  34
+A : Best epoch:  31
+[I 2023-11-11 04:47:06,711] Trial 48 finished with value: 114.3272955215709 and parameters: {'seed': 185, 'N': 6, 'n_neurons_1': 152, 'n_neurons_2': 139, 'n_neurons_3': 96, 'n_neurons_4': 62, 'Dropout': 0.1259216329897636, 'kernel_regularizer': 0.11956706449570481, 'learning_rate': 0.0009451514952653901, 'beta_1': 0.7829044698965948, 'min_delta': 12.010444343296355, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  114.3272955215709
+A : Best epoch:  44
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  33
+A : Best epoch:  44
+[I 2023-11-11 04:48:19,674] Trial 49 finished with value: 105.96657449143107 and parameters: {'seed': 167, 'N': 5, 'n_neurons_1': 169, 'n_neurons_2': 134, 'n_neurons_3': 119, 'n_neurons_4': 70, 'Dropout': 0.10103630101784852, 'kernel_regularizer': 0.13216755853785847, 'learning_rate': 0.0009131967918901834, 'beta_1': 0.7640136662031071, 'min_delta': 10.645399322860357, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.96657449143107
+[I 2023-11-11 04:48:49,432] Trial 50 finished with value: 110.35615110999328 and parameters: {'seed': 155, 'N': 1, 'n_neurons_1': 172, 'n_neurons_2': 141, 'n_neurons_3': 99, 'n_neurons_4': 72, 'Dropout': 0.10839834706411446, 'kernel_regularizer': 0.11017143843370415, 'learning_rate': 0.001036795957452042, 'beta_1': 0.7570857364934567, 'min_delta': 15.320945374085861, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  25
+A : MAE:  110.35615110999328
+A : Best epoch:  33
+A : Best epoch:  19
+A : Best epoch:  31
+A : Best epoch:  33
+[I 2023-11-11 04:49:59,162] Trial 51 finished with value: 109.96137953375504 and parameters: {'seed': 164, 'N': 4, 'n_neurons_1': 175, 'n_neurons_2': 148, 'n_neurons_3': 103, 'n_neurons_4': 69, 'Dropout': 0.11275661086952074, 'kernel_regularizer': 0.14226745833206633, 'learning_rate': 0.0008949194917733183, 'beta_1': 0.7710335851267259, 'min_delta': 14.177178498023242, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  109.96137953375504
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  24
+A : Best epoch:  24
+[I 2023-11-11 04:51:07,548] Trial 52 finished with value: 110.43043093115456 and parameters: {'seed': 150, 'N': 4, 'n_neurons_1': 178, 'n_neurons_2': 146, 'n_neurons_3': 102, 'n_neurons_4': 67, 'Dropout': 0.10829562314643579, 'kernel_regularizer': 0.12139507962450077, 'learning_rate': 0.0009165560861973312, 'beta_1': 0.7663174170936323, 'min_delta': 14.259496235052307, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  110.43043093115456
+A : Best epoch:  36
+A : Best epoch:  43
+A : Best epoch:  28
+A : Best epoch:  27
+[I 2023-11-11 04:52:30,037] Trial 53 finished with value: 102.47141512142083 and parameters: {'seed': 174, 'N': 4, 'n_neurons_1': 174, 'n_neurons_2': 150, 'n_neurons_3': 101, 'n_neurons_4': 69, 'Dropout': 0.09144907068467481, 'kernel_regularizer': 0.10569377733312088, 'learning_rate': 0.0009548155682012294, 'beta_1': 0.7738626660056303, 'min_delta': 12.929679230221765, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.47141512142083
+[I 2023-11-11 04:53:56,006] Trial 54 finished with value: 104.82774931009743 and parameters: {'seed': 175, 'N': 3, 'n_neurons_1': 172, 'n_neurons_2': 150, 'n_neurons_3': 130, 'n_neurons_4': 83, 'Dropout': 0.07740406377486911, 'kernel_regularizer': 0.09479410144788555, 'learning_rate': 0.0009487084763560116, 'beta_1': 0.7812479393021061, 'min_delta': 12.969076485030769, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  28
+A : Best epoch:  33
+A : Best epoch:  48
+A : MAE:  104.82774931009743
+A : Best epoch:  30
+A : Best epoch:  26
+A : Best epoch:  40
+A : Best epoch:  18
+[I 2023-11-11 04:55:11,308] Trial 55 finished with value: 106.26740802367475 and parameters: {'seed': 109, 'N': 4, 'n_neurons_1': 174, 'n_neurons_2': 151, 'n_neurons_3': 100, 'n_neurons_4': 65, 'Dropout': 0.09039247842363113, 'kernel_regularizer': 0.1046821068807989, 'learning_rate': 0.0009586437826890611, 'beta_1': 0.7869588760022854, 'min_delta': 11.928634396920769, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.26740802367475
+[I 2023-11-11 04:55:42,028] Trial 56 finished with value: 113.22968965475785 and parameters: {'seed': 172, 'N': 2, 'n_neurons_1': 176, 'n_neurons_2': 155, 'n_neurons_3': 114, 'n_neurons_4': 71, 'Dropout': 0.08335669414428815, 'kernel_regularizer': 0.11037908736120679, 'learning_rate': 0.0010168393858504723, 'beta_1': 0.7764488261244343, 'min_delta': 13.45238052384611, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  26
+A : Best epoch:  23
+A : MAE:  113.22968965475785
+A : Best epoch:  45
+A : Best epoch:  40
+A : Best epoch:  62
+A : Best epoch:  22
+[I 2023-11-11 04:56:38,965] Trial 57 finished with value: 105.76404657586848 and parameters: {'seed': 190, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 144, 'n_neurons_3': 110, 'n_neurons_4': 74, 'Dropout': 0.09472196631751516, 'kernel_regularizer': 0.12647135083869962, 'learning_rate': 0.000994330455101013, 'beta_1': 0.765799856434413, 'min_delta': 14.705713404597955, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.76404657586848
+A : Best epoch:  22
+A : Best epoch:  22
+A : Best epoch:  37
+A : Best epoch:  34
+A : Best epoch:  30
+[I 2023-11-11 04:58:12,316] Trial 58 finished with value: 104.32882598294151 and parameters: {'seed': 136, 'N': 5, 'n_neurons_1': 179, 'n_neurons_2': 154, 'n_neurons_3': 106, 'n_neurons_4': 79, 'Dropout': 0.10084092591523476, 'kernel_regularizer': 0.11518588610450829, 'learning_rate': 0.000934022338122216, 'beta_1': 0.7559720799157038, 'min_delta': 12.64587365000391, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.32882598294151
+[I 2023-11-11 04:59:08,428] Trial 59 finished with value: 102.03128278002337 and parameters: {'seed': 168, 'N': 3, 'n_neurons_1': 171, 'n_neurons_2': 145, 'n_neurons_3': 93, 'n_neurons_4': 69, 'Dropout': 0.07176522479858916, 'kernel_regularizer': 0.09229704242866071, 'learning_rate': 0.000976051194016241, 'beta_1': 0.773586872051401, 'min_delta': 15.479817880923147, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  36
+A : Best epoch:  29
+A : Best epoch:  35
+A : MAE:  102.03128278002337
+[I 2023-11-11 04:59:45,178] Trial 60 finished with value: 103.30216336465057 and parameters: {'seed': 169, 'N': 3, 'n_neurons_1': 168, 'n_neurons_2': 145, 'n_neurons_3': 92, 'n_neurons_4': 69, 'Dropout': 0.0676469481904466, 'kernel_regularizer': 0.093261789356802, 'learning_rate': 0.0009786733214816048, 'beta_1': 0.7979011631926327, 'min_delta': 15.92066481383942, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  28
+A : Best epoch:  28
+A : Best epoch:  46
+A : MAE:  103.30216336465057
+[I 2023-11-11 05:00:25,529] Trial 61 finished with value: 104.25072065347443 and parameters: {'seed': 168, 'N': 3, 'n_neurons_1': 171, 'n_neurons_2': 146, 'n_neurons_3': 93, 'n_neurons_4': 69, 'Dropout': 0.06226115078473102, 'kernel_regularizer': 0.09294820347036235, 'learning_rate': 0.0009776361320610924, 'beta_1': 0.7892434969535823, 'min_delta': 15.926094814452735, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  36
+A : Best epoch:  37
+A : Best epoch:  37
+A : MAE:  104.25072065347443
+[I 2023-11-11 05:01:04,828] Trial 62 finished with value: 104.43054406024198 and parameters: {'seed': 160, 'N': 3, 'n_neurons_1': 168, 'n_neurons_2': 144, 'n_neurons_3': 92, 'n_neurons_4': 71, 'Dropout': 0.07104493994518847, 'kernel_regularizer': 0.08749238525924327, 'learning_rate': 0.0010252667202497198, 'beta_1': 0.7798241446016955, 'min_delta': 17.025575114834574, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  50
+A : Best epoch:  41
+A : Best epoch:  46
+A : MAE:  104.43054406024198
+[I 2023-11-11 05:01:45,918] Trial 63 finished with value: 106.12395029154213 and parameters: {'seed': 168, 'N': 3, 'n_neurons_1': 173, 'n_neurons_2': 147, 'n_neurons_3': 98, 'n_neurons_4': 66, 'Dropout': 0.06682371942285482, 'kernel_regularizer': 0.10741060520052119, 'learning_rate': 0.001011579751773617, 'beta_1': 0.7973325830654274, 'min_delta': 15.20323876256648, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  35
+A : Best epoch:  37
+A : Best epoch:  37
+A : MAE:  106.12395029154213
+[I 2023-11-11 05:02:07,150] Trial 64 finished with value: 108.25975269013111 and parameters: {'seed': 173, 'N': 2, 'n_neurons_1': 170, 'n_neurons_2': 141, 'n_neurons_3': 97, 'n_neurons_4': 73, 'Dropout': 0.07985592864845134, 'kernel_regularizer': 0.10055437700759907, 'learning_rate': 0.0009807266286057169, 'beta_1': 0.7731340348620597, 'min_delta': 16.127150418235086, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  15
+A : Best epoch:  31
+A : MAE:  108.25975269013111
+[I 2023-11-11 05:02:43,831] Trial 65 finished with value: 107.44235633516999 and parameters: {'seed': 163, 'N': 3, 'n_neurons_1': 161, 'n_neurons_2': 145, 'n_neurons_3': 90, 'n_neurons_4': 68, 'Dropout': 0.0750957426162627, 'kernel_regularizer': 0.08611067135060724, 'learning_rate': 0.0010079936878510211, 'beta_1': 0.7981852779872222, 'min_delta': 15.323020687876513, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  36
+A : Best epoch:  33
+A : Best epoch:  31
+A : MAE:  107.44235633516999
+[I 2023-11-11 05:03:35,131] Trial 66 finished with value: 112.14684038006392 and parameters: {'seed': 178, 'N': 3, 'n_neurons_1': 166, 'n_neurons_2': 143, 'n_neurons_3': 95, 'n_neurons_4': 70, 'Dropout': 0.061054772922695885, 'kernel_regularizer': 0.09606778650178362, 'learning_rate': 0.0010536540916758215, 'beta_1': 0.7825027242345037, 'min_delta': 14.819321770825907, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  42
+A : Best epoch:  32
+A : Best epoch:  32
+A : MAE:  112.14684038006392
+A : Best epoch:  44
+A : Best epoch:  39
+A : Best epoch:  31
+A : Best epoch:  46
+[I 2023-11-11 05:04:34,522] Trial 67 finished with value: 104.64315768466479 and parameters: {'seed': 185, 'N': 4, 'n_neurons_1': 175, 'n_neurons_2': 139, 'n_neurons_3': 101, 'n_neurons_4': 66, 'Dropout': 0.09056841665110583, 'kernel_regularizer': 0.1176954589947797, 'learning_rate': 0.000992428648699492, 'beta_1': 0.7714554817384244, 'min_delta': 13.305847208685293, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.64315768466479
+[I 2023-11-11 05:05:02,230] Trial 68 finished with value: 111.41691140301215 and parameters: {'seed': 156, 'N': 2, 'n_neurons_1': 157, 'n_neurons_2': 151, 'n_neurons_3': 96, 'n_neurons_4': 75, 'Dropout': 0.0826481668522258, 'kernel_regularizer': 0.07331694559808533, 'learning_rate': 0.0010272521410122275, 'beta_1': 0.7888306308308886, 'min_delta': 15.61197318999295, 'batch_size': 32}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  29
+A : Best epoch:  29
+A : MAE:  111.41691140301215
+A : Best epoch:  33
+A : Best epoch:  38
+A : Best epoch:  36
+A : Best epoch:  53
+[I 2023-11-11 05:07:12,675] Trial 69 finished with value: 101.98554727507916 and parameters: {'seed': 152, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 147, 'n_neurons_3': 105, 'n_neurons_4': 69, 'Dropout': 0.0750281923758555, 'kernel_regularizer': 0.10028975392817578, 'learning_rate': 0.0009649495960908612, 'beta_1': 0.7753800534354164, 'min_delta': 14.603361277196505, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.98554727507916
+A : Best epoch:  15
+A : Best epoch:  27
+A : Best epoch:  35
+A : Best epoch:  31
+[I 2023-11-11 05:09:05,729] Trial 70 finished with value: 101.64048276219457 and parameters: {'seed': 100, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 147, 'n_neurons_3': 105, 'n_neurons_4': 72, 'Dropout': 0.07211446662995423, 'kernel_regularizer': 0.1013459474875669, 'learning_rate': 0.0009274522983560657, 'beta_1': 0.777787193245565, 'min_delta': 13.744204766595441, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.64048276219457
+A : Best epoch:  18
+A : Best epoch:  24
+A : Best epoch:  26
+A : Best epoch:  46
+[I 2023-11-11 05:10:53,172] Trial 71 finished with value: 106.79489772620157 and parameters: {'seed': 109, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 147, 'n_neurons_3': 104, 'n_neurons_4': 72, 'Dropout': 0.07257588115316989, 'kernel_regularizer': 0.10338569468929194, 'learning_rate': 0.0009505455897490428, 'beta_1': 0.7789093667380933, 'min_delta': 13.606112817890885, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.79489772620157
+A : Best epoch:  21
+A : Best epoch:  22
+A : Best epoch:  33
+A : Best epoch:  44
+[I 2023-11-11 05:12:58,745] Trial 72 finished with value: 108.89141366645138 and parameters: {'seed': 151, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 149, 'n_neurons_3': 108, 'n_neurons_4': 70, 'Dropout': 0.07660287852337587, 'kernel_regularizer': 0.08067800490113473, 'learning_rate': 0.0009262889828026676, 'beta_1': 0.7749652633897299, 'min_delta': 13.015725847497626, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  108.89141366645138
+A : Best epoch:  22
+A : Best epoch:  28
+A : Best epoch:  15
+A : Best epoch:  29
+[I 2023-11-11 05:14:36,097] Trial 73 finished with value: 106.92675309698623 and parameters: {'seed': 103, 'N': 4, 'n_neurons_1': 159, 'n_neurons_2': 147, 'n_neurons_3': 105, 'n_neurons_4': 71, 'Dropout': 0.08657549678639298, 'kernel_regularizer': 0.09546969979140396, 'learning_rate': 0.000966863193698648, 'beta_1': 0.7822393290383439, 'min_delta': 14.45950844417761, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.92675309698623
+A : Best epoch:  23
+A : Best epoch:  63
+A : Best epoch:  45
+A : Best epoch:  23
+[I 2023-11-11 05:16:50,266] Trial 74 finished with value: 98.13207989754599 and parameters: {'seed': 143, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 145, 'n_neurons_3': 105, 'n_neurons_4': 68, 'Dropout': 0.06728302679444151, 'kernel_regularizer': 0.11199958182342487, 'learning_rate': 0.0009384772166867612, 'beta_1': 0.7707322715717256, 'min_delta': 13.707086739570304, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  98.13207989754599
+A : Best epoch:  28
+A : Best epoch:  28
+A : Best epoch:  28
+A : Best epoch:  41
+[I 2023-11-11 05:18:55,192] Trial 75 finished with value: 105.59366250850407 and parameters: {'seed': 127, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 150, 'n_neurons_3': 111, 'n_neurons_4': 68, 'Dropout': 0.05537581835930768, 'kernel_regularizer': 0.11300835889261505, 'learning_rate': 0.0009315763693625346, 'beta_1': 0.7699866677846732, 'min_delta': 13.861343690506015, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.59366250850407
+A : Best epoch:  10
+A : Best epoch:  16
+A : Best epoch:  29
+A : Best epoch:  10
+[I 2023-11-11 05:20:28,991] Trial 76 finished with value: 106.82426155286575 and parameters: {'seed': 144, 'N': 4, 'n_neurons_1': 167, 'n_neurons_2': 143, 'n_neurons_3': 106, 'n_neurons_4': 72, 'Dropout': 0.07453550719307059, 'kernel_regularizer': 0.10093685220945962, 'learning_rate': 0.0009422641850471242, 'beta_1': 0.7656470165599418, 'min_delta': 12.297012217049955, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.82426155286575
+A : Best epoch:  24
+A : Best epoch:  15
+A : Best epoch:  31
+A : Best epoch:  27
+[I 2023-11-11 05:22:26,321] Trial 77 finished with value: 104.30958319217496 and parameters: {'seed': 100, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 151, 'n_neurons_3': 108, 'n_neurons_4': 82, 'Dropout': 0.07965899941582424, 'kernel_regularizer': 0.11952055743204121, 'learning_rate': 0.0009137625329748635, 'beta_1': 0.7546043685586424, 'min_delta': 12.922391172602754, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.30958319217496
+A : Best epoch:  40
+A : Best epoch:  40
+A : Best epoch:  24
+A : Best epoch:  24
+[I 2023-11-11 05:24:32,205] Trial 78 finished with value: 100.86719074929917 and parameters: {'seed': 107, 'N': 4, 'n_neurons_1': 160, 'n_neurons_2': 149, 'n_neurons_3': 102, 'n_neurons_4': 76, 'Dropout': 0.07090690476194333, 'kernel_regularizer': 0.10923540523034608, 'learning_rate': 0.0009603524980954149, 'beta_1': 0.7605960187978948, 'min_delta': 13.37115898401999, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  100.86719074929917
+A : Best epoch:  32
+A : Best epoch:  32
+A : Best epoch:  30
+A : Best epoch:  30
+[I 2023-11-11 05:26:55,928] Trial 79 finished with value: 99.32108903336149 and parameters: {'seed': 117, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 153, 'n_neurons_3': 104, 'n_neurons_4': 87, 'Dropout': 0.0636875767954157, 'kernel_regularizer': 0.11426730145684649, 'learning_rate': 0.0008776456709061278, 'beta_1': 0.7623748569932216, 'min_delta': 14.267331871221065, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  99.32108903336149
+A : Best epoch:  32
+A : Best epoch:  39
+A : Best epoch:  33
+A : Best epoch:  28
+[I 2023-11-11 05:29:05,350] Trial 80 finished with value: 101.11229065617663 and parameters: {'seed': 119, 'N': 4, 'n_neurons_1': 160, 'n_neurons_2': 153, 'n_neurons_3': 104, 'n_neurons_4': 85, 'Dropout': 0.06198101988790983, 'kernel_regularizer': 0.1126796937914823, 'learning_rate': 0.0008734331075131584, 'beta_1': 0.7604456355456695, 'min_delta': 14.423611843446128, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.11229065617663
+A : Best epoch:  19
+A : Best epoch:  38
+A : Best epoch:  24
+A : Best epoch:  15
+[I 2023-11-11 05:31:01,332] Trial 81 finished with value: 103.44035219509804 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 160, 'n_neurons_2': 153, 'n_neurons_3': 104, 'n_neurons_4': 86, 'Dropout': 0.0667683063472326, 'kernel_regularizer': 0.10986205404421347, 'learning_rate': 0.000873800746239701, 'beta_1': 0.7606935926548458, 'min_delta': 14.469500575786036, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  103.44035219509804
+A : Best epoch:  34
+A : Best epoch:  21
+A : Best epoch:  22
+A : Best epoch:  25
+[I 2023-11-11 05:32:59,926] Trial 82 finished with value: 112.34482869901628 and parameters: {'seed': 118, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 153, 'n_neurons_3': 106, 'n_neurons_4': 87, 'Dropout': 0.06184237664443307, 'kernel_regularizer': 0.11362397223827363, 'learning_rate': 0.0008727653902549249, 'beta_1': 0.7592861768527511, 'min_delta': 13.563397127210678, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  112.34482869901628
+A : Best epoch:  34
+A : Best epoch:  19
+A : Best epoch:  17
+A : Best epoch:  32
+[I 2023-11-11 05:34:54,982] Trial 83 finished with value: 106.41987730598224 and parameters: {'seed': 105, 'N': 4, 'n_neurons_1': 155, 'n_neurons_2': 155, 'n_neurons_3': 102, 'n_neurons_4': 85, 'Dropout': 0.06994550420708814, 'kernel_regularizer': 0.10233225571240875, 'learning_rate': 0.0009027701455158591, 'beta_1': 0.7536865425170021, 'min_delta': 14.840809191308654, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.41987730598224
+A : Best epoch:  27
+A : Best epoch:  34
+A : Best epoch:  20
+A : Best epoch:  25
+[I 2023-11-11 05:36:37,967] Trial 84 finished with value: 102.21724808625075 and parameters: {'seed': 122, 'N': 4, 'n_neurons_1': 158, 'n_neurons_2': 152, 'n_neurons_3': 105, 'n_neurons_4': 88, 'Dropout': 0.05634592149149459, 'kernel_regularizer': 0.08970283783762315, 'learning_rate': 0.0009391410504795735, 'beta_1': 0.7645813330551092, 'min_delta': 13.857870339953008, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.21724808625075
+A : Best epoch:  30
+A : Best epoch:  28
+A : Best epoch:  30
+A : Best epoch:  32
+[I 2023-11-11 05:38:56,464] Trial 85 finished with value: 103.01081289682645 and parameters: {'seed': 110, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 149, 'n_neurons_3': 109, 'n_neurons_4': 76, 'Dropout': 0.06506359615739676, 'kernel_regularizer': 0.12304119198735035, 'learning_rate': 0.0009262944751009714, 'beta_1': 0.7624057473497892, 'min_delta': 14.149878782951273, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  103.01081289682645
+A : Best epoch:  28
+A : Best epoch:  37
+A : Best epoch:  26
+A : Best epoch:  37
+A : Best epoch:  46
+[I 2023-11-11 05:41:55,020] Trial 86 finished with value: 104.29998922180425 and parameters: {'seed': 118, 'N': 5, 'n_neurons_1': 160, 'n_neurons_2': 147, 'n_neurons_3': 107, 'n_neurons_4': 80, 'Dropout': 0.07231627951300316, 'kernel_regularizer': 0.11701715605934557, 'learning_rate': 0.0008427753352275368, 'beta_1': 0.7693644291935142, 'min_delta': 13.304775008456227, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.29998922180425
+A : Best epoch:  38
+A : Best epoch:  30
+A : Best epoch:  34
+A : Best epoch:  30
+[I 2023-11-11 05:43:56,263] Trial 87 finished with value: 98.55683916179939 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 145, 'n_neurons_3': 103, 'n_neurons_4': 84, 'Dropout': 0.06369405124586525, 'kernel_regularizer': 0.1275561033740899, 'learning_rate': 0.0009680171058743796, 'beta_1': 0.7534420102850422, 'min_delta': 15.082212384247589, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  98.55683916179939
+A : Best epoch:  29
+A : Best epoch:  44
+A : Best epoch:  20
+A : Best epoch:  31
+[I 2023-11-11 05:45:57,279] Trial 88 finished with value: 99.85162428523492 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 121, 'n_neurons_3': 103, 'n_neurons_4': 84, 'Dropout': 0.05036284252250413, 'kernel_regularizer': 0.1268937727635195, 'learning_rate': 0.000901440758180765, 'beta_1': 0.7536416788518449, 'min_delta': 14.972303327816201, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  99.85162428523492
+A : Best epoch:  34
+A : Best epoch:  36
+A : Best epoch:  15
+A : Best epoch:  34
+[I 2023-11-11 05:47:50,261] Trial 89 finished with value: 103.76294884460644 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 152, 'n_neurons_3': 102, 'n_neurons_4': 83, 'Dropout': 0.051375305024695714, 'kernel_regularizer': 0.12263541029329515, 'learning_rate': 0.0008875957790126808, 'beta_1': 0.7540389584857221, 'min_delta': 15.005123405258585, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  103.76294884460644
+A : Best epoch:  35
+A : Best epoch:  21
+A : Best epoch:  24
+A : Best epoch:  35
+A : Best epoch:  35
+[I 2023-11-11 05:50:21,067] Trial 90 finished with value: 105.04883149104539 and parameters: {'seed': 107, 'N': 5, 'n_neurons_1': 157, 'n_neurons_2': 122, 'n_neurons_3': 103, 'n_neurons_4': 84, 'Dropout': 0.05904797403284813, 'kernel_regularizer': 0.1284324067043407, 'learning_rate': 0.0009043908162445594, 'beta_1': 0.7581214004951854, 'min_delta': 15.044481430555093, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.04883149104539
+A : Best epoch:  22
+A : Best epoch:  23
+A : Best epoch:  31
+A : Best epoch:  36
+[I 2023-11-11 05:52:02,356] Trial 91 finished with value: 109.10309333282194 and parameters: {'seed': 116, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 126, 'n_neurons_3': 104, 'n_neurons_4': 85, 'Dropout': 0.054961183226556534, 'kernel_regularizer': 0.13319708821258391, 'learning_rate': 0.0009229412070610435, 'beta_1': 0.7508596126109658, 'min_delta': 14.180692307872297, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  109.10309333282194
+A : Best epoch:  27
+A : Best epoch:  29
+A : Best epoch:  28
+A : Best epoch:  19
+[I 2023-11-11 05:53:49,313] Trial 92 finished with value: 107.74668456369828 and parameters: {'seed': 121, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 124, 'n_neurons_3': 103, 'n_neurons_4': 85, 'Dropout': 0.0645221858669519, 'kernel_regularizer': 0.1095091850277851, 'learning_rate': 0.0009391517376623266, 'beta_1': 0.7590679214948036, 'min_delta': 14.475261919912962, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  107.74668456369828
+A : Best epoch:  20
+A : Best epoch:  25
+A : Best epoch:  30
+A : Best epoch:  25
+[I 2023-11-11 05:55:43,996] Trial 93 finished with value: 109.63464736576779 and parameters: {'seed': 127, 'N': 4, 'n_neurons_1': 159, 'n_neurons_2': 131, 'n_neurons_3': 105, 'n_neurons_4': 82, 'Dropout': 0.05924232569996882, 'kernel_regularizer': 0.1264569157115446, 'learning_rate': 0.0009542060813770237, 'beta_1': 0.7545883473355695, 'min_delta': 13.657068921632073, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  109.63464736576779
+A : Best epoch:  16
+A : Best epoch:  22
+A : Best epoch:  33
+A : Best epoch:  16
+[I 2023-11-11 05:57:21,854] Trial 94 finished with value: 106.02741838694148 and parameters: {'seed': 103, 'N': 4, 'n_neurons_1': 147, 'n_neurons_2': 120, 'n_neurons_3': 101, 'n_neurons_4': 89, 'Dropout': 0.0510333481055639, 'kernel_regularizer': 0.11328407671296399, 'learning_rate': 0.0009658301824301104, 'beta_1': 0.7625059943948761, 'min_delta': 14.673486683164706, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.02741838694148
+A : Best epoch:  15
+A : Best epoch:  32
+A : Best epoch:  28
+A : Best epoch:  15
+[I 2023-11-11 05:59:22,227] Trial 95 finished with value: 101.6188454977602 and parameters: {'seed': 126, 'N': 4, 'n_neurons_1': 153, 'n_neurons_2': 157, 'n_neurons_3': 107, 'n_neurons_4': 86, 'Dropout': 0.06885369884665996, 'kernel_regularizer': 0.09823780689869721, 'learning_rate': 0.0009090604356312039, 'beta_1': 0.7677454317699809, 'min_delta': 15.42854908119618, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.6188454977602
+A : Best epoch:  29
+A : Best epoch:  19
+A : Best epoch:  25
+A : Best epoch:  19
+[I 2023-11-11 06:01:10,850] Trial 96 finished with value: 109.63234050593731 and parameters: {'seed': 111, 'N': 4, 'n_neurons_1': 153, 'n_neurons_2': 158, 'n_neurons_3': 107, 'n_neurons_4': 86, 'Dropout': 0.05765733769872419, 'kernel_regularizer': 0.106023572174575, 'learning_rate': 0.0008784873471058303, 'beta_1': 0.7503420052006963, 'min_delta': 15.611787336339658, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  109.63234050593731
+A : Best epoch:  32
+A : Best epoch:  32
+A : Best epoch:  32
+A : Best epoch:  40
+[I 2023-11-11 06:03:16,891] Trial 97 finished with value: 102.38310890319352 and parameters: {'seed': 120, 'N': 4, 'n_neurons_1': 151, 'n_neurons_2': 129, 'n_neurons_3': 124, 'n_neurons_4': 84, 'Dropout': 0.06347839356280667, 'kernel_regularizer': 0.11923703457167285, 'learning_rate': 0.0009018064456962072, 'beta_1': 0.7676858666855126, 'min_delta': 15.367450930027186, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.38310890319352
+A : Best epoch:  48
+A : Best epoch:  28
+A : Best epoch:  12
+A : Best epoch:  17
+A : Best epoch:  27
+[I 2023-11-11 06:05:56,028] Trial 98 finished with value: 105.63767337561599 and parameters: {'seed': 126, 'N': 5, 'n_neurons_1': 154, 'n_neurons_2': 156, 'n_neurons_3': 99, 'n_neurons_4': 87, 'Dropout': 0.054737802942262326, 'kernel_regularizer': 0.14517041217313356, 'learning_rate': 0.000917124018956468, 'beta_1': 0.7573685766257319, 'min_delta': 13.833802366333114, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.63767337561599
+A : Best epoch:  34
+A : Best epoch:  31
+A : Best epoch:  18
+A : Best epoch:  31
+[I 2023-11-11 06:08:13,164] Trial 99 finished with value: 102.32725399738328 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 149, 'n_neurons_2': 154, 'n_neurons_3': 107, 'n_neurons_4': 83, 'Dropout': 0.06789561376130858, 'kernel_regularizer': 0.12830878414656519, 'learning_rate': 0.0008583832593664383, 'beta_1': 0.7637295694119216, 'min_delta': 13.3691460164751, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.32725399738328
+A : Best epoch:  16
+A : Best epoch:  16
+A : Best epoch:  16
+A : Best epoch:  26
+[I 2023-11-11 06:10:04,113] Trial 100 finished with value: 104.16793834597415 and parameters: {'seed': 131, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 136, 'n_neurons_3': 102, 'n_neurons_4': 88, 'Dropout': 0.06015462169190769, 'kernel_regularizer': 0.13788786012492985, 'learning_rate': 0.0008907020271321337, 'beta_1': 0.7609711110926042, 'min_delta': 12.53620024231575, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.16793834597415
+A : Best epoch:  24
+A : Best epoch:  24
+A : Best epoch:  39
+A : Best epoch:  24
+[I 2023-11-11 06:12:16,412] Trial 101 finished with value: 101.45926815460561 and parameters: {'seed': 107, 'N': 4, 'n_neurons_1': 166, 'n_neurons_2': 157, 'n_neurons_3': 104, 'n_neurons_4': 86, 'Dropout': 0.06478729823770119, 'kernel_regularizer': 0.09992096401437812, 'learning_rate': 0.0009050049914831564, 'beta_1': 0.7685589698135693, 'min_delta': 14.310573305683095, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.45926815460561
+A : Best epoch:  18
+A : Best epoch:  34
+A : Best epoch:  25
+A : Best epoch:  25
+[I 2023-11-11 06:14:18,693] Trial 102 finished with value: 105.6212725835135 and parameters: {'seed': 124, 'N': 4, 'n_neurons_1': 166, 'n_neurons_2': 160, 'n_neurons_3': 104, 'n_neurons_4': 86, 'Dropout': 0.0648871906913769, 'kernel_regularizer': 0.09737821135464778, 'learning_rate': 0.0009073489208430193, 'beta_1': 0.767686699426737, 'min_delta': 14.121840308251324, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.6212725835135
+A : Best epoch:  27
+A : Best epoch:  17
+A : Best epoch:  35
+A : Best epoch:  27
+[I 2023-11-11 06:16:36,085] Trial 103 finished with value: 103.79362310625947 and parameters: {'seed': 107, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 157, 'n_neurons_3': 108, 'n_neurons_4': 85, 'Dropout': 0.06882003798253084, 'kernel_regularizer': 0.1053323339052764, 'learning_rate': 0.0008975540843866374, 'beta_1': 0.7708597308688161, 'min_delta': 15.122197698063102, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  103.79362310625947
+A : Best epoch:  11
+A : Best epoch:  18
+A : Best epoch:  18
+A : Best epoch:  37
+[I 2023-11-11 06:18:22,933] Trial 104 finished with value: 106.94829960485573 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 148, 'n_neurons_2': 158, 'n_neurons_3': 110, 'n_neurons_4': 81, 'Dropout': 0.06251037646228057, 'kernel_regularizer': 0.11234549987707844, 'learning_rate': 0.0008829944087141398, 'beta_1': 0.7578983703524412, 'min_delta': 14.303683864229146, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.94829960485573
+A : Best epoch:  27
+A : Best epoch:  27
+A : Best epoch:  40
+A : Best epoch:  40
+[I 2023-11-11 06:20:48,167] Trial 105 finished with value: 102.13868714682879 and parameters: {'seed': 107, 'N': 4, 'n_neurons_1': 159, 'n_neurons_2': 155, 'n_neurons_3': 106, 'n_neurons_4': 88, 'Dropout': 0.058712963544817726, 'kernel_regularizer': 0.09880409581861035, 'learning_rate': 0.0009102520647417222, 'beta_1': 0.7526079000720511, 'min_delta': 13.186918296769173, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.13868714682879
+A : Best epoch:  23
+A : Best epoch:  34
+A : Best epoch:  34
+A : Best epoch:  39
+[I 2023-11-11 06:23:10,789] Trial 106 finished with value: 100.43790785898415 and parameters: {'seed': 102, 'N': 4, 'n_neurons_1': 157, 'n_neurons_2': 159, 'n_neurons_3': 101, 'n_neurons_4': 82, 'Dropout': 0.05206061180470049, 'kernel_regularizer': 0.11860537956640264, 'learning_rate': 0.0009222581215769514, 'beta_1': 0.7641356189241749, 'min_delta': 14.75522023565034, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  100.43790785898415
+A : Best epoch:  17
+A : Best epoch:  16
+A : Best epoch:  16
+A : Best epoch:  16
+[I 2023-11-11 06:25:09,847] Trial 107 finished with value: 108.1031422828355 and parameters: {'seed': 103, 'N': 4, 'n_neurons_1': 156, 'n_neurons_2': 159, 'n_neurons_3': 103, 'n_neurons_4': 82, 'Dropout': 0.05017944401716025, 'kernel_regularizer': 0.11646801670104541, 'learning_rate': 0.0008896536574847993, 'beta_1': 0.7552217692378286, 'min_delta': 14.928715579523985, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  108.1031422828355
+A : Best epoch:  34
+A : Best epoch:  40
+A : Best epoch:  31
+A : Best epoch:  45
+A : Best epoch:  29
+[I 2023-11-11 06:27:52,521] Trial 108 finished with value: 98.84285536513342 and parameters: {'seed': 115, 'N': 5, 'n_neurons_1': 158, 'n_neurons_2': 158, 'n_neurons_3': 101, 'n_neurons_4': 80, 'Dropout': 0.05343855806150021, 'kernel_regularizer': 0.13276339580162677, 'learning_rate': 0.0009348559079656979, 'beta_1': 0.76424797608827, 'min_delta': 15.76593179344134, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  98.84285536513342
+A : Best epoch:  33
+A : Best epoch:  27
+A : Best epoch:  34
+A : Best epoch:  45
+A : Best epoch:  18
+A : Best epoch:  23
+[I 2023-11-11 06:31:04,032] Trial 109 finished with value: 102.62721855839936 and parameters: {'seed': 115, 'N': 6, 'n_neurons_1': 158, 'n_neurons_2': 158, 'n_neurons_3': 99, 'n_neurons_4': 78, 'Dropout': 0.05364639363434314, 'kernel_regularizer': 0.1341819419871058, 'learning_rate': 0.0009330295879861726, 'beta_1': 0.7646652786943547, 'min_delta': 16.17477803840716, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.62721855839936
+A : Best epoch:  39
+A : Best epoch:  24
+A : Best epoch:  34
+A : Best epoch:  32
+A : Best epoch:  28
+[I 2023-11-11 06:33:34,178] Trial 110 finished with value: 105.25418945614177 and parameters: {'seed': 119, 'N': 5, 'n_neurons_1': 160, 'n_neurons_2': 159, 'n_neurons_3': 101, 'n_neurons_4': 80, 'Dropout': 0.05359696317612405, 'kernel_regularizer': 0.12450682123476398, 'learning_rate': 0.0009455283096532855, 'beta_1': 0.7610164464860328, 'min_delta': 15.764251162513307, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.25418945614177
+A : Best epoch:  28
+A : Best epoch:  31
+A : Best epoch:  27
+A : Best epoch:  49
+A : Best epoch:  35
+[I 2023-11-11 06:36:13,481] Trial 111 finished with value: 105.16097668480228 and parameters: {'seed': 124, 'N': 5, 'n_neurons_1': 152, 'n_neurons_2': 156, 'n_neurons_3': 102, 'n_neurons_4': 84, 'Dropout': 0.058369437974416835, 'kernel_regularizer': 0.12053703578758596, 'learning_rate': 0.0009173077222624479, 'beta_1': 0.7681106540223156, 'min_delta': 14.758014475797392, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.16097668480228
+A : Best epoch:  25
+A : Best epoch:  31
+A : Best epoch:  29
+A : Best epoch:  25
+[I 2023-11-11 06:37:57,487] Trial 112 finished with value: 103.797893325513 and parameters: {'seed': 138, 'N': 4, 'n_neurons_1': 154, 'n_neurons_2': 157, 'n_neurons_3': 103, 'n_neurons_4': 83, 'Dropout': 0.05254546567018489, 'kernel_regularizer': 0.11784703062860948, 'learning_rate': 0.0009202233742257992, 'beta_1': 0.7645670782189266, 'min_delta': 15.335385525876198, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  103.797893325513
+A : Best epoch:  14
+A : Best epoch:  31
+A : Best epoch:  33
+A : Best epoch:  29
+[I 2023-11-11 06:39:36,272] Trial 113 finished with value: 111.53481343096576 and parameters: {'seed': 105, 'N': 4, 'n_neurons_1': 157, 'n_neurons_2': 160, 'n_neurons_3': 100, 'n_neurons_4': 84, 'Dropout': 0.05720014125288395, 'kernel_regularizer': 0.1300587165633367, 'learning_rate': 0.0008973484669715149, 'beta_1': 0.7570383660701729, 'min_delta': 16.417903279130616, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  111.53481343096576
+A : Best epoch:  23
+A : Best epoch:  34
+A : Best epoch:  27
+A : Best epoch:  27
+[I 2023-11-11 06:41:36,638] Trial 114 finished with value: 104.00948164304144 and parameters: {'seed': 109, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 155, 'n_neurons_3': 128, 'n_neurons_4': 79, 'Dropout': 0.06085275933257029, 'kernel_regularizer': 0.10807558564982839, 'learning_rate': 0.0009085947872016355, 'beta_1': 0.7718867964773076, 'min_delta': 14.386771963790636, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.00948164304144
+A : Best epoch:  29
+A : Best epoch:  21
+A : Best epoch:  29
+A : Best epoch:  46
+A : Best epoch:  30
+[I 2023-11-11 06:44:26,866] Trial 115 finished with value: 104.49917174490503 and parameters: {'seed': 114, 'N': 5, 'n_neurons_1': 158, 'n_neurons_2': 154, 'n_neurons_3': 104, 'n_neurons_4': 81, 'Dropout': 0.06488261640247041, 'kernel_regularizer': 0.12374032463220784, 'learning_rate': 0.0009545973642120808, 'beta_1': 0.7531091351724062, 'min_delta': 15.18136696609302, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.49917174490503
+A : Best epoch:  31
+A : Best epoch:  10
+A : Best epoch:  6
+A : Best epoch:  10
+[I 2023-11-11 06:46:05,747] Trial 116 finished with value: 108.16991335048846 and parameters: {'seed': 116, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 158, 'n_neurons_3': 101, 'n_neurons_4': 86, 'Dropout': 0.06884322769953469, 'kernel_regularizer': 0.11145692564500068, 'learning_rate': 0.0009330869480547396, 'beta_1': 0.760972040382565, 'min_delta': 15.604455720378972, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  108.16991335048846
+[I 2023-11-11 06:46:32,653] Trial 117 finished with value: 107.02114466094675 and parameters: {'seed': 129, 'N': 1, 'n_neurons_1': 156, 'n_neurons_2': 153, 'n_neurons_3': 98, 'n_neurons_4': 77, 'Dropout': 0.05633456991019274, 'kernel_regularizer': 0.13561304181723205, 'learning_rate': 0.0009453651950148814, 'beta_1': 0.7659165072271228, 'min_delta': 14.63250374847655, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  31
+A : MAE:  107.02114466094675
+A : Best epoch:  8
+A : Best epoch:  24
+A : Best epoch:  31
+A : Best epoch:  18
+[I 2023-11-11 06:48:24,503] Trial 118 finished with value: 105.49647262585815 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 151, 'n_neurons_2': 156, 'n_neurons_3': 100, 'n_neurons_4': 82, 'Dropout': 0.06306693396444842, 'kernel_regularizer': 0.11476375566959832, 'learning_rate': 0.0009857438470446725, 'beta_1': 0.7563438503886785, 'min_delta': 13.923476950976248, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.49647262585815
+A : Best epoch:  25
+A : Best epoch:  43
+A : Best epoch:  38
+[I 2023-11-11 06:50:04,181] Trial 119 finished with value: 104.13406032692104 and parameters: {'seed': 108, 'N': 3, 'n_neurons_1': 160, 'n_neurons_2': 157, 'n_neurons_3': 117, 'n_neurons_4': 85, 'Dropout': 0.05362163973606467, 'kernel_regularizer': 0.13056314932592336, 'learning_rate': 0.0008667679562645692, 'beta_1': 0.76901831609595, 'min_delta': 15.00381177410114, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.13406032692104
+A : Best epoch:  38
+A : Best epoch:  16
+A : Best epoch:  25
+A : Best epoch:  31
+A : Best epoch:  19
+[I 2023-11-11 06:52:28,376] Trial 120 finished with value: 104.5730522777768 and parameters: {'seed': 111, 'N': 5, 'n_neurons_1': 159, 'n_neurons_2': 159, 'n_neurons_3': 104, 'n_neurons_4': 79, 'Dropout': 0.05051878092540451, 'kernel_regularizer': 0.12024553318226797, 'learning_rate': 0.0008849715058191789, 'beta_1': 0.7627280432152692, 'min_delta': 16.021111317573695, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.5730522777768
+A : Best epoch:  37
+A : Best epoch:  18
+A : Best epoch:  32
+A : Best epoch:  31
+[I 2023-11-11 06:54:29,739] Trial 121 finished with value: 100.82117983476132 and parameters: {'seed': 102, 'N': 4, 'n_neurons_1': 166, 'n_neurons_2': 148, 'n_neurons_3': 105, 'n_neurons_4': 87, 'Dropout': 0.07121356950295606, 'kernel_regularizer': 0.10405332694547802, 'learning_rate': 0.0009362353326008311, 'beta_1': 0.7720565906665409, 'min_delta': 13.697326826506803, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  100.82117983476132
+A : Best epoch:  37
+A : Best epoch:  27
+A : Best epoch:  34
+A : Best epoch:  34
+[I 2023-11-11 06:56:54,335] Trial 122 finished with value: 99.22708656003722 and parameters: {'seed': 102, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 149, 'n_neurons_3': 102, 'n_neurons_4': 87, 'Dropout': 0.06670655582436841, 'kernel_regularizer': 0.10911179324254752, 'learning_rate': 0.0009219178254542422, 'beta_1': 0.7724710724191306, 'min_delta': 14.10232011067293, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  99.22708656003722
+A : Best epoch:  15
+A : Best epoch:  28
+A : Best epoch:  22
+A : Best epoch:  22
+[I 2023-11-11 06:58:49,370] Trial 123 finished with value: 108.33597121113044 and parameters: {'seed': 103, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 149, 'n_neurons_3': 102, 'n_neurons_4': 89, 'Dropout': 0.061157564550781925, 'kernel_regularizer': 0.10765785309242493, 'learning_rate': 0.0009230192862560672, 'beta_1': 0.775689403104322, 'min_delta': 13.529518560217678, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  108.33597121113044
+A : Best epoch:  36
+A : Best epoch:  37
+A : Best epoch:  29
+A : Best epoch:  17
+[I 2023-11-11 07:00:50,486] Trial 124 finished with value: 101.77013146638815 and parameters: {'seed': 106, 'N': 4, 'n_neurons_1': 167, 'n_neurons_2': 150, 'n_neurons_3': 101, 'n_neurons_4': 87, 'Dropout': 0.0649971497611679, 'kernel_regularizer': 0.12623746961990592, 'learning_rate': 0.0009350094583181443, 'beta_1': 0.7726303796763425, 'min_delta': 13.96034434539738, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.77013146638815
+A : Best epoch:  34
+A : Best epoch:  37
+A : Best epoch:  37
+A : Best epoch:  27
+[I 2023-11-11 07:03:11,869] Trial 125 finished with value: 101.33135708115438 and parameters: {'seed': 102, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 151, 'n_neurons_3': 103, 'n_neurons_4': 90, 'Dropout': 0.07150896859772203, 'kernel_regularizer': 0.10425862349128961, 'learning_rate': 0.0009500010884370844, 'beta_1': 0.8252621015399371, 'min_delta': 12.783726933815693, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.33135708115438
+A : Best epoch:  18
+A : Best epoch:  27
+A : Best epoch:  19
+A : Best epoch:  27
+[I 2023-11-11 07:04:46,577] Trial 126 finished with value: 107.4429998425852 and parameters: {'seed': 102, 'N': 4, 'n_neurons_1': 145, 'n_neurons_2': 148, 'n_neurons_3': 100, 'n_neurons_4': 88, 'Dropout': 0.07831231386347097, 'kernel_regularizer': 0.11184680997684512, 'learning_rate': 0.0009592709053258589, 'beta_1': 0.8302203893127217, 'min_delta': 12.803295580466143, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  107.4429998425852
+A : Best epoch:  36
+A : Best epoch:  26
+A : Best epoch:  24
+A : Best epoch:  18
+[I 2023-11-11 07:07:01,997] Trial 127 finished with value: 103.22132760342117 and parameters: {'seed': 101, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 151, 'n_neurons_3': 103, 'n_neurons_4': 89, 'Dropout': 0.0719726388297535, 'kernel_regularizer': 0.10492509127899692, 'learning_rate': 0.0009730945996909647, 'beta_1': 0.8201015198793731, 'min_delta': 12.339642416207194, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  103.22132760342117
+A : Best epoch:  34
+A : Best epoch:  32
+A : Best epoch:  32
+A : Best epoch:  29
+[I 2023-11-11 07:09:16,230] Trial 128 finished with value: 104.41497098208697 and parameters: {'seed': 105, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 146, 'n_neurons_3': 102, 'n_neurons_4': 90, 'Dropout': 0.08102726270070738, 'kernel_regularizer': 0.11574141889555545, 'learning_rate': 0.0009452683737850958, 'beta_1': 0.7598956995680963, 'min_delta': 13.13627158328613, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.41497098208697
+A : Best epoch:  26
+A : Best epoch:  26
+A : Best epoch:  28
+A : Best epoch:  26
+[I 2023-11-11 07:11:28,032] Trial 129 finished with value: 104.74335071023246 and parameters: {'seed': 101, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 150, 'n_neurons_3': 105, 'n_neurons_4': 90, 'Dropout': 0.07361662180142498, 'kernel_regularizer': 0.12030608727516993, 'learning_rate': 0.0009716904263352132, 'beta_1': 0.7798862984692767, 'min_delta': 11.784197624247234, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.74335071023246
+[I 2023-11-11 07:12:07,500] Trial 130 finished with value: 106.8143743418729 and parameters: {'seed': 104, 'N': 3, 'n_neurons_1': 161, 'n_neurons_2': 148, 'n_neurons_3': 103, 'n_neurons_4': 80, 'Dropout': 0.07556029419662096, 'kernel_regularizer': 0.13978235989216348, 'learning_rate': 0.0009915301497261666, 'beta_1': 0.8254602687444603, 'min_delta': 12.791917273413722, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  23
+A : Best epoch:  24
+A : Best epoch:  23
+A : MAE:  106.8143743418729
+A : Best epoch:  31
+A : Best epoch:  32
+A : Best epoch:  24
+A : Best epoch:  24
+[I 2023-11-11 07:13:52,345] Trial 131 finished with value: 105.40876606279812 and parameters: {'seed': 108, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 152, 'n_neurons_3': 104, 'n_neurons_4': 87, 'Dropout': 0.0686814271197848, 'kernel_regularizer': 0.10347146223894785, 'learning_rate': 0.0009521324405691082, 'beta_1': 0.7769574957666029, 'min_delta': 14.316443895435649, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.40876606279812
+A : Best epoch:  20
+A : Best epoch:  26
+A : Best epoch:  38
+A : Best epoch:  31
+[I 2023-11-11 07:16:10,828] Trial 132 finished with value: 99.93350954818476 and parameters: {'seed': 100, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 149, 'n_neurons_3': 102, 'n_neurons_4': 84, 'Dropout': 0.056330037285457935, 'kernel_regularizer': 0.10855112950216879, 'learning_rate': 0.0009308240899819572, 'beta_1': 0.7638386175331103, 'min_delta': 13.519216161268936, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  99.93350954818476
+A : Best epoch:  26
+A : Best epoch:  40
+A : Best epoch:  42
+A : Best epoch:  31
+[I 2023-11-11 07:18:29,414] Trial 133 finished with value: 101.50642186618494 and parameters: {'seed': 100, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 149, 'n_neurons_3': 99, 'n_neurons_4': 84, 'Dropout': 0.05716157403976485, 'kernel_regularizer': 0.11061258814318944, 'learning_rate': 0.0009387159392192946, 'beta_1': 0.7586455861473695, 'min_delta': 13.505752894356487, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.50642186618494
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  23
+A : Best epoch:  33
+[I 2023-11-11 07:20:37,752] Trial 134 finished with value: 103.37986915739452 and parameters: {'seed': 117, 'N': 4, 'n_neurons_1': 160, 'n_neurons_2': 151, 'n_neurons_3': 101, 'n_neurons_4': 83, 'Dropout': 0.06099878068029588, 'kernel_regularizer': 0.11503212738166556, 'learning_rate': 0.0009292060106115804, 'beta_1': 0.752796675139835, 'min_delta': 13.06924063689246, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  103.37986915739452
+A : Best epoch:  12
+A : Best epoch:  27
+A : Best epoch:  41
+A : Best epoch:  33
+[I 2023-11-11 07:23:03,048] Trial 135 finished with value: 97.13573335547984 and parameters: {'seed': 104, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 149, 'n_neurons_3': 102, 'n_neurons_4': 81, 'Dropout': 0.05359461549412352, 'kernel_regularizer': 0.10914950817118285, 'learning_rate': 0.0009637623998267131, 'beta_1': 0.7644928933459398, 'min_delta': 13.333324680093236, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  97.13573335547984
+A : Best epoch:  28
+A : Best epoch:  30
+A : Best epoch:  36
+A : Best epoch:  30
+[I 2023-11-11 07:25:31,615] Trial 136 finished with value: 98.6342909631186 and parameters: {'seed': 110, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 144, 'n_neurons_3': 102, 'n_neurons_4': 82, 'Dropout': 0.055566851718591215, 'kernel_regularizer': 0.12405702642585882, 'learning_rate': 0.0010027362508781207, 'beta_1': 0.7636347879048775, 'min_delta': 13.807602658627028, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  98.6342909631186
+A : Best epoch:  37
+A : Best epoch:  12
+A : Best epoch:  20
+A : Best epoch:  37
+[I 2023-11-11 07:27:31,592] Trial 137 finished with value: 101.91073197084164 and parameters: {'seed': 110, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 144, 'n_neurons_3': 102, 'n_neurons_4': 81, 'Dropout': 0.0540726734052131, 'kernel_regularizer': 0.12656603932464122, 'learning_rate': 0.001005552320533, 'beta_1': 0.7630651109299544, 'min_delta': 13.396219593387002, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.91073197084164
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  38
+A : Best epoch:  34
+[I 2023-11-11 07:29:35,434] Trial 138 finished with value: 107.31926087985981 and parameters: {'seed': 105, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 146, 'n_neurons_3': 100, 'n_neurons_4': 82, 'Dropout': 0.050531252993233564, 'kernel_regularizer': 0.13203887524512833, 'learning_rate': 0.0009981330347826327, 'beta_1': 0.7723073530298508, 'min_delta': 13.851525690018535, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  107.31926087985981
+A : Best epoch:  38
+A : Best epoch:  38
+A : Best epoch:  41
+A : Best epoch:  40
+[I 2023-11-11 07:30:27,840] Trial 139 finished with value: 107.66933046518427 and parameters: {'seed': 147, 'N': 4, 'n_neurons_1': 158, 'n_neurons_2': 142, 'n_neurons_3': 121, 'n_neurons_4': 80, 'Dropout': 0.0567702016775914, 'kernel_regularizer': 0.12386310217675847, 'learning_rate': 0.0009641040051942664, 'beta_1': 0.7656017267543765, 'min_delta': 14.044841269548336, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  107.66933046518427
+A : Best epoch:  25
+A : Best epoch:  28
+A : Best epoch:  25
+A : Best epoch:  38
+A : Best epoch:  19
+A : Best epoch:  38
+[I 2023-11-11 07:33:34,709] Trial 140 finished with value: 102.36923054008432 and parameters: {'seed': 111, 'N': 6, 'n_neurons_1': 162, 'n_neurons_2': 148, 'n_neurons_3': 98, 'n_neurons_4': 83, 'Dropout': 0.05373087269832396, 'kernel_regularizer': 0.11848853246751559, 'learning_rate': 0.000987439957243417, 'beta_1': 0.7711351233900686, 'min_delta': 13.618287221365849, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.36923054008432
+A : Best epoch:  25
+A : Best epoch:  36
+A : Best epoch:  34
+A : Best epoch:  30
+[I 2023-11-11 07:35:40,870] Trial 141 finished with value: 101.36803290969418 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 159, 'n_neurons_2': 133, 'n_neurons_3': 102, 'n_neurons_4': 81, 'Dropout': 0.059158533066088134, 'kernel_regularizer': 0.1128668219693604, 'learning_rate': 0.0011011076951458355, 'beta_1': 0.756341845889446, 'min_delta': 14.710738960606056, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.36803290969418
+A : Best epoch:  50
+A : Best epoch:  30
+A : Best epoch:  20
+A : Best epoch:  44
+[I 2023-11-11 07:37:57,278] Trial 142 finished with value: 97.94620406928514 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 144, 'n_neurons_3': 101, 'n_neurons_4': 85, 'Dropout': 0.06654868087464183, 'kernel_regularizer': 0.10994970048574872, 'learning_rate': 0.0011368215984508198, 'beta_1': 0.7622958272892895, 'min_delta': 13.278686055379467, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  97.94620406928514
+A : Best epoch:  35
+A : Best epoch:  30
+A : Best epoch:  9
+A : Best epoch:  43
+[I 2023-11-11 07:40:10,178] Trial 143 finished with value: 102.83316976763045 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 145, 'n_neurons_3': 101, 'n_neurons_4': 84, 'Dropout': 0.0500096146629702, 'kernel_regularizer': 0.1082859347591684, 'learning_rate': 0.001155807732336716, 'beta_1': 0.7634629233378946, 'min_delta': 13.236385501755116, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.83316976763045
+A : Best epoch:  18
+A : Best epoch:  16
+A : Best epoch:  24
+A : Best epoch:  11
+[I 2023-11-11 07:41:51,126] Trial 144 finished with value: 109.86432613952196 and parameters: {'seed': 109, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 144, 'n_neurons_3': 99, 'n_neurons_4': 82, 'Dropout': 0.05500971762771491, 'kernel_regularizer': 0.1213104066229511, 'learning_rate': 0.0011292270217122822, 'beta_1': 0.7661427217993028, 'min_delta': 14.071735786848718, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  109.86432613952196
+A : Best epoch:  33
+A : Best epoch:  37
+A : Best epoch:  27
+A : Best epoch:  31
+[I 2023-11-11 07:44:02,490] Trial 145 finished with value: 102.72717621092696 and parameters: {'seed': 104, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 142, 'n_neurons_3': 105, 'n_neurons_4': 83, 'Dropout': 0.06658860267512418, 'kernel_regularizer': 0.14641121236061436, 'learning_rate': 0.0010390141923588584, 'beta_1': 0.7599006527093444, 'min_delta': 12.540640209328684, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.72717621092696
+A : Best epoch:  26
+A : Best epoch:  26
+A : Best epoch:  30
+A : Best epoch:  31
+[I 2023-11-11 07:46:07,261] Trial 146 finished with value: 101.81561646232221 and parameters: {'seed': 100, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 149, 'n_neurons_3': 102, 'n_neurons_4': 78, 'Dropout': 0.05778917275989841, 'kernel_regularizer': 0.11730316310391978, 'learning_rate': 0.0010731854989935012, 'beta_1': 0.7509824508231397, 'min_delta': 13.705134268199002, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.81561646232221
+A : Best epoch:  31
+A : Best epoch:  31
+A : Best epoch:  29
+A : Best epoch:  30
+[I 2023-11-11 07:48:11,781] Trial 147 finished with value: 106.1328947031364 and parameters: {'seed': 106, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 140, 'n_neurons_3': 100, 'n_neurons_4': 81, 'Dropout': 0.0634240013112462, 'kernel_regularizer': 0.1543342959428804, 'learning_rate': 0.001015101863581844, 'beta_1': 0.770241851301743, 'min_delta': 13.267281173024012, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.1328947031364
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  46
+[I 2023-11-11 07:50:27,918] Trial 148 finished with value: 103.96601705711319 and parameters: {'seed': 117, 'N': 4, 'n_neurons_1': 160, 'n_neurons_2': 145, 'n_neurons_3': 103, 'n_neurons_4': 85, 'Dropout': 0.05979132239814499, 'kernel_regularizer': 0.10839274817297864, 'learning_rate': 0.0009764317421775409, 'beta_1': 0.7739308450396298, 'min_delta': 12.98498456090644, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  103.96601705711319
+A : Best epoch:  40
+A : Best epoch:  33
+A : Best epoch:  45
+A : Best epoch:  19
+[I 2023-11-11 07:52:54,197] Trial 149 finished with value: 104.07411903175704 and parameters: {'seed': 111, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 147, 'n_neurons_3': 101, 'n_neurons_4': 87, 'Dropout': 0.06637930070136291, 'kernel_regularizer': 0.12794711884273308, 'learning_rate': 0.0009605303034937264, 'beta_1': 0.755336661191358, 'min_delta': 12.217208907390502, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.07411903175704
+A : Best epoch:  53
+A : Best epoch:  28
+A : Best epoch:  42
+A : Best epoch:  25
+A : Best epoch:  34
+[I 2023-11-11 07:54:01,438] Trial 150 finished with value: 115.423365817881 and parameters: {'seed': 121, 'N': 5, 'n_neurons_1': 162, 'n_neurons_2': 146, 'n_neurons_3': 103, 'n_neurons_4': 82, 'Dropout': 0.08464766799558379, 'kernel_regularizer': 0.14251221555229854, 'learning_rate': 0.0009231668757914756, 'beta_1': 0.7629380926808284, 'min_delta': 13.74427967786477, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  115.423365817881
+A : Best epoch:  32
+A : Best epoch:  32
+A : Best epoch:  32
+A : Best epoch:  32
+[I 2023-11-11 07:56:08,901] Trial 151 finished with value: 97.50522252968076 and parameters: {'seed': 120, 'N': 4, 'n_neurons_1': 159, 'n_neurons_2': 144, 'n_neurons_3': 106, 'n_neurons_4': 85, 'Dropout': 0.06266767970187698, 'kernel_regularizer': 0.11378638358865406, 'learning_rate': 0.0011516157498693445, 'beta_1': 0.75918430446364, 'min_delta': 14.459316890964118, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  97.50522252968076
+A : Best epoch:  27
+A : Best epoch:  10
+A : Best epoch:  18
+A : Best epoch:  27
+[I 2023-11-11 07:58:05,139] Trial 152 finished with value: 106.59577378849507 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 158, 'n_neurons_2': 141, 'n_neurons_3': 106, 'n_neurons_4': 85, 'Dropout': 0.06932787815245389, 'kernel_regularizer': 0.11554206120815858, 'learning_rate': 0.0011627368760865043, 'beta_1': 0.758099526290753, 'min_delta': 14.344367911930028, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.59577378849507
+A : Best epoch:  20
+A : Best epoch:  24
+A : Best epoch:  34
+A : Best epoch:  23
+[I 2023-11-11 07:59:58,063] Trial 153 finished with value: 101.93253134140869 and parameters: {'seed': 109, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 144, 'n_neurons_3': 105, 'n_neurons_4': 79, 'Dropout': 0.056353635664621905, 'kernel_regularizer': 0.1223708152428241, 'learning_rate': 0.0011423843708840806, 'beta_1': 0.7660074019423384, 'min_delta': 14.59520549340883, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.93253134140869
+A : Best epoch:  26
+A : Best epoch:  32
+A : Best epoch:  32
+A : Best epoch:  32
+[I 2023-11-11 08:02:27,216] Trial 154 finished with value: 102.27006963107713 and parameters: {'seed': 120, 'N': 4, 'n_neurons_1': 159, 'n_neurons_2': 144, 'n_neurons_3': 102, 'n_neurons_4': 84, 'Dropout': 0.060886522311527004, 'kernel_regularizer': 0.1096261220152127, 'learning_rate': 0.0011231901853701338, 'beta_1': 0.7617933424931431, 'min_delta': 14.103773175209897, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.27006963107713
+A : Best epoch:  17
+A : Best epoch:  23
+A : Best epoch:  28
+A : Best epoch:  47
+[I 2023-11-11 08:04:25,814] Trial 155 finished with value: 102.75785712785562 and parameters: {'seed': 103, 'N': 4, 'n_neurons_1': 160, 'n_neurons_2': 145, 'n_neurons_3': 101, 'n_neurons_4': 74, 'Dropout': 0.05347283214589497, 'kernel_regularizer': 0.10272961878469956, 'learning_rate': 0.0010278833279113485, 'beta_1': 0.7678158180847856, 'min_delta': 13.5361719153022, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.75785712785562
+A : Best epoch:  32
+A : Best epoch:  38
+A : Best epoch:  38
+A : Best epoch:  41
+[I 2023-11-11 08:06:47,431] Trial 156 finished with value: 97.70440820112894 and parameters: {'seed': 117, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 148, 'n_neurons_3': 104, 'n_neurons_4': 83, 'Dropout': 0.06332815095582987, 'kernel_regularizer': 0.11653447981967767, 'learning_rate': 0.0011724646032428665, 'beta_1': 0.7554067858465543, 'min_delta': 14.969107597854224, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  97.70440820112894
+A : Best epoch:  34
+A : Best epoch:  37
+A : Best epoch:  35
+A : Best epoch:  19
+[I 2023-11-11 08:08:55,500] Trial 157 finished with value: 104.51145455223899 and parameters: {'seed': 118, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 143, 'n_neurons_3': 106, 'n_neurons_4': 83, 'Dropout': 0.06322149376796421, 'kernel_regularizer': 0.13664433794374484, 'learning_rate': 0.0011793344708086956, 'beta_1': 0.7536495970817293, 'min_delta': 14.886250893393782, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.51145455223899
+A : Best epoch:  24
+A : Best epoch:  18
+A : Best epoch:  34
+A : Best epoch:  34
+[I 2023-11-11 08:10:47,966] Trial 158 finished with value: 98.25123149805053 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 148, 'n_neurons_3': 126, 'n_neurons_4': 84, 'Dropout': 0.06651734281145148, 'kernel_regularizer': 0.1242050740669871, 'learning_rate': 0.001143337191363619, 'beta_1': 0.7568001112496148, 'min_delta': 15.068867946452809, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  98.25123149805053
+[I 2023-11-11 08:11:09,697] Trial 159 finished with value: 109.01420860598999 and parameters: {'seed': 197, 'N': 1, 'n_neurons_1': 164, 'n_neurons_2': 146, 'n_neurons_3': 126, 'n_neurons_4': 84, 'Dropout': 0.05877884930852601, 'kernel_regularizer': 0.12562894472466074, 'learning_rate': 0.001114365012215333, 'beta_1': 0.7567852811912499, 'min_delta': 15.195380839293165, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  14
+A : MAE:  109.01420860598999
+A : Best epoch:  16
+A : Best epoch:  16
+A : Best epoch:  31
+A : Best epoch:  31
+[I 2023-11-11 08:13:17,830] Trial 160 finished with value: 103.50737367626061 and parameters: {'seed': 123, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 147, 'n_neurons_3': 130, 'n_neurons_4': 83, 'Dropout': 0.06640686745338703, 'kernel_regularizer': 0.13017664169639268, 'learning_rate': 0.0011320548713213833, 'beta_1': 0.7502724433242416, 'min_delta': 14.921960816466594, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  103.50737367626061
+A : Best epoch:  20
+A : Best epoch:  29
+A : Best epoch:  29
+A : Best epoch:  43
+[I 2023-11-11 08:15:41,051] Trial 161 finished with value: 104.00776363566953 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 166, 'n_neurons_2': 150, 'n_neurons_3': 122, 'n_neurons_4': 85, 'Dropout': 0.0627097630067651, 'kernel_regularizer': 0.11856063233358034, 'learning_rate': 0.0011428065169649963, 'beta_1': 0.7583803267569665, 'min_delta': 14.486274692342791, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.00776363566953
+A : Best epoch:  28
+A : Best epoch:  11
+A : Best epoch:  20
+A : Best epoch:  23
+[I 2023-11-11 08:17:26,193] Trial 162 finished with value: 106.04644088452967 and parameters: {'seed': 116, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 143, 'n_neurons_3': 104, 'n_neurons_4': 82, 'Dropout': 0.05602115492573804, 'kernel_regularizer': 0.12137397709670271, 'learning_rate': 0.001153200073704483, 'beta_1': 0.7546965243707217, 'min_delta': 14.623264677919602, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.04644088452967
+A : Best epoch:  8
+A : Best epoch:  18
+A : Best epoch:  8
+A : Best epoch:  13
+[I 2023-11-11 08:18:59,512] Trial 163 finished with value: 106.15396093681883 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 148, 'n_neurons_3': 112, 'n_neurons_4': 86, 'Dropout': 0.13127391861528792, 'kernel_regularizer': 0.1149479128901969, 'learning_rate': 0.0011071365458823485, 'beta_1': 0.7637223727214941, 'min_delta': 15.359928189177092, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.15396093681883
+A : Best epoch:  32
+A : Best epoch:  32
+A : Best epoch:  14
+A : Best epoch:  21
+[I 2023-11-11 08:21:15,524] Trial 164 finished with value: 102.33999509517311 and parameters: {'seed': 119, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 148, 'n_neurons_3': 103, 'n_neurons_4': 83, 'Dropout': 0.07679485307634723, 'kernel_regularizer': 0.1233880624327261, 'learning_rate': 0.0011701203914901341, 'beta_1': 0.7851229783842273, 'min_delta': 14.100266923584991, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  102.33999509517311
+A : Best epoch:  22
+A : Best epoch:  47
+A : Best epoch:  23
+A : Best epoch:  33
+[I 2023-11-11 08:23:18,627] Trial 165 finished with value: 99.70925071690851 and parameters: {'seed': 135, 'N': 4, 'n_neurons_1': 140, 'n_neurons_2': 149, 'n_neurons_3': 115, 'n_neurons_4': 84, 'Dropout': 0.052582209229961006, 'kernel_regularizer': 0.13286383614732022, 'learning_rate': 0.001139535549646647, 'beta_1': 0.7702936360558003, 'min_delta': 15.781777452529312, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  99.70925071690851
+A : Best epoch:  37
+A : Best epoch:  33
+A : Best epoch:  23
+A : Best epoch:  23
+[I 2023-11-11 08:25:33,336] Trial 166 finished with value: 101.7150124028202 and parameters: {'seed': 135, 'N': 4, 'n_neurons_1': 146, 'n_neurons_2': 150, 'n_neurons_3': 122, 'n_neurons_4': 84, 'Dropout': 0.05259642162513519, 'kernel_regularizer': 0.13300994492190232, 'learning_rate': 0.001178938800315708, 'beta_1': 0.7604297138314423, 'min_delta': 15.569116968190507, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.7150124028202
+A : Best epoch:  14
+A : Best epoch:  19
+A : Best epoch:  31
+A : Best epoch:  19
+[I 2023-11-11 08:27:10,361] Trial 167 finished with value: 109.63171404391382 and parameters: {'seed': 138, 'N': 4, 'n_neurons_1': 144, 'n_neurons_2': 149, 'n_neurons_3': 127, 'n_neurons_4': 81, 'Dropout': 0.05012659558717453, 'kernel_regularizer': 0.13702603550348533, 'learning_rate': 0.0011373528655028151, 'beta_1': 0.7691264013137639, 'min_delta': 15.688271470108933, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  109.63171404391382
+A : Best epoch:  33
+A : Best epoch:  33
+A : Best epoch:  40
+A : Best epoch:  15
+[I 2023-11-11 08:27:53,130] Trial 168 finished with value: 114.67894781352356 and parameters: {'seed': 144, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 122, 'n_neurons_3': 116, 'n_neurons_4': 84, 'Dropout': 0.055809138288869235, 'kernel_regularizer': 0.12836831422405826, 'learning_rate': 0.0011484235420670004, 'beta_1': 0.7652532636963838, 'min_delta': 14.992218747721767, 'batch_size': 64}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  114.67894781352356
+[I 2023-11-11 08:29:09,146] Trial 169 finished with value: 107.40817758949184 and parameters: {'seed': 116, 'N': 3, 'n_neurons_1': 157, 'n_neurons_2': 143, 'n_neurons_3': 119, 'n_neurons_4': 85, 'Dropout': 0.060751865952889554, 'kernel_regularizer': 0.14942825521501232, 'learning_rate': 0.0011216719722756203, 'beta_1': 0.7536621816006299, 'min_delta': 15.791242422947626, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  11
+A : Best epoch:  23
+A : Best epoch:  20
+A : MAE:  107.40817758949184
+A : Best epoch:  34
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  24
+[I 2023-11-11 08:31:08,500] Trial 170 finished with value: 97.37002245731249 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 147, 'n_neurons_3': 115, 'n_neurons_4': 61, 'Dropout': 0.053544426653295334, 'kernel_regularizer': 0.11770453935605875, 'learning_rate': 0.0011367678717650145, 'beta_1': 0.7571951222765515, 'min_delta': 15.167097299648473, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  97.37002245731249
+A : Best epoch:  30
+A : Best epoch:  53
+A : Best epoch:  25
+A : Best epoch:  34
+[I 2023-11-11 08:33:11,242] Trial 171 finished with value: 98.68874293194118 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 147, 'n_neurons_3': 114, 'n_neurons_4': 61, 'Dropout': 0.05279852791297139, 'kernel_regularizer': 0.11840459160068736, 'learning_rate': 0.0011307615132528789, 'beta_1': 0.7570133998239893, 'min_delta': 15.292713085037713, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  98.68874293194118
+A : Best epoch:  38
+A : Best epoch:  34
+A : Best epoch:  30
+A : Best epoch:  30
+[I 2023-11-11 08:35:31,030] Trial 172 finished with value: 97.87366920429837 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 140, 'n_neurons_2': 146, 'n_neurons_3': 114, 'n_neurons_4': 61, 'Dropout': 0.05873683092690599, 'kernel_regularizer': 0.11350668698832897, 'learning_rate': 0.0011382416823261497, 'beta_1': 0.7571033513611877, 'min_delta': 15.263876334723697, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  97.87366920429837
+A : Best epoch:  19
+A : Best epoch:  34
+A : Best epoch:  36
+A : Best epoch:  21
+[I 2023-11-11 08:37:15,636] Trial 173 finished with value: 104.32159796349706 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 140, 'n_neurons_2': 147, 'n_neurons_3': 113, 'n_neurons_4': 86, 'Dropout': 0.059291111093230035, 'kernel_regularizer': 0.12430061274598105, 'learning_rate': 0.001135344117998048, 'beta_1': 0.7526423388698924, 'min_delta': 16.391075226988736, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.32159796349706
+A : Best epoch:  45
+A : Best epoch:  42
+A : Best epoch:  33
+A : Best epoch:  31
+[I 2023-11-11 08:39:31,803] Trial 174 finished with value: 104.04098974799597 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 145, 'n_neurons_3': 114, 'n_neurons_4': 61, 'Dropout': 0.05365514630943436, 'kernel_regularizer': 0.11353438675340798, 'learning_rate': 0.0011296808655396845, 'beta_1': 0.7574384895871004, 'min_delta': 15.252112661458723, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.04098974799597
+A : Best epoch:  43
+A : Best epoch:  27
+A : Best epoch:  29
+A : Best epoch:  29
+[I 2023-11-11 08:41:21,398] Trial 175 finished with value: 101.86423035461279 and parameters: {'seed': 142, 'N': 4, 'n_neurons_1': 141, 'n_neurons_2': 146, 'n_neurons_3': 116, 'n_neurons_4': 61, 'Dropout': 0.06467252502405835, 'kernel_regularizer': 0.11837194503589699, 'learning_rate': 0.0011452111741038192, 'beta_1': 0.7506543813607591, 'min_delta': 16.075757901081616, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  101.86423035461279
+A : Best epoch:  31
+A : Best epoch:  11
+A : Best epoch:  33
+A : Best epoch:  36
+[I 2023-11-11 08:43:13,573] Trial 176 finished with value: 106.33354430456413 and parameters: {'seed': 118, 'N': 4, 'n_neurons_1': 140, 'n_neurons_2': 146, 'n_neurons_3': 115, 'n_neurons_4': 60, 'Dropout': 0.058184777857548824, 'kernel_regularizer': 0.13140612618095343, 'learning_rate': 0.0011597823597147522, 'beta_1': 0.7557527598944396, 'min_delta': 15.477761203765525, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.33354430456413
+A : Best epoch:  38
+A : Best epoch:  48
+A : Best epoch:  38
+A : Best epoch:  36
+[I 2023-11-11 08:45:27,202] Trial 177 finished with value: 97.19220984491821 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 145, 'n_neurons_3': 114, 'n_neurons_4': 63, 'Dropout': 0.08839071863183899, 'kernel_regularizer': 0.1400790708113107, 'learning_rate': 0.0011209344203108637, 'beta_1': 0.7595725288913727, 'min_delta': 15.149130037525993, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  97.19220984491821
+[I 2023-11-11 08:46:21,346] Trial 178 finished with value: 103.1640286717327 and parameters: {'seed': 113, 'N': 2, 'n_neurons_1': 140, 'n_neurons_2': 145, 'n_neurons_3': 115, 'n_neurons_4': 63, 'Dropout': 0.10306583921477075, 'kernel_regularizer': 0.14073924806528446, 'learning_rate': 0.001120572824896488, 'beta_1': 0.7603681452430577, 'min_delta': 15.881946948321819, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : Best epoch:  36
+A : Best epoch:  14
+A : MAE:  103.1640286717327
+A : Best epoch:  18
+A : Best epoch:  25
+A : Best epoch:  25
+A : Best epoch:  18
+[I 2023-11-11 08:47:49,176] Trial 179 finished with value: 113.44253003461684 and parameters: {'seed': 111, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 147, 'n_neurons_3': 114, 'n_neurons_4': 62, 'Dropout': 0.08850679901855626, 'kernel_regularizer': 0.13422205964577855, 'learning_rate': 0.0011501601491439892, 'beta_1': 0.7584901465535212, 'min_delta': 15.139210840620663, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  113.44253003461684
+A : Best epoch:  36
+A : Best epoch:  39
+A : Best epoch:  22
+A : Best epoch:  19
+[I 2023-11-11 08:49:42,897] Trial 180 finished with value: 106.4144251661258 and parameters: {'seed': 121, 'N': 4, 'n_neurons_1': 143, 'n_neurons_2': 139, 'n_neurons_3': 117, 'n_neurons_4': 61, 'Dropout': 0.08182055629694793, 'kernel_regularizer': 0.15947699513825156, 'learning_rate': 0.0011356726267934725, 'beta_1': 0.8109699092246, 'min_delta': 15.495292531715814, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  106.4144251661258
+A : Best epoch:  35
+A : Best epoch:  29
+A : Best epoch:  35
+A : Best epoch:  29
+[I 2023-11-11 08:51:54,648] Trial 181 finished with value: 105.41306796088907 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 144, 'n_neurons_3': 111, 'n_neurons_4': 62, 'Dropout': 0.06705289008669255, 'kernel_regularizer': 0.1215861642836691, 'learning_rate': 0.001114596037189923, 'beta_1': 0.75496080191672, 'min_delta': 14.964043492720682, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  105.41306796088907
+A : Best epoch:  24
+A : Best epoch:  23
+A : Best epoch:  24
+A : Best epoch:  30
+[I 2023-11-11 08:54:03,925] Trial 182 finished with value: 104.19784199013645 and parameters: {'seed': 117, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 147, 'n_neurons_3': 113, 'n_neurons_4': 64, 'Dropout': 0.09678276448456262, 'kernel_regularizer': 0.1264347048848132, 'learning_rate': 0.0011389318997051493, 'beta_1': 0.7608519414509829, 'min_delta': 15.261512493945864, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  104.19784199013645
+A : Best epoch:  36
+A : Best epoch:  37
+A : Best epoch:  37
+A : Best epoch:  30
+[I 2023-11-11 08:56:16,449] Trial 183 finished with value: 99.1664596794494 and parameters: {'seed': 110, 'N': 4, 'n_neurons_1': 141, 'n_neurons_2': 145, 'n_neurons_3': 112, 'n_neurons_4': 62, 'Dropout': 0.062361438315682464, 'kernel_regularizer': 0.11222201796071617, 'learning_rate': 0.0010888282991810502, 'beta_1': 0.840482123616934, 'min_delta': 14.760271434175614, 'batch_size': 16}. Best is trial 8 with value: 97.03100597906038.
+A : MAE:  99.1664596794494
+A : Best epoch:  38
+A : Best epoch:  53
+A : Best epoch:  33
+A : Best epoch:  51
+[I 2023-11-11 08:58:47,487] Trial 184 finished with value: 95.50310257112065 and parameters: {'seed': 111, 'N': 4, 'n_neurons_1': 143, 'n_neurons_2': 142, 'n_neurons_3': 112, 'n_neurons_4': 62, 'Dropout': 0.06251933073238645, 'kernel_regularizer': 0.11001065515502795, 'learning_rate': 0.0010939281873209813, 'beta_1': 0.767592186570101, 'min_delta': 14.636099363574562, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  95.50310257112065
+A : Best epoch:  36
+A : Best epoch:  29
+A : Best epoch:  28
+A : Best epoch:  21
+[I 2023-11-11 09:00:29,512] Trial 185 finished with value: 106.13794196356436 and parameters: {'seed': 110, 'N': 4, 'n_neurons_1': 141, 'n_neurons_2': 142, 'n_neurons_3': 113, 'n_neurons_4': 62, 'Dropout': 0.06245184018305566, 'kernel_regularizer': 0.11253336752263805, 'learning_rate': 0.001088779774369564, 'beta_1': 0.8375471714928175, 'min_delta': 14.603034426249414, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.13794196356436
+A : Best epoch:  23
+A : Best epoch:  37
+A : Best epoch:  16
+A : Best epoch:  16
+[I 2023-11-11 09:02:03,285] Trial 186 finished with value: 110.35563110628928 and parameters: {'seed': 110, 'N': 4, 'n_neurons_1': 144, 'n_neurons_2': 142, 'n_neurons_3': 112, 'n_neurons_4': 63, 'Dropout': 0.06704509591450149, 'kernel_regularizer': 0.11052586511352974, 'learning_rate': 0.00110341758618169, 'beta_1': 0.8403941461748361, 'min_delta': 14.739990513366438, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  110.35563110628928
+A : Best epoch:  18
+A : Best epoch:  31
+A : Best epoch:  34
+A : Best epoch:  35
+[I 2023-11-11 09:02:44,308] Trial 187 finished with value: 111.65128836907071 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 143, 'n_neurons_2': 144, 'n_neurons_3': 111, 'n_neurons_4': 61, 'Dropout': 0.07409267565574816, 'kernel_regularizer': 0.116326829664357, 'learning_rate': 0.0010928002371071168, 'beta_1': 0.7579830341347554, 'min_delta': 14.288859478100377, 'batch_size': 64}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  111.65128836907071
+A : Best epoch:  16
+A : Best epoch:  6
+A : Best epoch:  9
+A : Best epoch:  16
+[I 2023-11-11 09:04:13,917] Trial 188 finished with value: 121.04386940450388 and parameters: {'seed': 116, 'N': 4, 'n_neurons_1': 143, 'n_neurons_2': 141, 'n_neurons_3': 112, 'n_neurons_4': 64, 'Dropout': 0.09342104916531523, 'kernel_regularizer': 0.10603837342107682, 'learning_rate': 0.001124693255375113, 'beta_1': 0.8586236182240385, 'min_delta': 14.395057546488273, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  121.04386940450388
+A : Best epoch:  23
+A : Best epoch:  18
+A : Best epoch:  33
+A : Best epoch:  23
+[I 2023-11-11 09:05:22,797] Trial 189 finished with value: 106.29858314367844 and parameters: {'seed': 109, 'N': 4, 'n_neurons_1': 141, 'n_neurons_2': 145, 'n_neurons_3': 113, 'n_neurons_4': 61, 'Dropout': 0.06986680005195536, 'kernel_regularizer': 0.11388351855082607, 'learning_rate': 0.0011137426100572443, 'beta_1': 0.7627077103716379, 'min_delta': 15.035084180303087, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.29858314367844
+A : Best epoch:  12
+A : Best epoch:  32
+A : Best epoch:  12
+A : Best epoch:  34
+[I 2023-11-11 09:07:08,939] Trial 190 finished with value: 104.28144014259975 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 140, 'n_neurons_3': 114, 'n_neurons_4': 63, 'Dropout': 0.06405190341346872, 'kernel_regularizer': 0.1179480501917341, 'learning_rate': 0.0010848547405546073, 'beta_1': 0.7668042727896891, 'min_delta': 13.991597585287918, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.28144014259975
+A : Best epoch:  39
+A : Best epoch:  23
+A : Best epoch:  10
+A : Best epoch:  18
+[I 2023-11-11 09:09:00,134] Trial 191 finished with value: 101.19179210744919 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 140, 'n_neurons_2': 146, 'n_neurons_3': 114, 'n_neurons_4': 61, 'Dropout': 0.06095512711836216, 'kernel_regularizer': 0.11094675269167584, 'learning_rate': 0.0011276418072258298, 'beta_1': 0.769180788236665, 'min_delta': 15.763648671892582, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.19179210744919
+A : Best epoch:  20
+A : Best epoch:  13
+A : Best epoch:  20
+A : Best epoch:  7
+[I 2023-11-11 09:10:30,363] Trial 192 finished with value: 108.14731699223788 and parameters: {'seed': 149, 'N': 4, 'n_neurons_1': 140, 'n_neurons_2': 143, 'n_neurons_3': 115, 'n_neurons_4': 60, 'Dropout': 0.05877193708115008, 'kernel_regularizer': 0.10651486782376234, 'learning_rate': 0.0011077661987484455, 'beta_1': 0.7661669987608575, 'min_delta': 15.453697362553463, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  108.14731699223788
+A : Best epoch:  21
+A : Best epoch:  18
+A : Best epoch:  24
+A : Best epoch:  32
+[I 2023-11-11 09:12:10,996] Trial 193 finished with value: 108.1492350900679 and parameters: {'seed': 119, 'N': 4, 'n_neurons_1': 141, 'n_neurons_2': 144, 'n_neurons_3': 116, 'n_neurons_4': 62, 'Dropout': 0.12206489699162079, 'kernel_regularizer': 0.11625933750572683, 'learning_rate': 0.00109718713275787, 'beta_1': 0.7605210607433005, 'min_delta': 14.813070873135562, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  108.1492350900679
+A : Best epoch:  29
+A : Best epoch:  15
+A : Best epoch:  14
+A : Best epoch:  14
+[I 2023-11-11 09:13:35,391] Trial 194 finished with value: 111.83504469621015 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 146, 'n_neurons_3': 124, 'n_neurons_4': 60, 'Dropout': 0.06483089277060367, 'kernel_regularizer': 0.11286503377827282, 'learning_rate': 0.0011456545786495136, 'beta_1': 0.7770874894040747, 'min_delta': 16.00689348722652, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  111.83504469621015
+A : Best epoch:  13
+A : Best epoch:  19
+A : Best epoch:  13
+A : Best epoch:  31
+[I 2023-11-11 09:15:11,322] Trial 195 finished with value: 106.95174927785139 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 141, 'n_neurons_2': 145, 'n_neurons_3': 115, 'n_neurons_4': 62, 'Dropout': 0.05554528710568099, 'kernel_regularizer': 0.11953259562386732, 'learning_rate': 0.0011362391974551447, 'beta_1': 0.7564417013335917, 'min_delta': 15.185445695198283, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.95174927785139
+A : Best epoch:  40
+A : Best epoch:  24
+A : Best epoch:  24
+A : Best epoch:  20
+[I 2023-11-11 09:16:53,527] Trial 196 finished with value: 106.2136744353614 and parameters: {'seed': 107, 'N': 4, 'n_neurons_1': 143, 'n_neurons_2': 148, 'n_neurons_3': 111, 'n_neurons_4': 60, 'Dropout': 0.14129346417047586, 'kernel_regularizer': 0.14659743444831308, 'learning_rate': 0.0011669438079516719, 'beta_1': 0.7629265260915983, 'min_delta': 14.574865668346295, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.2136744353614
+A : Best epoch:  32
+A : Best epoch:  24
+A : Best epoch:  30
+A : Best epoch:  30
+[I 2023-11-11 09:18:38,788] Trial 197 finished with value: 102.05151110900438 and parameters: {'seed': 117, 'N': 4, 'n_neurons_1': 145, 'n_neurons_2': 143, 'n_neurons_3': 110, 'n_neurons_4': 61, 'Dropout': 0.08928766141614351, 'kernel_regularizer': 0.12251687528593763, 'learning_rate': 0.0011180142432223143, 'beta_1': 0.7728592516723873, 'min_delta': 16.561764952767636, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  102.05151110900438
+A : Best epoch:  26
+A : Best epoch:  8
+A : Best epoch:  27
+A : Best epoch:  24
+[I 2023-11-11 09:20:26,792] Trial 198 finished with value: 102.77287542047442 and parameters: {'seed': 109, 'N': 4, 'n_neurons_1': 149, 'n_neurons_2': 147, 'n_neurons_3': 118, 'n_neurons_4': 62, 'Dropout': 0.06881462520086702, 'kernel_regularizer': 0.1295616896174352, 'learning_rate': 0.0011610321377046047, 'beta_1': 0.7809863058446039, 'min_delta': 14.250590721867727, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  102.77287542047442
+A : Best epoch:  21
+A : Best epoch:  7
+A : Best epoch:  18
+A : Best epoch:  34
+[I 2023-11-11 09:21:58,445] Trial 199 finished with value: 104.1554741356048 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 140, 'n_neurons_2': 148, 'n_neurons_3': 113, 'n_neurons_4': 63, 'Dropout': 0.06250800460490277, 'kernel_regularizer': 0.13815888017479672, 'learning_rate': 0.0010441660498692743, 'beta_1': 0.7704065087590141, 'min_delta': 15.597537295081462, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.1554741356048
+A : Best epoch:  23
+A : Best epoch:  10
+A : Best epoch:  36
+A : Best epoch:  22
+[I 2023-11-11 09:23:39,733] Trial 200 finished with value: 106.70974559769331 and parameters: {'seed': 116, 'N': 4, 'n_neurons_1': 141, 'n_neurons_2': 149, 'n_neurons_3': 114, 'n_neurons_4': 64, 'Dropout': 0.11553547928933364, 'kernel_regularizer': 0.10729617346096246, 'learning_rate': 0.0011536538368684414, 'beta_1': 0.7671644795716894, 'min_delta': 14.75084093658629, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.70974559769331
+A : Best epoch:  25
+A : Best epoch:  14
+A : Best epoch:  20
+A : Best epoch:  29
+[I 2023-11-11 09:25:30,851] Trial 201 finished with value: 102.18780228336972 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 145, 'n_neurons_3': 117, 'n_neurons_4': 83, 'Dropout': 0.05210149070451319, 'kernel_regularizer': 0.12579649188928949, 'learning_rate': 0.0010592773037190635, 'beta_1': 0.7519205851545875, 'min_delta': 15.079461254372747, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  102.18780228336972
+A : Best epoch:  25
+A : Best epoch:  19
+A : Best epoch:  19
+A : Best epoch:  31
+[I 2023-11-11 09:27:20,590] Trial 202 finished with value: 104.43967920050498 and parameters: {'seed': 111, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 146, 'n_neurons_3': 115, 'n_neurons_4': 67, 'Dropout': 0.053597472751343266, 'kernel_regularizer': 0.11984434516596826, 'learning_rate': 0.0011272341809201913, 'beta_1': 0.7537600158616331, 'min_delta': 15.314081192266674, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.43967920050498
+A : Best epoch:  26
+A : Best epoch:  23
+A : Best epoch:  36
+A : Best epoch:  22
+[I 2023-11-11 09:29:26,155] Trial 203 finished with value: 105.5836623423924 and parameters: {'seed': 118, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 130, 'n_neurons_3': 104, 'n_neurons_4': 80, 'Dropout': 0.10618935975939825, 'kernel_regularizer': 0.13446932222817382, 'learning_rate': 0.0011460578629381218, 'beta_1': 0.7576518963592084, 'min_delta': 14.856396179728003, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  105.5836623423924
+A : Best epoch:  10
+A : Best epoch:  28
+A : Best epoch:  14
+A : Best epoch:  20
+[I 2023-11-11 09:31:14,528] Trial 204 finished with value: 108.54380812005284 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 144, 'n_neurons_3': 112, 'n_neurons_4': 62, 'Dropout': 0.056997739438494746, 'kernel_regularizer': 0.15223874068194906, 'learning_rate': 0.001110896068187813, 'beta_1': 0.7615143275268854, 'min_delta': 13.908758372920852, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  108.54380812005284
+A : Best epoch:  23
+A : Best epoch:  14
+A : Best epoch:  32
+A : Best epoch:  31
+[I 2023-11-11 09:33:05,643] Trial 205 finished with value: 103.9200899125174 and parameters: {'seed': 120, 'N': 4, 'n_neurons_1': 160, 'n_neurons_2': 127, 'n_neurons_3': 109, 'n_neurons_4': 66, 'Dropout': 0.07817114349455398, 'kernel_regularizer': 0.12767530113351455, 'learning_rate': 0.0010757818609465244, 'beta_1': 0.792949959799015, 'min_delta': 14.45948153100457, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.9200899125174
+A : Best epoch:  43
+A : Best epoch:  49
+A : Best epoch:  31
+A : Best epoch:  38
+[I 2023-11-11 09:34:05,971] Trial 206 finished with value: 107.25752469429024 and parameters: {'seed': 108, 'N': 4, 'n_neurons_1': 141, 'n_neurons_2': 145, 'n_neurons_3': 103, 'n_neurons_4': 61, 'Dropout': 0.060391739749229435, 'kernel_regularizer': 0.1427830422602991, 'learning_rate': 0.0010024945930060787, 'beta_1': 0.7556531460260515, 'min_delta': 15.848524014000997, 'batch_size': 64}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  107.25752469429024
+A : Best epoch:  26
+A : Best epoch:  26
+A : Best epoch:  46
+A : Best epoch:  49
+[I 2023-11-11 09:36:55,107] Trial 207 finished with value: 97.8098883128807 and parameters: {'seed': 132, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 147, 'n_neurons_3': 116, 'n_neurons_4': 65, 'Dropout': 0.09568787265614295, 'kernel_regularizer': 0.11397127196802369, 'learning_rate': 0.0011328972013581423, 'beta_1': 0.7603531297486538, 'min_delta': 5.972945966784524, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  97.8098883128807
+A : Best epoch:  51
+A : Best epoch:  47
+A : Best epoch:  22
+A : Best epoch:  22
+[I 2023-11-11 09:39:16,634] Trial 208 finished with value: 97.04324298198945 and parameters: {'seed': 135, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 147, 'n_neurons_3': 116, 'n_neurons_4': 63, 'Dropout': 0.09106640876739298, 'kernel_regularizer': 0.11072199481521593, 'learning_rate': 0.001130978418803074, 'beta_1': 0.7645882459629352, 'min_delta': 9.280405933399074, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  97.04324298198945
+A : Best epoch:  44
+A : Best epoch:  44
+A : Best epoch:  23
+A : Best epoch:  48
+[I 2023-11-11 09:40:49,696] Trial 209 finished with value: 101.79582328816065 and parameters: {'seed': 140, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 147, 'n_neurons_3': 119, 'n_neurons_4': 63, 'Dropout': 0.08889349392088186, 'kernel_regularizer': 0.10178957736573715, 'learning_rate': 0.001120286897487032, 'beta_1': 0.7647742289728475, 'min_delta': 6.063188350801452, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.79582328816065
+A : Best epoch:  32
+A : Best epoch:  36
+A : Best epoch:  36
+A : Best epoch:  32
+A : Best epoch:  32
+A : Best epoch:  32
+[I 2023-11-11 09:44:09,654] Trial 210 finished with value: 100.54472820611929 and parameters: {'seed': 123, 'N': 6, 'n_neurons_1': 165, 'n_neurons_2': 146, 'n_neurons_3': 116, 'n_neurons_4': 64, 'Dropout': 0.09883817501790669, 'kernel_regularizer': 0.1104616351179613, 'learning_rate': 0.0011313801571590876, 'beta_1': 0.7601608291806325, 'min_delta': 10.485401031165404, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.54472820611929
+A : Best epoch:  29
+A : Best epoch:  42
+A : Best epoch:  23
+A : Best epoch:  22
+[I 2023-11-11 09:46:10,943] Trial 211 finished with value: 104.71266775325803 and parameters: {'seed': 133, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 148, 'n_neurons_3': 116, 'n_neurons_4': 62, 'Dropout': 0.06627627511434128, 'kernel_regularizer': 0.11564328779320504, 'learning_rate': 0.001138747472146183, 'beta_1': 0.768896734335165, 'min_delta': 8.922934810280772, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.71266775325803
+A : Best epoch:  33
+A : Best epoch:  29
+A : Best epoch:  20
+A : Best epoch:  23
+[I 2023-11-11 09:48:09,346] Trial 212 finished with value: 103.96362582639526 and parameters: {'seed': 135, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 149, 'n_neurons_3': 115, 'n_neurons_4': 62, 'Dropout': 0.09482612209623395, 'kernel_regularizer': 0.11133606644555057, 'learning_rate': 0.0011048977359536395, 'beta_1': 0.7641464573273128, 'min_delta': 8.705864001991626, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.96362582639526
+A : Best epoch:  30
+A : Best epoch:  63
+A : Best epoch:  23
+A : Best epoch:  30
+[I 2023-11-11 09:50:45,275] Trial 213 finished with value: 98.12607257283942 and parameters: {'seed': 134, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 147, 'n_neurons_3': 117, 'n_neurons_4': 65, 'Dropout': 0.09253286536462924, 'kernel_regularizer': 0.10752856343054794, 'learning_rate': 0.0011566247618707483, 'beta_1': 0.7746334734945365, 'min_delta': 10.125453403644059, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  98.12607257283942
+A : Best epoch:  29
+A : Best epoch:  25
+A : Best epoch:  33
+A : Best epoch:  11
+[I 2023-11-11 09:52:19,962] Trial 214 finished with value: 105.49270115855248 and parameters: {'seed': 138, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 147, 'n_neurons_3': 117, 'n_neurons_4': 66, 'Dropout': 0.09419319629457922, 'kernel_regularizer': 0.10694953802926425, 'learning_rate': 0.0011541504911390145, 'beta_1': 0.7588803228916572, 'min_delta': 11.635396955215972, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  105.49270115855248
+A : Best epoch:  12
+A : Best epoch:  39
+A : Best epoch:  26
+A : Best epoch:  29
+[I 2023-11-11 09:54:09,225] Trial 215 finished with value: 103.73540979381855 and parameters: {'seed': 132, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 148, 'n_neurons_3': 118, 'n_neurons_4': 63, 'Dropout': 0.08592025685398402, 'kernel_regularizer': 0.11490618560742959, 'learning_rate': 0.0011708636864649405, 'beta_1': 0.7622343713953136, 'min_delta': 11.08041888092501, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.73540979381855
+A : Best epoch:  16
+A : Best epoch:  25
+A : Best epoch:  39
+A : Best epoch:  14
+[I 2023-11-11 09:56:04,506] Trial 216 finished with value: 108.41911842003772 and parameters: {'seed': 130, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 138, 'n_neurons_3': 118, 'n_neurons_4': 64, 'Dropout': 0.0987568401898841, 'kernel_regularizer': 0.10352959723508326, 'learning_rate': 0.0010239283713925197, 'beta_1': 0.7749056812689235, 'min_delta': 9.745724318887202, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  108.41911842003772
+A : Best epoch:  38
+A : Best epoch:  29
+A : Best epoch:  33
+A : Best epoch:  38
+[I 2023-11-11 09:58:21,542] Trial 217 finished with value: 103.65604751654068 and parameters: {'seed': 111, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 146, 'n_neurons_3': 114, 'n_neurons_4': 65, 'Dropout': 0.09346533430167613, 'kernel_regularizer': 0.10929517204545128, 'learning_rate': 0.0011281316993203365, 'beta_1': 0.7500172927006263, 'min_delta': 9.461339634823593, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.65604751654068
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  31
+A : Best epoch:  30
+[I 2023-11-11 10:00:13,218] Trial 218 finished with value: 109.21550803669565 and parameters: {'seed': 116, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 147, 'n_neurons_3': 116, 'n_neurons_4': 65, 'Dropout': 0.09080406115522086, 'kernel_regularizer': 0.11566644646911306, 'learning_rate': 0.0009819285001689243, 'beta_1': 0.7661516657577755, 'min_delta': 7.73684769520245, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  109.21550803669565
+A : Best epoch:  27
+A : Best epoch:  28
+A : Best epoch:  14
+A : Best epoch:  29
+[I 2023-11-11 10:02:26,498] Trial 219 finished with value: 105.39189796287687 and parameters: {'seed': 142, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 144, 'n_neurons_3': 113, 'n_neurons_4': 65, 'Dropout': 0.0723886691235572, 'kernel_regularizer': 0.11230916034787379, 'learning_rate': 0.0010942439653986939, 'beta_1': 0.7599161703603751, 'min_delta': 12.302749295103666, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  105.39189796287687
+A : Best epoch:  22
+A : Best epoch:  20
+A : Best epoch:  42
+A : Best epoch:  32
+[I 2023-11-11 10:04:35,760] Trial 220 finished with value: 104.10370554824658 and parameters: {'seed': 133, 'N': 4, 'n_neurons_1': 159, 'n_neurons_2': 145, 'n_neurons_3': 120, 'n_neurons_4': 63, 'Dropout': 0.10024390274316604, 'kernel_regularizer': 0.09722913226941926, 'learning_rate': 0.001148616229766012, 'beta_1': 0.7555840970910755, 'min_delta': 10.503743076986606, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.10370554824658
+A : Best epoch:  14
+A : Best epoch:  14
+A : Best epoch:  43
+A : Best epoch:  22
+[I 2023-11-11 10:06:40,644] Trial 221 finished with value: 101.93167809306833 and parameters: {'seed': 136, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 150, 'n_neurons_3': 114, 'n_neurons_4': 88, 'Dropout': 0.08624939382888132, 'kernel_regularizer': 0.12113354256472182, 'learning_rate': 0.0011397149195980021, 'beta_1': 0.771637818286903, 'min_delta': 11.966505813574186, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.93167809306833
+A : Best epoch:  29
+A : Best epoch:  15
+A : Best epoch:  15
+A : Best epoch:  18
+[I 2023-11-11 10:08:08,847] Trial 222 finished with value: 114.88851201117626 and parameters: {'seed': 137, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 148, 'n_neurons_3': 115, 'n_neurons_4': 61, 'Dropout': 0.09655523489412825, 'kernel_regularizer': 0.10607046620412632, 'learning_rate': 0.0011552853054366916, 'beta_1': 0.7672908240109828, 'min_delta': 10.045250263674038, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  114.88851201117626
+A : Best epoch:  24
+A : Best epoch:  43
+A : Best epoch:  31
+A : Best epoch:  26
+[I 2023-11-11 10:10:04,648] Trial 223 finished with value: 100.8035746657801 and parameters: {'seed': 129, 'N': 4, 'n_neurons_1': 140, 'n_neurons_2': 147, 'n_neurons_3': 116, 'n_neurons_4': 81, 'Dropout': 0.08279249678033808, 'kernel_regularizer': 0.11610946288365495, 'learning_rate': 0.0011221971647510278, 'beta_1': 0.7772362558904095, 'min_delta': 11.652978678238203, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.8035746657801
+A : Best epoch:  42
+A : Best epoch:  22
+A : Best epoch:  28
+A : Best epoch:  22
+[I 2023-11-11 10:12:16,789] Trial 224 finished with value: 101.8206247471734 and parameters: {'seed': 140, 'N': 4, 'n_neurons_1': 167, 'n_neurons_2': 146, 'n_neurons_3': 117, 'n_neurons_4': 67, 'Dropout': 0.09121258911662863, 'kernel_regularizer': 0.11047867716525837, 'learning_rate': 0.0011424358319470957, 'beta_1': 0.8294683115141708, 'min_delta': 10.929392368846653, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.8206247471734
+A : Best epoch:  16
+A : Best epoch:  25
+A : Best epoch:  16
+A : Best epoch:  16
+[I 2023-11-11 10:14:05,672] Trial 225 finished with value: 104.41038692177648 and parameters: {'seed': 146, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 149, 'n_neurons_3': 115, 'n_neurons_4': 60, 'Dropout': 0.06318420185469004, 'kernel_regularizer': 0.1188070803351795, 'learning_rate': 0.001034415932995309, 'beta_1': 0.7633732810254138, 'min_delta': 12.67422052066486, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.41038692177648
+A : Best epoch:  15
+A : Best epoch:  30
+A : Best epoch:  15
+A : Best epoch:  36
+[I 2023-11-11 10:16:25,554] Trial 226 finished with value: 100.02536682754625 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 143, 'n_neurons_3': 114, 'n_neurons_4': 82, 'Dropout': 0.05871047667249818, 'kernel_regularizer': 0.10106482306996462, 'learning_rate': 0.0011361807798541065, 'beta_1': 0.7705290419891473, 'min_delta': 7.409992697131394, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.02536682754625
+A : Best epoch:  13
+A : Best epoch:  33
+A : Best epoch:  31
+A : Best epoch:  44
+[I 2023-11-11 10:17:15,412] Trial 227 finished with value: 112.3710613346161 and parameters: {'seed': 135, 'N': 4, 'n_neurons_1': 160, 'n_neurons_2': 145, 'n_neurons_3': 112, 'n_neurons_4': 85, 'Dropout': 0.10464471035721327, 'kernel_regularizer': 0.24241427608101043, 'learning_rate': 0.0011154468432208182, 'beta_1': 0.8030189057773203, 'min_delta': 11.538820948745151, 'batch_size': 64}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  112.3710613346161
+A : Best epoch:  24
+A : Best epoch:  47
+A : Best epoch:  47
+A : Best epoch:  30
+[I 2023-11-11 10:19:54,385] Trial 228 finished with value: 101.2323631254229 and parameters: {'seed': 134, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 147, 'n_neurons_3': 101, 'n_neurons_4': 83, 'Dropout': 0.08771748687481998, 'kernel_regularizer': 0.11330353029167428, 'learning_rate': 0.0010081279785903226, 'beta_1': 0.774372162942764, 'min_delta': 13.183493750953046, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.2323631254229
+A : Best epoch:  18
+A : Best epoch:  20
+A : Best epoch:  28
+A : Best epoch:  30
+[I 2023-11-11 10:21:46,561] Trial 229 finished with value: 108.98203769394225 and parameters: {'seed': 110, 'N': 4, 'n_neurons_1': 148, 'n_neurons_2': 148, 'n_neurons_3': 102, 'n_neurons_4': 86, 'Dropout': 0.1077781953774686, 'kernel_regularizer': 0.12373100915619893, 'learning_rate': 0.0009701992561017957, 'beta_1': 0.8445346812644015, 'min_delta': 11.391274633926145, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  108.98203769394225
+A : Best epoch:  26
+A : Best epoch:  27
+A : Best epoch:  14
+A : Best epoch:  16
+[I 2023-11-11 10:22:57,913] Trial 230 finished with value: 108.54035489346036 and parameters: {'seed': 131, 'N': 4, 'n_neurons_1': 143, 'n_neurons_2': 142, 'n_neurons_3': 123, 'n_neurons_4': 68, 'Dropout': 0.09209225792338974, 'kernel_regularizer': 0.10630666829216162, 'learning_rate': 0.0011008128001412528, 'beta_1': 0.7582722041040701, 'min_delta': 10.698888082610903, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  108.54035489346036
+A : Best epoch:  23
+A : Best epoch:  23
+A : Best epoch:  23
+A : Best epoch:  10
+[I 2023-11-11 10:24:58,112] Trial 231 finished with value: 104.95790543828336 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 145, 'n_neurons_3': 103, 'n_neurons_4': 84, 'Dropout': 0.05079958527673965, 'kernel_regularizer': 0.1296564979085432, 'learning_rate': 0.0011622663275236264, 'beta_1': 0.753262065024059, 'min_delta': 11.272660843744557, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.95790543828336
+A : Best epoch:  34
+A : Best epoch:  15
+A : Best epoch:  18
+A : Best epoch:  20
+[I 2023-11-11 10:27:01,291] Trial 232 finished with value: 104.41414549238661 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 150, 'n_neurons_3': 102, 'n_neurons_4': 84, 'Dropout': 0.11282286494156639, 'kernel_regularizer': 0.06288927448213336, 'learning_rate': 0.001190439208544597, 'beta_1': 0.8354492972914652, 'min_delta': 10.158670485383505, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.41414549238661
+A : Best epoch:  30
+A : Best epoch:  23
+A : Best epoch:  46
+A : Best epoch:  38
+[I 2023-11-11 10:29:48,182] Trial 233 finished with value: 99.90253242109442 and parameters: {'seed': 117, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 146, 'n_neurons_3': 104, 'n_neurons_4': 85, 'Dropout': 0.05433433886259839, 'kernel_regularizer': 0.1224333225389352, 'learning_rate': 0.0011497239158952681, 'beta_1': 0.790110303033345, 'min_delta': 11.077327142249292, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  99.90253242109442
+A : Best epoch:  53
+A : Best epoch:  45
+A : Best epoch:  27
+A : Best epoch:  33
+[I 2023-11-11 10:32:13,644] Trial 234 finished with value: 100.27924127699121 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 149, 'n_neurons_3': 105, 'n_neurons_4': 61, 'Dropout': 0.055937054128506566, 'kernel_regularizer': 0.11809362111359381, 'learning_rate': 0.0009880135288269907, 'beta_1': 0.7560947180872745, 'min_delta': 13.799681287340949, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.27924127699121
+A : Best epoch:  13
+A : Best epoch:  8
+A : Best epoch:  20
+A : Best epoch:  33
+[I 2023-11-11 10:33:50,133] Trial 235 finished with value: 110.33817104694377 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 141, 'n_neurons_2': 144, 'n_neurons_3': 104, 'n_neurons_4': 62, 'Dropout': 0.06799875538755315, 'kernel_regularizer': 0.13294308988783365, 'learning_rate': 0.0011314130150972374, 'beta_1': 0.7861238683445217, 'min_delta': 6.340764391144312, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  110.33817104694377
+A : Best epoch:  8
+A : Best epoch:  35
+A : Best epoch:  38
+A : Best epoch:  29
+[I 2023-11-11 10:36:02,863] Trial 236 finished with value: 103.77196675027805 and parameters: {'seed': 119, 'N': 4, 'n_neurons_1': 151, 'n_neurons_2': 147, 'n_neurons_3': 100, 'n_neurons_4': 82, 'Dropout': 0.10192947323461787, 'kernel_regularizer': 0.12557763826534277, 'learning_rate': 0.0010647610028557554, 'beta_1': 0.7613859300130461, 'min_delta': 9.345564863832236, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.77196675027805
+A : Best epoch:  30
+A : Best epoch:  21
+A : Best epoch:  26
+A : Best epoch:  27
+[I 2023-11-11 10:37:55,799] Trial 237 finished with value: 107.35162992028582 and parameters: {'seed': 110, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 148, 'n_neurons_3': 103, 'n_neurons_4': 83, 'Dropout': 0.05009099978713043, 'kernel_regularizer': 0.11000762060954966, 'learning_rate': 0.0011255576526713633, 'beta_1': 0.7652005217012731, 'min_delta': 14.981566389489005, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  107.35162992028582
+A : Best epoch:  42
+A : Best epoch:  16
+A : Best epoch:  33
+A : Best epoch:  27
+[I 2023-11-11 10:39:58,353] Trial 238 finished with value: 105.86439844402187 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 169, 'n_neurons_2': 125, 'n_neurons_3': 115, 'n_neurons_4': 85, 'Dropout': 0.12889818079694504, 'kernel_regularizer': 0.11474912337841232, 'learning_rate': 0.0010795611203205052, 'beta_1': 0.8177369882471759, 'min_delta': 14.205516201358888, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  105.86439844402187
+A : Best epoch:  55
+A : Best epoch:  24
+A : Best epoch:  23
+A : Best epoch:  40
+[I 2023-11-11 10:42:26,989] Trial 239 finished with value: 97.88785015131137 and parameters: {'seed': 107, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 146, 'n_neurons_3': 101, 'n_neurons_4': 63, 'Dropout': 0.08387590822645699, 'kernel_regularizer': 0.12047765103380335, 'learning_rate': 0.0011429019598995515, 'beta_1': 0.758172031624129, 'min_delta': 8.110268592539423, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  97.88785015131137
+A : Best epoch:  31
+A : Best epoch:  22
+A : Best epoch:  31
+A : Best epoch:  16
+[I 2023-11-11 10:44:39,359] Trial 240 finished with value: 103.00448821843187 and parameters: {'seed': 108, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 146, 'n_neurons_3': 101, 'n_neurons_4': 62, 'Dropout': 0.08010995011329672, 'kernel_regularizer': 0.11896722589942219, 'learning_rate': 0.0011414074804006514, 'beta_1': 0.7583155951283788, 'min_delta': 8.321092803084362, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.00448821843187
+A : Best epoch:  15
+A : Best epoch:  14
+A : Best epoch:  44
+A : Best epoch:  29
+[I 2023-11-11 10:46:51,777] Trial 241 finished with value: 106.08385471584232 and parameters: {'seed': 105, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 147, 'n_neurons_3': 102, 'n_neurons_4': 64, 'Dropout': 0.08425612714102174, 'kernel_regularizer': 0.1225089402219561, 'learning_rate': 0.001133473302303852, 'beta_1': 0.7534882597462835, 'min_delta': 9.3497281093236, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.08385471584232
+A : Best epoch:  17
+A : Best epoch:  36
+A : Best epoch:  25
+A : Best epoch:  46
+[I 2023-11-11 10:48:53,906] Trial 242 finished with value: 106.74133661639817 and parameters: {'seed': 106, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 135, 'n_neurons_3': 113, 'n_neurons_4': 63, 'Dropout': 0.08909006142657172, 'kernel_regularizer': 0.11283758179637683, 'learning_rate': 0.0010151874074652272, 'beta_1': 0.7567052418783221, 'min_delta': 10.12684891410079, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.74133661639817
+A : Best epoch:  11
+A : Best epoch:  13
+A : Best epoch:  28
+A : Best epoch:  8
+[I 2023-11-11 10:50:20,781] Trial 243 finished with value: 110.89783513352836 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 145, 'n_neurons_3': 100, 'n_neurons_4': 84, 'Dropout': 0.061113737189449735, 'kernel_regularizer': 0.128422695350157, 'learning_rate': 0.001147549268056888, 'beta_1': 0.7618809414694201, 'min_delta': 9.738920180986478, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  110.89783513352836
+A : Best epoch:  25
+A : Best epoch:  28
+A : Best epoch:  16
+A : Best epoch:  15
+[I 2023-11-11 10:52:24,930] Trial 244 finished with value: 106.19320279678581 and parameters: {'seed': 108, 'N': 4, 'n_neurons_1': 160, 'n_neurons_2': 146, 'n_neurons_3': 101, 'n_neurons_4': 81, 'Dropout': 0.09598619019009869, 'kernel_regularizer': 0.1189866718551158, 'learning_rate': 0.0011607920886208241, 'beta_1': 0.7684160757425234, 'min_delta': 15.376197185819748, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.19320279678581
+A : Best epoch:  28
+A : Best epoch:  18
+A : Best epoch:  36
+A : Best epoch:  38
+[I 2023-11-11 10:54:32,961] Trial 245 finished with value: 101.84728183840942 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 149, 'n_neurons_3': 117, 'n_neurons_4': 64, 'Dropout': 0.06538738206297512, 'kernel_regularizer': 0.1386148999542658, 'learning_rate': 0.0011107146996254182, 'beta_1': 0.8543432707205454, 'min_delta': 7.085424664808788, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.84728183840942
+A : Best epoch:  44
+A : Best epoch:  23
+A : Best epoch:  31
+A : Best epoch:  28
+[I 2023-11-11 10:56:46,266] Trial 246 finished with value: 102.2493489464421 and parameters: {'seed': 128, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 144, 'n_neurons_3': 103, 'n_neurons_4': 63, 'Dropout': 0.09225849797710638, 'kernel_regularizer': 0.108429989417802, 'learning_rate': 0.0009959878188520851, 'beta_1': 0.7593549782661279, 'min_delta': 8.362829796143231, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  102.2493489464421
+A : Best epoch:  12
+A : Best epoch:  28
+A : Best epoch:  31
+A : Best epoch:  29
+[I 2023-11-11 10:58:32,389] Trial 247 finished with value: 106.8018863646888 and parameters: {'seed': 110, 'N': 4, 'n_neurons_1': 140, 'n_neurons_2': 147, 'n_neurons_3': 116, 'n_neurons_4': 66, 'Dropout': 0.05303148094350632, 'kernel_regularizer': 0.12531051448497318, 'learning_rate': 0.0008959733657662199, 'beta_1': 0.7644085693979109, 'min_delta': 14.477509532907032, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.8018863646888
+A : Best epoch:  36
+A : Best epoch:  45
+A : Best epoch:  25
+A : Best epoch:  30
+[I 2023-11-11 11:01:08,419] Trial 248 finished with value: 97.81356522311502 and parameters: {'seed': 117, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 148, 'n_neurons_3': 114, 'n_neurons_4': 61, 'Dropout': 0.05748213712149716, 'kernel_regularizer': 0.11512121742739695, 'learning_rate': 0.0010446299662482616, 'beta_1': 0.7532226769545814, 'min_delta': 5.255855347552508, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  97.81356522311502
+A : Best epoch:  34
+A : Best epoch:  28
+A : Best epoch:  65
+A : Best epoch:  45
+[I 2023-11-11 11:02:13,839] Trial 249 finished with value: 104.36359789461325 and parameters: {'seed': 118, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 140, 'n_neurons_3': 114, 'n_neurons_4': 60, 'Dropout': 0.05845263684638143, 'kernel_regularizer': 0.11488557038939347, 'learning_rate': 0.0010234423081595377, 'beta_1': 0.7947669444929653, 'min_delta': 5.494528104028053, 'batch_size': 64}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.36359789461325
+A : Best epoch:  23
+A : Best epoch:  38
+A : Best epoch:  30
+A : Best epoch:  39
+A : Best epoch:  30
+[I 2023-11-11 11:04:59,443] Trial 250 finished with value: 103.80084589580332 and parameters: {'seed': 117, 'N': 5, 'n_neurons_1': 143, 'n_neurons_2': 149, 'n_neurons_3': 115, 'n_neurons_4': 61, 'Dropout': 0.06277775955986122, 'kernel_regularizer': 0.15608251357694114, 'learning_rate': 0.0010682712327351712, 'beta_1': 0.7831613687288704, 'min_delta': 6.746435089037598, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.80084589580332
+A : Best epoch:  41
+A : Best epoch:  28
+A : Best epoch:  27
+A : Best epoch:  27
+[I 2023-11-11 11:06:59,114] Trial 251 finished with value: 101.14627558202079 and parameters: {'seed': 121, 'N': 4, 'n_neurons_1': 141, 'n_neurons_2': 148, 'n_neurons_3': 112, 'n_neurons_4': 62, 'Dropout': 0.07091554574806763, 'kernel_regularizer': 0.11090344014523779, 'learning_rate': 0.0010868454185373113, 'beta_1': 0.754864358572952, 'min_delta': 5.265602005571855, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.14627558202079
+A : Best epoch:  18
+A : Best epoch:  34
+A : Best epoch:  50
+A : Best epoch:  34
+[I 2023-11-11 11:08:09,572] Trial 252 finished with value: 107.71464516281584 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 141, 'n_neurons_3': 110, 'n_neurons_4': 61, 'Dropout': 0.13921438647643067, 'kernel_regularizer': 0.11749991450056749, 'learning_rate': 0.0010435953924207504, 'beta_1': 0.7625045324029452, 'min_delta': 8.016355789313955, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  107.71464516281584
+A : Best epoch:  57
+A : Best epoch:  8
+A : Best epoch:  58
+A : Best epoch:  51
+[I 2023-11-11 11:10:45,454] Trial 253 finished with value: 101.91068366776021 and parameters: {'seed': 111, 'N': 4, 'n_neurons_1': 140, 'n_neurons_2': 146, 'n_neurons_3': 113, 'n_neurons_4': 63, 'Dropout': 0.08421745224792439, 'kernel_regularizer': 0.10516665273387732, 'learning_rate': 0.0010481281723124386, 'beta_1': 0.7681942231121558, 'min_delta': 5.1188476921935715, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.91068366776021
+A : Best epoch:  17
+A : Best epoch:  17
+A : Best epoch:  39
+A : Best epoch:  48
+[I 2023-11-11 11:13:05,331] Trial 254 finished with value: 105.02338176892476 and parameters: {'seed': 126, 'N': 4, 'n_neurons_1': 145, 'n_neurons_2': 148, 'n_neurons_3': 114, 'n_neurons_4': 61, 'Dropout': 0.05734981312804306, 'kernel_regularizer': 0.1490364154704909, 'learning_rate': 0.0009483428789594404, 'beta_1': 0.7585929172710645, 'min_delta': 9.011028177984086, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  105.02338176892476
+[I 2023-11-11 11:13:39,211] Trial 255 finished with value: 104.62973086234123 and parameters: {'seed': 156, 'N': 1, 'n_neurons_1': 144, 'n_neurons_2': 144, 'n_neurons_3': 129, 'n_neurons_4': 62, 'Dropout': 0.0668122656367532, 'kernel_regularizer': 0.11319027299680359, 'learning_rate': 0.0008466734958659889, 'beta_1': 0.7794556931510188, 'min_delta': 5.5779040046379595, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : Best epoch:  33
+A : MAE:  104.62973086234123
+A : Best epoch:  10
+A : Best epoch:  47
+A : Best epoch:  34
+A : Best epoch:  34
+[I 2023-11-11 11:16:01,526] Trial 256 finished with value: 100.02317796436449 and parameters: {'seed': 137, 'N': 4, 'n_neurons_1': 180, 'n_neurons_2': 150, 'n_neurons_3': 116, 'n_neurons_4': 62, 'Dropout': 0.06096644136176282, 'kernel_regularizer': 0.16708019614856817, 'learning_rate': 0.001120756979813222, 'beta_1': 0.7500861686524218, 'min_delta': 5.717976702167073, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.02317796436449
+A : Best epoch:  20
+A : Best epoch:  29
+A : Best epoch:  50
+A : Best epoch:  30
+[I 2023-11-11 11:18:24,787] Trial 257 finished with value: 98.78890732512615 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 141, 'n_neurons_2': 147, 'n_neurons_3': 126, 'n_neurons_4': 86, 'Dropout': 0.08741952804995823, 'kernel_regularizer': 0.10733073988758657, 'learning_rate': 0.0011312421881389083, 'beta_1': 0.7657530208641249, 'min_delta': 10.779574071858452, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  98.78890732512615
+A : Best epoch:  29
+A : Best epoch:  29
+A : Best epoch:  35
+A : Best epoch:  7
+[I 2023-11-11 11:20:44,968] Trial 258 finished with value: 101.0024618928637 and parameters: {'seed': 153, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 146, 'n_neurons_3': 126, 'n_neurons_4': 86, 'Dropout': 0.08938917726279348, 'kernel_regularizer': 0.10245504308272807, 'learning_rate': 0.0011297245539186671, 'beta_1': 0.7655365163989742, 'min_delta': 5.020446012926332, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.0024618928637
+A : Best epoch:  29
+A : Best epoch:  29
+A : Best epoch:  15
+A : Best epoch:  46
+[I 2023-11-11 11:23:13,373] Trial 259 finished with value: 101.00750772711271 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 145, 'n_neurons_3': 128, 'n_neurons_4': 87, 'Dropout': 0.08702905935184958, 'kernel_regularizer': 0.11134206832834401, 'learning_rate': 0.0010293876625688217, 'beta_1': 0.7611667682243282, 'min_delta': 5.834218836044474, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.00750772711271
+A : Best epoch:  18
+A : Best epoch:  39
+A : Best epoch:  38
+[I 2023-11-11 11:25:07,879] Trial 260 finished with value: 101.18683512280045 and parameters: {'seed': 117, 'N': 3, 'n_neurons_1': 150, 'n_neurons_2': 143, 'n_neurons_3': 126, 'n_neurons_4': 87, 'Dropout': 0.08203072737857763, 'kernel_regularizer': 0.1081881781570295, 'learning_rate': 0.0009592372277391843, 'beta_1': 0.7565096205756106, 'min_delta': 10.865989288531184, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.18683512280045
+A : Best epoch:  30
+A : Best epoch:  36
+A : Best epoch:  28
+A : Best epoch:  18
+[I 2023-11-11 11:27:15,605] Trial 261 finished with value: 105.249928668325 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 155, 'n_neurons_2': 147, 'n_neurons_3': 125, 'n_neurons_4': 87, 'Dropout': 0.11887420147183139, 'kernel_regularizer': 0.10517699148875918, 'learning_rate': 0.0009800203416456075, 'beta_1': 0.8280420318488846, 'min_delta': 10.748765851928315, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  105.249928668325
+A : Best epoch:  45
+A : Best epoch:  24
+A : Best epoch:  45
+A : Best epoch:  45
+[I 2023-11-11 11:28:17,275] Trial 262 finished with value: 107.85092089976298 and parameters: {'seed': 107, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 147, 'n_neurons_3': 102, 'n_neurons_4': 61, 'Dropout': 0.07455663991950881, 'kernel_regularizer': 0.11603479756178754, 'learning_rate': 0.001009630674570725, 'beta_1': 0.8397545245543767, 'min_delta': 10.275141646027148, 'batch_size': 64}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  107.85092089976298
+[I 2023-11-11 11:29:36,138] Trial 263 finished with value: 100.13865512735974 and parameters: {'seed': 116, 'N': 2, 'n_neurons_1': 159, 'n_neurons_2': 139, 'n_neurons_3': 101, 'n_neurons_4': 86, 'Dropout': 0.07760120289922058, 'kernel_regularizer': 0.12067475314674496, 'learning_rate': 0.0009674990630016853, 'beta_1': 0.7538705792332243, 'min_delta': 5.496711183027904, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : Best epoch:  10
+A : Best epoch:  42
+A : MAE:  100.13865512735974
+A : Best epoch:  22
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  36
+[I 2023-11-11 11:31:42,664] Trial 264 finished with value: 103.92205640727164 and parameters: {'seed': 110, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 146, 'n_neurons_3': 120, 'n_neurons_4': 60, 'Dropout': 0.09554934056553396, 'kernel_regularizer': 0.09988095012375521, 'learning_rate': 0.0009407865809459452, 'beta_1': 0.7637556809789949, 'min_delta': 5.963149766995107, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.92205640727164
+A : Best epoch:  44
+A : Best epoch:  43
+A : Best epoch:  43
+A : Best epoch:  25
+[I 2023-11-11 11:33:08,090] Trial 265 finished with value: 98.07764974090954 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 178, 'n_neurons_2': 145, 'n_neurons_3': 125, 'n_neurons_4': 64, 'Dropout': 0.06399176291856189, 'kernel_regularizer': 0.10842471889384644, 'learning_rate': 0.001115943013907324, 'beta_1': 0.8305659284433851, 'min_delta': 10.570576847344809, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  98.07764974090954
+A : Best epoch:  18
+A : Best epoch:  49
+A : Best epoch:  18
+A : Best epoch:  36
+[I 2023-11-11 11:34:27,067] Trial 266 finished with value: 102.59133538543954 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 175, 'n_neurons_2': 145, 'n_neurons_3': 125, 'n_neurons_4': 64, 'Dropout': 0.0919252938828532, 'kernel_regularizer': 0.10812293093792516, 'learning_rate': 0.0011079581205685044, 'beta_1': 0.8224269337982494, 'min_delta': 10.585675208611587, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  102.59133538543954
+A : Best epoch:  23
+A : Best epoch:  33
+A : Best epoch:  30
+A : Best epoch:  26
+A : Best epoch:  30
+[I 2023-11-11 11:36:06,965] Trial 267 finished with value: 105.89898749566467 and parameters: {'seed': 109, 'N': 5, 'n_neurons_1': 141, 'n_neurons_2': 145, 'n_neurons_3': 126, 'n_neurons_4': 65, 'Dropout': 0.06526335580147094, 'kernel_regularizer': 0.09530158467674343, 'learning_rate': 0.0011151438827128953, 'beta_1': 0.8238719605282169, 'min_delta': 9.890612412974056, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  105.89898749566467
+A : Best epoch:  43
+A : Best epoch:  28
+A : Best epoch:  19
+A : Best epoch:  12
+[I 2023-11-11 11:37:15,100] Trial 268 finished with value: 107.06087029413874 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 148, 'n_neurons_3': 127, 'n_neurons_4': 63, 'Dropout': 0.06901300717970173, 'kernel_regularizer': 0.11041693153861794, 'learning_rate': 0.0010528583303259689, 'beta_1': 0.8335761534851382, 'min_delta': 10.311916204618594, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  107.06087029413874
+A : Best epoch:  7
+A : Best epoch:  11
+A : Best epoch:  11
+A : Best epoch:  42
+[I 2023-11-11 11:38:19,139] Trial 269 finished with value: 111.73356308847748 and parameters: {'seed': 105, 'N': 4, 'n_neurons_1': 179, 'n_neurons_2': 144, 'n_neurons_3': 127, 'n_neurons_4': 64, 'Dropout': 0.08455069614002077, 'kernel_regularizer': 0.10603515287188175, 'learning_rate': 0.0011014667524320142, 'beta_1': 0.7732025826768087, 'min_delta': 9.75153581188749, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  111.73356308847748
+A : Best epoch:  57
+A : Best epoch:  25
+A : Best epoch:  43
+A : Best epoch:  25
+[I 2023-11-11 11:39:56,279] Trial 270 finished with value: 96.7258796554044 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 177, 'n_neurons_2': 145, 'n_neurons_3': 124, 'n_neurons_4': 65, 'Dropout': 0.13436299571757987, 'kernel_regularizer': 0.11430427573519347, 'learning_rate': 0.0011235755411962839, 'beta_1': 0.8293540683185635, 'min_delta': 6.706975855851675, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  96.7258796554044
+A : Best epoch:  39
+A : Best epoch:  44
+A : Best epoch:  35
+A : Best epoch:  42
+[I 2023-11-11 11:41:38,670] Trial 271 finished with value: 97.54324893713267 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 177, 'n_neurons_2': 145, 'n_neurons_3': 124, 'n_neurons_4': 65, 'Dropout': 0.13038704964904627, 'kernel_regularizer': 0.11680665591700896, 'learning_rate': 0.0011242891516004044, 'beta_1': 0.8318634487715059, 'min_delta': 6.153775500911236, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  97.54324893713267
+A : Best epoch:  34
+A : Best epoch:  57
+A : Best epoch:  34
+A : Best epoch:  34
+[I 2023-11-11 11:43:18,043] Trial 272 finished with value: 103.60551891970289 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 179, 'n_neurons_2': 144, 'n_neurons_3': 124, 'n_neurons_4': 65, 'Dropout': 0.13792444269885157, 'kernel_regularizer': 0.12045619118919139, 'learning_rate': 0.0011237243762697155, 'beta_1': 0.830678131472945, 'min_delta': 6.322835759437572, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.60551891970289
+A : Best epoch:  42
+A : Best epoch:  10
+A : Best epoch:  35
+A : Best epoch:  24
+[I 2023-11-11 11:44:42,230] Trial 273 finished with value: 107.04897918502971 and parameters: {'seed': 119, 'N': 4, 'n_neurons_1': 177, 'n_neurons_2': 146, 'n_neurons_3': 125, 'n_neurons_4': 65, 'Dropout': 0.13234394816825318, 'kernel_regularizer': 0.11565672361284345, 'learning_rate': 0.0011313069640097547, 'beta_1': 0.8333341160082162, 'min_delta': 5.869900065197783, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  107.04897918502971
+A : Best epoch:  44
+A : Best epoch:  43
+A : Best epoch:  28
+A : Best epoch:  35
+[I 2023-11-11 11:46:20,509] Trial 274 finished with value: 102.79470743159504 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 178, 'n_neurons_2': 143, 'n_neurons_3': 123, 'n_neurons_4': 64, 'Dropout': 0.13119355003283079, 'kernel_regularizer': 0.12321172789133067, 'learning_rate': 0.0011226165976388192, 'beta_1': 0.8313080345993583, 'min_delta': 5.293557161997412, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  102.79470743159504
+A : Best epoch:  44
+A : Best epoch:  12
+A : Best epoch:  12
+A : Best epoch:  11
+[I 2023-11-11 11:47:31,289] Trial 275 finished with value: 109.57854841004185 and parameters: {'seed': 116, 'N': 4, 'n_neurons_1': 178, 'n_neurons_2': 146, 'n_neurons_3': 124, 'n_neurons_4': 66, 'Dropout': 0.1276619433391014, 'kernel_regularizer': 0.11740217634883446, 'learning_rate': 0.0011387127345094089, 'beta_1': 0.8307973129137493, 'min_delta': 6.934342267233104, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  109.57854841004185
+A : Best epoch:  38
+A : Best epoch:  50
+A : Best epoch:  29
+A : Best epoch:  29
+A : Best epoch:  13
+A : Best epoch:  43
+[I 2023-11-11 11:49:45,073] Trial 276 finished with value: 100.36394374860824 and parameters: {'seed': 114, 'N': 6, 'n_neurons_1': 179, 'n_neurons_2': 147, 'n_neurons_3': 126, 'n_neurons_4': 65, 'Dropout': 0.08675858140092134, 'kernel_regularizer': 0.11370523073462926, 'learning_rate': 0.0011531553737499582, 'beta_1': 0.7527713538265332, 'min_delta': 6.189151318744116, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.36394374860824
+A : Best epoch:  34
+A : Best epoch:  34
+A : Best epoch:  34
+A : Best epoch:  19
+[I 2023-11-11 11:51:20,727] Trial 277 finished with value: 103.4633774040201 and parameters: {'seed': 160, 'N': 4, 'n_neurons_1': 176, 'n_neurons_2': 145, 'n_neurons_3': 123, 'n_neurons_4': 65, 'Dropout': 0.12470651824084963, 'kernel_regularizer': 0.1209893847690674, 'learning_rate': 0.00111273246473835, 'beta_1': 0.8255464137949292, 'min_delta': 6.507676080966279, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.4633774040201
+A : Best epoch:  46
+A : Best epoch:  50
+A : Best epoch:  34
+A : Best epoch:  34
+[I 2023-11-11 11:52:55,866] Trial 278 finished with value: 105.48906776087598 and parameters: {'seed': 118, 'N': 4, 'n_neurons_1': 177, 'n_neurons_2': 141, 'n_neurons_3': 125, 'n_neurons_4': 67, 'Dropout': 0.13664370729427675, 'kernel_regularizer': 0.1935936343957199, 'learning_rate': 0.0011432988589858248, 'beta_1': 0.8272197297019306, 'min_delta': 6.180790135162509, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  105.48906776087598
+A : Best epoch:  32
+A : Best epoch:  22
+A : Best epoch:  18
+A : Best epoch:  22
+[I 2023-11-11 11:54:01,843] Trial 279 finished with value: 113.68841492832269 and parameters: {'seed': 145, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 142, 'n_neurons_3': 124, 'n_neurons_4': 73, 'Dropout': 0.1347015786473879, 'kernel_regularizer': 0.11761918049408372, 'learning_rate': 0.0011312854737291322, 'beta_1': 0.8290637613697059, 'min_delta': 5.789999797980132, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  113.68841492832269
+A : Best epoch:  11
+A : Best epoch:  12
+A : Best epoch:  11
+A : Best epoch:  31
+[I 2023-11-11 11:55:06,247] Trial 280 finished with value: 108.17964479440246 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 173, 'n_neurons_2': 146, 'n_neurons_3': 125, 'n_neurons_4': 63, 'Dropout': 0.09901546975133638, 'kernel_regularizer': 0.10369115616296642, 'learning_rate': 0.001170620338025943, 'beta_1': 0.8274896857109502, 'min_delta': 11.076615878766386, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  108.17964479440246
+A : Best epoch:  18
+A : Best epoch:  25
+A : Best epoch:  36
+[I 2023-11-11 11:56:02,310] Trial 281 finished with value: 108.85117333672468 and parameters: {'seed': 116, 'N': 3, 'n_neurons_1': 177, 'n_neurons_2': 143, 'n_neurons_3': 121, 'n_neurons_4': 66, 'Dropout': 0.1638699391723481, 'kernel_regularizer': 0.16160061775655116, 'learning_rate': 0.0011175559459987844, 'beta_1': 0.7602475981754161, 'min_delta': 12.10630104285264, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  108.85117333672468
+A : Best epoch:  36
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  24
+[I 2023-11-11 11:57:29,460] Trial 282 finished with value: 107.94842636889422 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 178, 'n_neurons_2': 145, 'n_neurons_3': 127, 'n_neurons_4': 64, 'Dropout': 0.1336550742702137, 'kernel_regularizer': 0.14435020691798256, 'learning_rate': 0.001148004180083211, 'beta_1': 0.8356132876412168, 'min_delta': 6.486540060812331, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  107.94842636889422
+A : Best epoch:  38
+A : Best epoch:  16
+A : Best epoch:  38
+A : Best epoch:  38
+[I 2023-11-11 11:58:42,454] Trial 283 finished with value: 106.2487643007972 and parameters: {'seed': 111, 'N': 4, 'n_neurons_1': 176, 'n_neurons_2': 144, 'n_neurons_3': 125, 'n_neurons_4': 70, 'Dropout': 0.09355408023395687, 'kernel_regularizer': 0.11272844097125981, 'learning_rate': 0.001125741228067149, 'beta_1': 0.7562429100129051, 'min_delta': 7.186648337241063, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.2487643007972
+A : Best epoch:  27
+A : Best epoch:  68
+A : Best epoch:  33
+A : Best epoch:  20
+[I 2023-11-11 11:59:43,943] Trial 284 finished with value: 106.43478077430187 and parameters: {'seed': 148, 'N': 4, 'n_neurons_1': 166, 'n_neurons_2': 147, 'n_neurons_3': 122, 'n_neurons_4': 81, 'Dropout': 0.13066790601754083, 'kernel_regularizer': 0.12450765477880399, 'learning_rate': 0.0011362576973900694, 'beta_1': 0.7589811626390176, 'min_delta': 6.69941659401986, 'batch_size': 64}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.43478077430187
+A : Best epoch:  43
+A : Best epoch:  41
+A : Best epoch:  17
+A : Best epoch:  38
+[I 2023-11-11 12:01:10,660] Trial 285 finished with value: 103.01973450840826 and parameters: {'seed': 120, 'N': 4, 'n_neurons_1': 175, 'n_neurons_2': 146, 'n_neurons_3': 117, 'n_neurons_4': 65, 'Dropout': 0.12844775669942163, 'kernel_regularizer': 0.10936308803228481, 'learning_rate': 0.0011575229461337987, 'beta_1': 0.8323026323022348, 'min_delta': 7.6083594974500075, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.01973450840826
+A : Best epoch:  20
+A : Best epoch:  20
+A : Best epoch:  44
+A : Best epoch:  11
+[I 2023-11-11 12:03:16,140] Trial 286 finished with value: 99.39306080403902 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 177, 'n_neurons_2': 145, 'n_neurons_3': 126, 'n_neurons_4': 64, 'Dropout': 0.055563317991906995, 'kernel_regularizer': 0.12193581397852103, 'learning_rate': 0.0011198030120681585, 'beta_1': 0.7666263109853975, 'min_delta': 10.812300433591021, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  99.39306080403902
+A : Best epoch:  30
+A : Best epoch:  29
+A : Best epoch:  23
+A : Best epoch:  19
+[I 2023-11-11 12:04:32,741] Trial 287 finished with value: 111.45789768651565 and parameters: {'seed': 117, 'N': 4, 'n_neurons_1': 174, 'n_neurons_2': 148, 'n_neurons_3': 118, 'n_neurons_4': 82, 'Dropout': 0.12229250852721224, 'kernel_regularizer': 0.15503568755772856, 'learning_rate': 0.0009984779328109583, 'beta_1': 0.8081642431558774, 'min_delta': 6.188448467041861, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  111.45789768651565
+A : Best epoch:  31
+A : Best epoch:  31
+A : Best epoch:  18
+A : Best epoch:  19
+[I 2023-11-11 12:06:40,046] Trial 288 finished with value: 104.49580941901868 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 178, 'n_neurons_2': 147, 'n_neurons_3': 128, 'n_neurons_4': 66, 'Dropout': 0.08977007301916576, 'kernel_regularizer': 0.09863620857866275, 'learning_rate': 0.0011068386412254826, 'beta_1': 0.7999917281661485, 'min_delta': 11.282948963300662, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.49580941901868
+A : Best epoch:  40
+A : Best epoch:  31
+A : Best epoch:  31
+A : Best epoch:  31
+[I 2023-11-11 12:07:27,149] Trial 289 finished with value: 108.06155476902791 and parameters: {'seed': 122, 'N': 4, 'n_neurons_1': 172, 'n_neurons_2': 144, 'n_neurons_3': 123, 'n_neurons_4': 80, 'Dropout': 0.1977040814321791, 'kernel_regularizer': 0.12946526689726587, 'learning_rate': 0.0011433004719468582, 'beta_1': 0.7533031806759581, 'min_delta': 10.429962642135786, 'batch_size': 64}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  108.06155476902791
+A : Best epoch:  25
+A : Best epoch:  24
+A : Best epoch:  23
+A : Best epoch:  43
+[I 2023-11-11 12:09:33,056] Trial 290 finished with value: 100.36357962462147 and parameters: {'seed': 108, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 146, 'n_neurons_3': 114, 'n_neurons_4': 63, 'Dropout': 0.05902096186186327, 'kernel_regularizer': 0.05075178044245826, 'learning_rate': 0.0010962781007919635, 'beta_1': 0.7623031054774857, 'min_delta': 12.965432439022814, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.36357962462147
+A : Best epoch:  13
+A : Best epoch:  19
+A : Best epoch:  30
+A : Best epoch:  24
+[I 2023-11-11 12:11:25,343] Trial 291 finished with value: 107.58891251742574 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 144, 'n_neurons_2': 147, 'n_neurons_3': 115, 'n_neurons_4': 85, 'Dropout': 0.1343789570911569, 'kernel_regularizer': 0.11646748328105287, 'learning_rate': 0.0010337451265658637, 'beta_1': 0.7575530055765962, 'min_delta': 11.817850561590706, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  107.58891251742574
+A : Best epoch:  26
+A : Best epoch:  26
+A : Best epoch:  26
+A : Best epoch:  31
+A : Best epoch:  26
+[I 2023-11-11 12:14:16,024] Trial 292 finished with value: 100.15841012029014 and parameters: {'seed': 118, 'N': 5, 'n_neurons_1': 154, 'n_neurons_2': 142, 'n_neurons_3': 99, 'n_neurons_4': 64, 'Dropout': 0.08164648017231131, 'kernel_regularizer': 0.10402550176766623, 'learning_rate': 0.001018028614067245, 'beta_1': 0.7502092191768368, 'min_delta': 9.270451431465254, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.15841012029014
+A : Best epoch:  25
+A : Best epoch:  25
+A : Best epoch:  29
+A : Best epoch:  13
+[I 2023-11-11 12:16:12,980] Trial 293 finished with value: 108.19957600027887 and parameters: {'seed': 111, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 145, 'n_neurons_3': 100, 'n_neurons_4': 77, 'Dropout': 0.0972988516806419, 'kernel_regularizer': 0.17328998205591614, 'learning_rate': 0.0011317851998089838, 'beta_1': 0.821888661762678, 'min_delta': 6.638277601997235, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  108.19957600027887
+A : Best epoch:  18
+A : Best epoch:  8
+A : Best epoch:  15
+A : Best epoch:  21
+[I 2023-11-11 12:17:51,425] Trial 294 finished with value: 109.4378745873932 and parameters: {'seed': 183, 'N': 4, 'n_neurons_1': 142, 'n_neurons_2': 147, 'n_neurons_3': 116, 'n_neurons_4': 65, 'Dropout': 0.10871230672914363, 'kernel_regularizer': 0.11245849915286739, 'learning_rate': 0.0011644097740985172, 'beta_1': 0.7646776549817375, 'min_delta': 9.947203077865058, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  109.4378745873932
+A : Best epoch:  34
+A : Best epoch:  33
+A : Best epoch:  40
+A : Best epoch:  9
+[I 2023-11-11 12:19:59,776] Trial 295 finished with value: 104.37037567157151 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 156, 'n_neurons_2': 143, 'n_neurons_3': 113, 'n_neurons_4': 63, 'Dropout': 0.07597717690565929, 'kernel_regularizer': 0.11878082067405171, 'learning_rate': 0.0011502856164765129, 'beta_1': 0.8144878335183361, 'min_delta': 8.501826811691773, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.37037567157151
+A : Best epoch:  48
+A : Best epoch:  18
+A : Best epoch:  40
+A : Best epoch:  56
+[I 2023-11-11 12:21:31,499] Trial 296 finished with value: 102.79809326830318 and parameters: {'seed': 109, 'N': 4, 'n_neurons_1': 143, 'n_neurons_2': 148, 'n_neurons_3': 101, 'n_neurons_4': 83, 'Dropout': 0.05525739165038029, 'kernel_regularizer': 0.09003549498061894, 'learning_rate': 0.0008099721764579035, 'beta_1': 0.7598086977258497, 'min_delta': 7.775547351045259, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  102.79809326830318
+A : Best epoch:  31
+A : Best epoch:  31
+A : Best epoch:  29
+A : Best epoch:  36
+[I 2023-11-11 12:23:42,395] Trial 297 finished with value: 101.24424470849493 and parameters: {'seed': 124, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 144, 'n_neurons_3': 126, 'n_neurons_4': 62, 'Dropout': 0.08703727107967325, 'kernel_regularizer': 0.12594977927851303, 'learning_rate': 0.0011285344425993134, 'beta_1': 0.8261688334408299, 'min_delta': 7.257950428572393, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.24424470849493
+A : Best epoch:  33
+A : Best epoch:  13
+A : Best epoch:  9
+A : Best epoch:  22
+[I 2023-11-11 12:25:23,577] Trial 298 finished with value: 102.25129034065299 and parameters: {'seed': 151, 'N': 4, 'n_neurons_1': 160, 'n_neurons_2': 139, 'n_neurons_3': 124, 'n_neurons_4': 80, 'Dropout': 0.1415270860231421, 'kernel_regularizer': 0.10748237015548749, 'learning_rate': 0.001177185812616796, 'beta_1': 0.7688298603441671, 'min_delta': 6.924854676037489, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  102.25129034065299
+A : Best epoch:  22
+A : Best epoch:  25
+A : Best epoch:  12
+A : Best epoch:  24
+[I 2023-11-11 12:27:13,286] Trial 299 finished with value: 106.37101771713544 and parameters: {'seed': 141, 'N': 4, 'n_neurons_1': 176, 'n_neurons_2': 146, 'n_neurons_3': 119, 'n_neurons_4': 60, 'Dropout': 0.07951918387859491, 'kernel_regularizer': 0.14913415333385013, 'learning_rate': 0.000992524712174478, 'beta_1': 0.7564147447916997, 'min_delta': 13.409359831735584, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.37101771713544
+[I 2023-11-11 12:27:39,427] Trial 300 finished with value: 110.53431979465385 and parameters: {'seed': 112, 'N': 1, 'n_neurons_1': 180, 'n_neurons_2': 148, 'n_neurons_3': 106, 'n_neurons_4': 66, 'Dropout': 0.06116997764290173, 'kernel_regularizer': 0.11363489836042699, 'learning_rate': 0.0011376628321788527, 'beta_1': 0.8066883124006308, 'min_delta': 9.641928848184527, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : Best epoch:  12
+A : MAE:  110.53431979465385
+A : Best epoch:  27
+A : Best epoch:  24
+A : Best epoch:  30
+A : Best epoch:  35
+[I 2023-11-11 12:28:29,644] Trial 301 finished with value: 109.90632633645045 and parameters: {'seed': 116, 'N': 4, 'n_neurons_1': 146, 'n_neurons_2': 145, 'n_neurons_3': 102, 'n_neurons_4': 61, 'Dropout': 0.07093459932142207, 'kernel_regularizer': 0.07948548330538675, 'learning_rate': 0.001116857596716462, 'beta_1': 0.8340931543984547, 'min_delta': 7.980293352804992, 'batch_size': 64}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  109.90632633645045
+A : Best epoch:  12
+A : Best epoch:  32
+A : Best epoch:  37
+A : Best epoch:  32
+[I 2023-11-11 12:31:02,711] Trial 302 finished with value: 103.32707296949258 and parameters: {'seed': 119, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 146, 'n_neurons_3': 115, 'n_neurons_4': 85, 'Dropout': 0.058174231437107114, 'kernel_regularizer': 0.12025585223485753, 'learning_rate': 0.0010587094501269, 'beta_1': 0.7614194508365829, 'min_delta': 8.639521593947643, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.32707296949258
+A : Best epoch:  11
+A : Best epoch:  34
+A : Best epoch:  34
+A : Best epoch:  48
+[I 2023-11-11 12:32:19,550] Trial 303 finished with value: 100.11114763543173 and parameters: {'seed': 188, 'N': 4, 'n_neurons_1': 169, 'n_neurons_2': 140, 'n_neurons_3': 100, 'n_neurons_4': 82, 'Dropout': 0.09326409712261757, 'kernel_regularizer': 0.13514254265787137, 'learning_rate': 0.0011076557605686074, 'beta_1': 0.7905924980495821, 'min_delta': 8.865664477918957, 'batch_size': 32}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.11114763543173
+[I 2023-11-11 12:33:44,350] Trial 304 finished with value: 98.27555077497867 and parameters: {'seed': 114, 'N': 2, 'n_neurons_1': 163, 'n_neurons_2': 144, 'n_neurons_3': 103, 'n_neurons_4': 81, 'Dropout': 0.06416936369085122, 'kernel_regularizer': 0.10940494343510869, 'learning_rate': 0.0010739484936396558, 'beta_1': 0.8777486251673776, 'min_delta': 9.195305241117667, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : Best epoch:  42
+A : Best epoch:  25
+A : MAE:  98.27555077497867
+[I 2023-11-11 12:34:17,833] Trial 305 finished with value: 104.07277824586119 and parameters: {'seed': 114, 'N': 1, 'n_neurons_1': 163, 'n_neurons_2': 144, 'n_neurons_3': 104, 'n_neurons_4': 81, 'Dropout': 0.06413802468285305, 'kernel_regularizer': 0.10203242356737198, 'learning_rate': 0.001079448044778794, 'beta_1': 0.8795101353270687, 'min_delta': 9.037558210969774, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : Best epoch:  35
+A : MAE:  104.07277824586119
+[I 2023-11-11 12:35:39,372] Trial 306 finished with value: 103.32818341940491 and parameters: {'seed': 111, 'N': 2, 'n_neurons_1': 162, 'n_neurons_2': 144, 'n_neurons_3': 113, 'n_neurons_4': 80, 'Dropout': 0.10160245217121543, 'kernel_regularizer': 0.1084946630649688, 'learning_rate': 0.0011550860724446903, 'beta_1': 0.819855113561513, 'min_delta': 9.128883589402642, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : Best epoch:  47
+A : Best epoch:  38
+A : MAE:  103.32818341940491
+[I 2023-11-11 12:36:02,442] Trial 307 finished with value: 119.8589857295618 and parameters: {'seed': 116, 'N': 1, 'n_neurons_1': 163, 'n_neurons_2': 145, 'n_neurons_3': 103, 'n_neurons_4': 81, 'Dropout': 0.06859370617347205, 'kernel_regularizer': 0.11467078475539631, 'learning_rate': 0.001069338654983118, 'beta_1': 0.8706785448053408, 'min_delta': 9.486781975304586, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : Best epoch:  12
+A : MAE:  119.8589857295618
+[I 2023-11-11 12:37:05,047] Trial 308 finished with value: 107.03276004643789 and parameters: {'seed': 110, 'N': 2, 'n_neurons_1': 152, 'n_neurons_2': 142, 'n_neurons_3': 105, 'n_neurons_4': 79, 'Dropout': 0.0637843285730067, 'kernel_regularizer': 0.1106090551772604, 'learning_rate': 0.0010472818362568415, 'beta_1': 0.8993546911413457, 'min_delta': 10.169314851797798, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : Best epoch:  39
+A : Best epoch:  21
+A : MAE:  107.03276004643789
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  30
+[I 2023-11-11 12:39:17,295] Trial 309 finished with value: 100.99179627390195 and parameters: {'seed': 113, 'N': 3, 'n_neurons_1': 165, 'n_neurons_2': 146, 'n_neurons_3': 114, 'n_neurons_4': 83, 'Dropout': 0.05962006754684689, 'kernel_regularizer': 0.10493044652507329, 'learning_rate': 0.0009738487282541969, 'beta_1': 0.8611729054948369, 'min_delta': 8.427752967319531, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.99179627390195
+A : Best epoch:  39
+A : Best epoch:  39
+A : Best epoch:  31
+A : Best epoch:  29
+[I 2023-11-11 12:41:43,284] Trial 310 finished with value: 98.32784058663223 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 143, 'n_neurons_3': 111, 'n_neurons_4': 82, 'Dropout': 0.07276033313025251, 'kernel_regularizer': 0.1176425693044618, 'learning_rate': 0.001060415622765268, 'beta_1': 0.7864677312735566, 'min_delta': 9.404981931088573, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  98.32784058663223
+A : Best epoch:  17
+A : Best epoch:  41
+A : Best epoch:  45
+A : Best epoch:  27
+[I 2023-11-11 12:44:14,703] Trial 311 finished with value: 101.51564498465193 and parameters: {'seed': 107, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 143, 'n_neurons_3': 110, 'n_neurons_4': 82, 'Dropout': 0.07250679575006287, 'kernel_regularizer': 0.11734061297962087, 'learning_rate': 0.0010559533834758586, 'beta_1': 0.8507538586070226, 'min_delta': 9.027917614455745, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.51564498465193
+A : Best epoch:  30
+A : Best epoch:  34
+A : Best epoch:  30
+A : Best epoch:  30
+[I 2023-11-11 12:46:37,569] Trial 312 finished with value: 97.85398578931292 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 143, 'n_neurons_3': 111, 'n_neurons_4': 82, 'Dropout': 0.0689356742479044, 'kernel_regularizer': 0.11554606308627574, 'learning_rate': 0.0010727894555355355, 'beta_1': 0.8460275036696661, 'min_delta': 9.973407440481363, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  97.85398578931292
+A : Best epoch:  30
+A : Best epoch:  23
+A : Best epoch:  48
+A : Best epoch:  23
+[I 2023-11-11 12:49:15,954] Trial 313 finished with value: 100.09366269838209 and parameters: {'seed': 109, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 142, 'n_neurons_3': 108, 'n_neurons_4': 82, 'Dropout': 0.06856178346230542, 'kernel_regularizer': 0.1212490489405113, 'learning_rate': 0.001062353970938161, 'beta_1': 0.835623492018133, 'min_delta': 9.618849371905537, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.09366269838209
+A : Best epoch:  33
+A : Best epoch:  20
+A : Best epoch:  30
+A : Best epoch:  15
+[I 2023-11-11 12:51:14,130] Trial 314 finished with value: 100.84294937569925 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 166, 'n_neurons_2': 143, 'n_neurons_3': 111, 'n_neurons_4': 83, 'Dropout': 0.06611940937395014, 'kernel_regularizer': 0.11598888834001317, 'learning_rate': 0.001078012460768794, 'beta_1': 0.8411644548109586, 'min_delta': 9.190041728333757, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.84294937569925
+A : Best epoch:  40
+A : Best epoch:  19
+A : Best epoch:  29
+A : Best epoch:  58
+[I 2023-11-11 12:53:52,144] Trial 315 finished with value: 99.78943821320996 and parameters: {'seed': 111, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 143, 'n_neurons_3': 110, 'n_neurons_4': 81, 'Dropout': 0.0725834965891782, 'kernel_regularizer': 0.11304256821504399, 'learning_rate': 0.0010858245702203323, 'beta_1': 0.8244215384377239, 'min_delta': 8.64028015043293, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  99.78943821320996
+[I 2023-11-11 12:54:26,881] Trial 316 finished with value: 107.6120007670357 and parameters: {'seed': 118, 'N': 1, 'n_neurons_1': 164, 'n_neurons_2': 144, 'n_neurons_3': 111, 'n_neurons_4': 82, 'Dropout': 0.06974402377238384, 'kernel_regularizer': 0.12491558710854492, 'learning_rate': 0.0010673443614946884, 'beta_1': 0.8471718442152691, 'min_delta': 9.421700943399513, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : Best epoch:  22
+A : MAE:  107.6120007670357
+A : Best epoch:  30
+A : Best epoch:  26
+A : Best epoch:  31
+A : Best epoch:  26
+[I 2023-11-11 12:56:31,493] Trial 317 finished with value: 102.72950900447508 and parameters: {'seed': 132, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 144, 'n_neurons_3': 113, 'n_neurons_4': 63, 'Dropout': 0.0654471222100614, 'kernel_regularizer': 0.11929399706681786, 'learning_rate': 0.0010751175296694509, 'beta_1': 0.8262531784665729, 'min_delta': 9.687347953000266, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  102.72950900447508
+A : Best epoch:  37
+A : Best epoch:  26
+[I 2023-11-11 12:58:00,208] Trial 318 finished with value: 104.06129110339388 and parameters: {'seed': 143, 'N': 2, 'n_neurons_1': 165, 'n_neurons_2': 143, 'n_neurons_3': 111, 'n_neurons_4': 82, 'Dropout': 0.07406198499468115, 'kernel_regularizer': 0.11639246265329822, 'learning_rate': 0.0010431199211418068, 'beta_1': 0.8830010984992746, 'min_delta': 9.974181998340725, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.06129110339388
+A : Best epoch:  33
+A : Best epoch:  32
+A : Best epoch:  36
+A : Best epoch:  8
+[I 2023-11-11 13:00:13,080] Trial 319 finished with value: 103.68242561171427 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 141, 'n_neurons_3': 114, 'n_neurons_4': 83, 'Dropout': 0.062205677804544425, 'kernel_regularizer': 0.11148093302241813, 'learning_rate': 0.001005760428630435, 'beta_1': 0.8581588795079594, 'min_delta': 8.05375630289843, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.68242561171427
+A : Best epoch:  25
+A : Best epoch:  27
+A : Best epoch:  18
+A : Best epoch:  50
+[I 2023-11-11 13:01:10,866] Trial 320 finished with value: 104.94518079087271 and parameters: {'seed': 116, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 145, 'n_neurons_3': 111, 'n_neurons_4': 84, 'Dropout': 0.06604908204612835, 'kernel_regularizer': 0.12235449574179359, 'learning_rate': 0.0010617383788099825, 'beta_1': 0.786496446042381, 'min_delta': 5.977661306330749, 'batch_size': 64}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  104.94518079087271
+A : Best epoch:  39
+A : Best epoch:  31
+A : Best epoch:  54
+A : Best epoch:  35
+[I 2023-11-11 13:03:48,709] Trial 321 finished with value: 99.558515490763 and parameters: {'seed': 107, 'N': 4, 'n_neurons_1': 167, 'n_neurons_2': 142, 'n_neurons_3': 109, 'n_neurons_4': 61, 'Dropout': 0.07627329480249237, 'kernel_regularizer': 0.10958898100873117, 'learning_rate': 0.0010365749801004008, 'beta_1': 0.8374259616973744, 'min_delta': 7.403594565338381, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  99.558515490763
+A : Best epoch:  27
+A : Best epoch:  39
+A : Best epoch:  44
+A : Best epoch:  19
+[I 2023-11-11 13:06:02,107] Trial 322 finished with value: 103.30485348465976 and parameters: {'seed': 121, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 143, 'n_neurons_3': 117, 'n_neurons_4': 64, 'Dropout': 0.062288930027833055, 'kernel_regularizer': 0.1174911612493068, 'learning_rate': 0.0010531752246848705, 'beta_1': 0.8230227565040266, 'min_delta': 5.524938259020434, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.30485348465976
+A : Best epoch:  39
+A : Best epoch:  21
+A : Best epoch:  44
+A : Best epoch:  25
+[I 2023-11-11 13:08:23,241] Trial 323 finished with value: 101.60786293006333 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 145, 'n_neurons_3': 116, 'n_neurons_4': 62, 'Dropout': 0.12465502296453522, 'kernel_regularizer': 0.11422087268021826, 'learning_rate': 0.0010933169422569053, 'beta_1': 0.831211733182452, 'min_delta': 8.737445220860529, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.60786293006333
+A : Best epoch:  36
+A : Best epoch:  23
+A : Best epoch:  16
+A : Best epoch:  37
+[I 2023-11-11 13:10:29,772] Trial 324 finished with value: 100.50348522515002 and parameters: {'seed': 110, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 144, 'n_neurons_3': 112, 'n_neurons_4': 65, 'Dropout': 0.06959477428793386, 'kernel_regularizer': 0.12842026352059924, 'learning_rate': 0.0010700859924866423, 'beta_1': 0.8292093715162764, 'min_delta': 15.184069412271173, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.50348522515002
+A : Best epoch:  30
+A : Best epoch:  48
+A : Best epoch:  30
+A : Best epoch:  13
+[I 2023-11-11 13:12:54,373] Trial 325 finished with value: 99.71424041999002 and parameters: {'seed': 139, 'N': 4, 'n_neurons_1': 166, 'n_neurons_2': 145, 'n_neurons_3': 112, 'n_neurons_4': 81, 'Dropout': 0.06009171743578008, 'kernel_regularizer': 0.1226476554651956, 'learning_rate': 0.0009841940509173063, 'beta_1': 0.8680389137599333, 'min_delta': 9.48994071685154, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  99.71424041999002
+A : Best epoch:  39
+A : Best epoch:  30
+A : Best epoch:  30
+A : Best epoch:  30
+[I 2023-11-11 13:15:11,530] Trial 326 finished with value: 99.93929851120257 and parameters: {'seed': 117, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 144, 'n_neurons_3': 106, 'n_neurons_4': 61, 'Dropout': 0.06727145935042558, 'kernel_regularizer': 0.09974015225218058, 'learning_rate': 0.0010790932531669019, 'beta_1': 0.8338743883898965, 'min_delta': 9.895704995687609, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  99.93929851120257
+A : Best epoch:  12
+A : Best epoch:  47
+A : Best epoch:  20
+A : Best epoch:  13
+[I 2023-11-11 13:17:01,399] Trial 327 finished with value: 102.32198485192696 and parameters: {'seed': 112, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 146, 'n_neurons_3': 113, 'n_neurons_4': 60, 'Dropout': 0.0570705677182642, 'kernel_regularizer': 0.110031750504086, 'learning_rate': 0.0011440928522339503, 'beta_1': 0.8126313002874743, 'min_delta': 13.686235492593175, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  102.32198485192696
+A : Best epoch:  41
+A : Best epoch:  34
+A : Best epoch:  26
+A : Best epoch:  39
+[I 2023-11-11 13:19:40,932] Trial 328 finished with value: 101.61751134708226 and parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 161, 'n_neurons_2': 143, 'n_neurons_3': 110, 'n_neurons_4': 84, 'Dropout': 0.06372006936191976, 'kernel_regularizer': 0.11857192237515592, 'learning_rate': 0.0010198944764867781, 'beta_1': 0.8426872298082222, 'min_delta': 6.363596078642881, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.61751134708226
+A : Best epoch:  28
+A : Best epoch:  21
+A : Best epoch:  10
+A : Best epoch:  21
+[I 2023-11-11 13:21:12,691] Trial 329 finished with value: 106.29627860594168 and parameters: {'seed': 119, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 141, 'n_neurons_3': 116, 'n_neurons_4': 63, 'Dropout': 0.0960081865344342, 'kernel_regularizer': 0.11405310740052285, 'learning_rate': 0.0011630668354432805, 'beta_1': 0.8445556415105935, 'min_delta': 19.36065434249778, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  106.29627860594168
+A : Best epoch:  48
+A : Best epoch:  26
+A : Best epoch:  34
+A : Best epoch:  48
+[I 2023-11-11 13:22:11,657] Trial 330 finished with value: 105.41468316807594 and parameters: {'seed': 109, 'N': 4, 'n_neurons_1': 162, 'n_neurons_2': 147, 'n_neurons_3': 115, 'n_neurons_4': 83, 'Dropout': 0.07887107470560689, 'kernel_regularizer': 0.10702377613254542, 'learning_rate': 0.0011385476035829427, 'beta_1': 0.845996209300105, 'min_delta': 8.86745792144392, 'batch_size': 64}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  105.41468316807594
+A : Best epoch:  30
+A : Best epoch:  38
+A : Best epoch:  36
+A : Best epoch:  38
+[I 2023-11-11 13:24:57,444] Trial 331 finished with value: 95.97552054115978 and parameters: {'seed': 113, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 145, 'n_neurons_3': 105, 'n_neurons_4': 62, 'Dropout': 0.07056563555416827, 'kernel_regularizer': 0.12446611504150336, 'learning_rate': 0.0009587359177753849, 'beta_1': 0.7810796123804542, 'min_delta': 5.040397144352048, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  95.97552054115978
+A : Best epoch:  26
+A : Best epoch:  26
+A : Best epoch:  15
+A : Best epoch:  36
+[I 2023-11-11 13:27:14,728] Trial 332 finished with value: 100.6295773807642 and parameters: {'seed': 106, 'N': 4, 'n_neurons_1': 148, 'n_neurons_2': 145, 'n_neurons_3': 104, 'n_neurons_4': 63, 'Dropout': 0.0704981955671281, 'kernel_regularizer': 0.12469495060282071, 'learning_rate': 0.0009562601426999738, 'beta_1': 0.7818038546572055, 'min_delta': 5.651655515803162, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  100.6295773807642
+A : Best epoch:  25
+A : Best epoch:  38
+A : Best epoch:  19
+A : Best epoch:  25
+[I 2023-11-11 13:29:04,645] Trial 333 finished with value: 102.8827102603839 and parameters: {'seed': 111, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 144, 'n_neurons_3': 105, 'n_neurons_4': 62, 'Dropout': 0.11747861099005892, 'kernel_regularizer': 0.06578056957906332, 'learning_rate': 0.0009613347150933501, 'beta_1': 0.8286726477852893, 'min_delta': 5.651849597214501, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  102.8827102603839
+A : Best epoch:  23
+A : Best epoch:  38
+A : Best epoch:  24
+A : Best epoch:  38
+[I 2023-11-11 13:31:16,226] Trial 334 finished with value: 103.97146375905092 and parameters: {'seed': 117, 'N': 4, 'n_neurons_1': 164, 'n_neurons_2': 142, 'n_neurons_3': 105, 'n_neurons_4': 64, 'Dropout': 0.07373554162854581, 'kernel_regularizer': 0.1309380742533542, 'learning_rate': 0.000969429633399771, 'beta_1': 0.8486415148876447, 'min_delta': 5.012141571034645, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  103.97146375905092
+A : Best epoch:  20
+A : Best epoch:  57
+A : Best epoch:  29
+A : Best epoch:  20
+[I 2023-11-11 13:33:53,137] Trial 335 finished with value: 99.74384604353646 and parameters: {'seed': 114, 'N': 4, 'n_neurons_1': 165, 'n_neurons_2': 145, 'n_neurons_3': 103, 'n_neurons_4': 82, 'Dropout': 0.09125475446188124, 'kernel_regularizer': 0.12676907644502416, 'learning_rate': 0.0010539458883569333, 'beta_1': 0.7787687101796212, 'min_delta': 6.839537266660365, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  99.74384604353646
+A : Best epoch:  38
+A : Best epoch:  23
+[I 2023-11-11 13:35:19,016] Trial 336 finished with value: 101.45419342388733 and parameters: {'seed': 130, 'N': 2, 'n_neurons_1': 166, 'n_neurons_2': 144, 'n_neurons_3': 122, 'n_neurons_4': 65, 'Dropout': 0.06707774393989065, 'kernel_regularizer': 0.12118795504007306, 'learning_rate': 0.0009524654799513457, 'beta_1': 0.8367808960641275, 'min_delta': 9.25097623919736, 'batch_size': 16}. Best is trial 184 with value: 95.50310257112065.
+A : MAE:  101.45419342388733
+[W 2023-11-11 13:36:26,851] Trial 337 failed with parameters: {'seed': 115, 'N': 4, 'n_neurons_1': 163, 'n_neurons_2': 146, 'n_neurons_3': 120, 'n_neurons_4': 62, 'Dropout': 0.08390457473127634, 'kernel_regularizer': 0.10320179596692615, 'learning_rate': 0.0011742223561600348, 'beta_1': 0.7826546391795345, 'min_delta': 10.20684020752871, 'batch_size': 16} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/var/folders/kq/hk1l39ys077bc7f9741ypg800000gn/T/ipykernel_24226/1981682858.py", line 98, in objective
+    df_A, m_A = fit_predict('A', X_A, y_A, X_A_kaggle, y_A_hat)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/kq/hk1l39ys077bc7f9741ypg800000gn/T/ipykernel_24226/1981682858.py", line 60, in fit_predict
+    history = model.fit(
+              ^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/keras/src/engine/training.py", line 1783, in fit
+    tmp_logs = self.train_function(iterator)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 831, in __call__
+    result = self._call(*args, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 867, in _call
+    return tracing_compilation.call_function(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/tensorflow/python/eager/polymorphic_function/tracing_compilation.py", line 139, in call_function
+    return function._call_flat(  # pylint: disable=protected-access
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/tensorflow/python/eager/polymorphic_function/concrete_function.py", line 1264, in _call_flat
+    return self._inference_function.flat_call(args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/tensorflow/python/eager/polymorphic_function/atomic_function.py", line 217, in flat_call
+    flat_outputs = self(*args)
+                   ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/tensorflow/python/eager/polymorphic_function/atomic_function.py", line 252, in __call__
+    outputs = self._bound_context.call_function(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/tensorflow/python/eager/context.py", line 1479, in call_function
+    outputs = execute.execute(
+              ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/tensorflow/python/eager/execute.py", line 60, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[W 2023-11-11 13:36:26,865] Trial 337 failed with value None.
