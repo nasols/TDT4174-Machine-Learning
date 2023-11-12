@@ -145,20 +145,12 @@ class Data_Manager() :
             self.data_B = self.data_B.drop("date_calc", axis=1)
             self.data_C = self.data_C.drop("date_calc", axis=1)
 
-        if (self.train_a.shape[0] > 35000 ) : 
-            
-            self.data_A = self.makima_interpolate(self.data_A).dropna()
-            self.data_B = self.makima_interpolate(self.data_B).dropna()
-            self.data_C = self.makima_interpolate(self.data_C).dropna()
+         
+        self.data_A = pd.DataFrame(self.data_A.dropna(subset=["pv_measurement"], axis=0))
+        self.data_B = pd.DataFrame(self.data_B.dropna(subset=["pv_measurement"], axis=0))
+        self.data_C = pd.DataFrame(self.data_C.dropna(subset=["pv_measurement"], axis=0))
+
         
-        elif (self.train_a.shape[0] < 35000) : 
-            self.data_A = self.data_A.dropna()
-            self.data_B = self.data_B.dropna()
-            self.data_C = self.data_C.dropna()
-
-        if self.data_A.isna().sum().sum() > 0 :
-            warnings.warn("Warning! Data should have no NaN values or be of same frequency before combining! Use impute or interpolation on data before combining! This could also come from dates in the combined datasets not overlapping fully.")
-
         return self.data_A, self.data_B, self.data_C
 
     def impute_data(self, datasets, advanced_imputer=False):
@@ -272,19 +264,16 @@ class Data_Manager() :
 
         for set in datasets: 
 
-            mean_set = set.loc[:, set.columns]
 
-            set_hourly = mean_set.resample(freq, on="date_forecast").mean()
+            set_hourly = set.resample("H", on="date_forecast").mean()
 
-            set_dates = mean_set["date_forecast"].dt.date.unique().tolist()
+            set_hourly = set_hourly.dropna(subset=['clear_sky_rad:W'])
 
-            set_hourly["date_forecast"] = set_hourly.index
+            set_hourly["date_forecast"] = set.index
 
-            mean_set_corr = set_hourly[set_hourly["date_forecast"].dt.date.isin(set_dates)]
-
-            mean_set_corr.index = pd.RangeIndex(0, len(mean_set_corr))
-        
-            corr.append(mean_set_corr)
+            set_hourly.index = pd.RangeIndex(0, len(set_hourly))
+           
+            corr.append(set_hourly)
 
 
     
@@ -520,6 +509,7 @@ class Data_Manager() :
         cols = A.columns.tolist()
 
         #sorting columns 
+        
         cols.remove("date_forecast")
         cols.remove("pv_measurement")
         cols.insert(0, "pv_measurement")
